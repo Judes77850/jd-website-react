@@ -1,0 +1,195 @@
+@mixin mixinButton {
+    margin: 40px 0px 40px 0px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    background: $color-6;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background: $color-3;
+    cursor: pointer;
+    transition: 300ms;
+    :hover{
+        background: $color-8;
+        transition: 300ms;
+    }
+}
+
+@mixin mixinButtonMini {
+    margin: 30px 0px 30px 0px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    background: $color-6;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background: $color-3;
+    cursor: pointer;
+    transition: 300ms;
+    :hover{
+        background: $color-8;
+        transition: 300ms;
+    }
+}
+
+.Parcours{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    .FormBox{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin: auto;
+        margin-top: 30px;
+        width: 100%;
+        max-width: 1200px;
+        background-color: rgba($color: #ffffff, $alpha: 0.7);
+        border: solid black 5px;
+        border-radius: 10px;
+        font-family: "raleway";
+        h2{
+            width: 100%;
+            text-align: center;
+            margin: auto;
+            font-family: 'roboting';
+            font-size: 45px;
+            padding: 0px 15px 0px 15px;
+            margin-bottom: 30px;
+        }
+        .card{
+            width: 45%;
+            margin-bottom: 20px;
+            h3{
+                font-size: 25px;
+            }
+            p{
+                font-size: 18px;
+                line-height: 25px;
+            }
+        }
+    }
+}
+
+.ParcoursMini{
+    background-color: rgba($color: #ffffff, $alpha: 0.7);
+    border: solid black 5px;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    font-family: "raleway";
+    animation: form 800ms ease-in;
+    h2{
+        width: 100%;
+        max-width: 1200px;
+        text-align: center;
+        font-family: 'roboting';
+        font-size: 50px;
+    }
+    p{
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .toParcours{
+        button{
+            @include mixinButton;
+        }
+    }
+}
+
+@keyframes form {
+    0%{
+        translate: 600%;
+    }
+    92%{
+        translate: 10%
+    }
+    100%{
+        translate: 0%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .ParcoursMini{
+        background-color: rgba($color: #ffffff, $alpha: 0.7);
+        width: 90%;
+        margin-top: 30px;
+        h2{
+            width: 100%;
+            max-width: 1200px;
+            text-align: center;
+            font-family: 'roboting';
+            font-size: 30px;
+            line-height: 35px;
+        }
+        p{
+            width: 90%;
+            margin: auto;
+            font-size: 16px;
+            line-height: 25px;
+            margin-bottom: 30px;
+        }
+        .toParcours{
+            button{
+                @include mixinButtonMini;
+            }
+        }
+    }
+    .Parcours{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .FormBox{
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-start;
+            margin: auto;
+            margin-top: 0px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            h2{
+                width: 100%;
+                text-align: center;
+                margin: auto;
+                font-family: 'roboting';
+                font-size: 30px;
+                padding: 0px 0px 0px 0px;
+                margin-bottom: 30px;
+            }
+            .card{
+                width: 90%;
+                margin: auto;
+                margin-bottom: 10px;
+                h3{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+}

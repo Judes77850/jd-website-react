@@ -1,0 +1,1798 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  position: initial;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+header .neonlogo {
+  background-color: black;
+  padding: 10px 0px 30px 0px;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+header .neonlogo a {
+  text-decoration: none;
+}
+header .neonlogo a h1 {
+  width: 100%;
+  padding-top: 0px;
+  margin: auto;
+  margin-top: 0px;
+  color: rgb(210, 143, 94);
+  text-shadow: 1px 1px 10px grey;
+  font-family: "roboting";
+  font-size: 50px;
+  -webkit-animation: h1 1500ms;
+          animation: h1 1500ms;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+}
+header .neonlogo a .acch1 {
+  margin: auto;
+  color: rgb(247, 247, 247);
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 2px 2px 10px grey;
+  font-size: 18px;
+  margin-bottom: 10px;
+  -webkit-animation: acch1 1500ms;
+          animation: acch1 1500ms;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  -webkit-animation-delay: 233ms;
+          animation-delay: 233ms;
+}
+
+@-webkit-keyframes h1 {
+  0% {
+    color: rgb(210, 143, 94);
+  }
+  5% {
+    color: rgb(93, 93, 93);
+  }
+  6% {
+    color: rgb(210, 143, 94);
+  }
+  7% {
+    color: rgb(93, 93, 93);
+  }
+  14% {
+    color: rgb(210, 143, 94);
+  }
+  15% {
+    color: rgb(93, 93, 93);
+  }
+  19% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  20% {
+    color: rgb(210, 143, 94);
+  }
+  21% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  59% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  60% {
+    color: rgb(210, 143, 94);
+  }
+  61% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  97% {
+    color: rgb(210, 143, 94);
+  }
+  100% {
+    color: rgb(210, 143, 94);
+  }
+}
+
+@keyframes h1 {
+  0% {
+    color: rgb(210, 143, 94);
+  }
+  5% {
+    color: rgb(93, 93, 93);
+  }
+  6% {
+    color: rgb(210, 143, 94);
+  }
+  7% {
+    color: rgb(93, 93, 93);
+  }
+  14% {
+    color: rgb(210, 143, 94);
+  }
+  15% {
+    color: rgb(93, 93, 93);
+  }
+  19% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  20% {
+    color: rgb(210, 143, 94);
+  }
+  21% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  59% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  60% {
+    color: rgb(210, 143, 94);
+  }
+  61% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  97% {
+    color: rgb(210, 143, 94);
+  }
+  100% {
+    color: rgb(210, 143, 94);
+  }
+}
+@-webkit-keyframes acch1 {
+  0% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  5% {
+    color: rgb(247, 247, 247);
+  }
+  6% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  7% {
+    color: rgb(247, 247, 247);
+  }
+  14% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  15% {
+    color: rgb(247, 247, 247);
+  }
+  19% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  20% {
+    color: rgb(247, 247, 247);
+  }
+  21% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  59% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  60% {
+    color: rgb(247, 247, 247);
+  }
+  61% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  97% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  100% {
+    color: rgb(247, 247, 247);
+  }
+}
+@keyframes acch1 {
+  0% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  5% {
+    color: rgb(247, 247, 247);
+  }
+  6% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  7% {
+    color: rgb(247, 247, 247);
+  }
+  14% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  15% {
+    color: rgb(247, 247, 247);
+  }
+  19% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  20% {
+    color: rgb(247, 247, 247);
+  }
+  21% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  59% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  60% {
+    color: rgb(247, 247, 247);
+  }
+  61% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  97% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  100% {
+    color: rgb(247, 247, 247);
+  }
+}
+@-webkit-keyframes menu {
+  0% {
+    color: rgb(86, 120, 96);
+    text-shadow: none;
+  }
+  5% {
+    color: rgb(210, 143, 94);
+  }
+  6% {
+    color: rgb(86, 120, 96);
+    text-shadow: none;
+  }
+  7% {
+    color: rgb(210, 143, 94);
+  }
+  14% {
+    color: rgb(86, 120, 96);
+    text-shadow: none;
+  }
+  15% {
+    color: rgb(210, 143, 94);
+  }
+  19% {
+    color: rgb(86, 120, 96);
+    text-shadow: none;
+  }
+  20% {
+    color: rgb(210, 143, 94);
+  }
+  21% {
+    color: rgb(86, 120, 96);
+    text-shadow: none;
+  }
+  59% {
+    color: rgb(86, 120, 96);
+    text-shadow: none;
+  }
+  60% {
+    color: rgb(210, 143, 94);
+  }
+  61% {
+    color: rgb(210, 143, 94);
+  }
+  97% {
+    color: rgb(86, 120, 96);
+    text-shadow: none;
+  }
+  100% {
+    color: rgb(210, 143, 94);
+  }
+}
+@keyframes menu {
+  0% {
+    color: rgb(86, 120, 96);
+    text-shadow: none;
+  }
+  5% {
+    color: rgb(210, 143, 94);
+  }
+  6% {
+    color: rgb(86, 120, 96);
+    text-shadow: none;
+  }
+  7% {
+    color: rgb(210, 143, 94);
+  }
+  14% {
+    color: rgb(86, 120, 96);
+    text-shadow: none;
+  }
+  15% {
+    color: rgb(210, 143, 94);
+  }
+  19% {
+    color: rgb(86, 120, 96);
+    text-shadow: none;
+  }
+  20% {
+    color: rgb(210, 143, 94);
+  }
+  21% {
+    color: rgb(86, 120, 96);
+    text-shadow: none;
+  }
+  59% {
+    color: rgb(86, 120, 96);
+    text-shadow: none;
+  }
+  60% {
+    color: rgb(210, 143, 94);
+  }
+  61% {
+    color: rgb(210, 143, 94);
+  }
+  97% {
+    color: rgb(86, 120, 96);
+    text-shadow: none;
+  }
+  100% {
+    color: rgb(210, 143, 94);
+  }
+}
+#neonlogobox {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  padding: 0px;
+}
+#neonlogobox .menulogo {
+  color: rgb(247, 247, 247);
+  font-size: 25px;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 800px) {
+  header .neonlogo {
+    padding: 10px 0px 20px 0px;
+  }
+  header .neonlogo a {
+    text-decoration: none;
+  }
+  header .neonlogo a h1 {
+    font-size: 30px;
+  }
+  header .neonlogo a .acch1 {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+}
+footer {
+  width: 100%;
+  height: 180px;
+  background-color: black;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-top: 15vh;
+}
+footer h4 {
+  color: rgb(210, 143, 94);
+  font-family: roboting;
+  font-size: 30px;
+  margin: 10px;
+  padding-top: 10px;
+}
+footer p {
+  color: rgb(210, 143, 94);
+  font-family: "raleway";
+  font-size: 15px;
+  margin: 10px;
+  padding-top: 10px;
+}
+footer #socialBox {
+  margin: auto;
+  font-size: 45px;
+  padding-bottom: 0px;
+}
+footer #socialBox a {
+  color: rgb(93, 93, 93);
+  transition: 300ms;
+  margin: 18px;
+}
+footer #socialBox a :visited {
+  color: rgb(93, 93, 93);
+}
+footer #socialBox a :hover {
+  transform: scale(1.15) rotate(0.05turn);
+  transition: 300ms;
+  color: rgb(210, 143, 94);
+}
+footer #socialBox i {
+  transition: 300ms;
+}
+
+@media only screen and (max-width: 800px) {
+  footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+  }
+  footer h4 {
+    color: rgb(210, 143, 94);
+    font-family: roboting;
+    font-size: 22px;
+    margin: 10px;
+    padding-top: 10px;
+  }
+  footer p {
+    color: rgb(210, 143, 94);
+    font-family: roboting;
+    font-size: 20px;
+    margin: 0px;
+    padding-top: 0px;
+  }
+  footer #socialBox {
+    margin: auto;
+    font-size: 40px;
+    padding-bottom: 15px;
+  }
+  footer #socialBox a {
+    color: rgb(93, 93, 93);
+    transition: 300ms;
+    margin: 18px;
+  }
+  footer #socialBox a :visited {
+    color: rgb(93, 93, 93);
+  }
+  footer #socialBox a :hover {
+    transform: scale(1.15) rotate(0.05turn);
+    transition: 300ms;
+    color: rgb(210, 143, 94);
+  }
+  footer #socialBox i {
+    transition: 300ms;
+  }
+}
+@keyframes menu {
+  0% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  5% {
+    color: rgb(210, 143, 94);
+  }
+  6% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  7% {
+    color: rgb(210, 143, 94);
+  }
+  14% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  15% {
+    color: rgb(210, 143, 94);
+  }
+  19% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  20% {
+    color: rgb(210, 143, 94);
+  }
+  21% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  59% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  60% {
+    color: rgb(210, 143, 94);
+  }
+  61% {
+    color: rgb(210, 143, 94);
+  }
+  97% {
+    color: rgb(93, 93, 93);
+    text-shadow: none;
+  }
+  100% {
+    color: rgb(210, 143, 94);
+  }
+}
+.menuBox {
+  width: 80%;
+  max-width: 500px;
+  height: 49px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border-radius: 25px;
+  display: flex;
+  z-index: 1;
+  transition-duration: 300ms;
+  position: relative;
+}
+.menuBox .box {
+  width: 100%;
+}
+.menuBox .box .btn {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+}
+.menuBox .box .btn .menuneonlogoBox {
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border-radius: 25px;
+}
+.menuBox .box .btn .menuneonlogoBox .menuneonlogoclose {
+  display: none;
+}
+.menuBox .box .btn .menuneonlogoBox .menuneonlogo {
+  width: 100%;
+  max-width: 400px;
+  height: 49px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  align-items: center;
+  transition-duration: 300ms;
+  -webkit-animation: bisMenuOpen 2000ms forwards;
+          animation: bisMenuOpen 2000ms forwards;
+}
+.menuBox .box .btn .menuneonlogoBox .menuneonlogo .linkActive {
+  color: rgb(210, 143, 94);
+  transition-duration: 300ms;
+}
+.menuBox .box .btn .menuneonlogoBox .link {
+  color: rgb(247, 247, 247);
+  transition-duration: 300ms;
+}
+.menuBox .box .btn .menuneonlogoBox .link :hover {
+  color: rgb(210, 143, 94);
+  transition-duration: 300ms;
+}
+.menuBox .box .btn .menuneonlogoBox .btnMenu {
+  background-color: black;
+  color: rgb(247, 247, 247);
+  font-size: 25px;
+  z-index: 2;
+  border: none;
+  -webkit-animation: btnMenuOpen 500ms;
+          animation: btnMenuOpen 500ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.menuBox .box .btn .menuneonlogoBox .btnMenu :hover {
+  -webkit-animation: menu 500ms;
+          animation: menu 500ms;
+  color: rgb(210, 143, 94);
+}
+
+.menuBoxFixed {
+  width: 80%;
+  max-width: 500px;
+  height: 49px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border-radius: 25px;
+  display: flex;
+  z-index: 1;
+  transition-duration: 300ms;
+  position: fixed;
+}
+.menuBoxFixed .box {
+  width: 100%;
+}
+.menuBoxFixed .box .btn {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+}
+.menuBoxFixed .box .btn .menuneonlogoBox {
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border-radius: 25px;
+}
+.menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogoclose {
+  display: none;
+}
+.menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo {
+  width: 100%;
+  max-width: 400px;
+  height: 49px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  align-items: center;
+  transition-duration: 300ms;
+  -webkit-animation: bisMenuOpen 2000ms forwards;
+          animation: bisMenuOpen 2000ms forwards;
+}
+.menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .linkActive {
+  color: rgb(210, 143, 94);
+}
+.menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .link {
+  color: rgb(247, 247, 247);
+}
+.menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .link :hover {
+  color: rgb(210, 143, 94);
+  transition-duration: 300ms;
+}
+.menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .btnMenu {
+  background-color: black;
+  color: rgb(247, 247, 247);
+  font-size: 25px;
+  z-index: 2;
+  border: none;
+  -webkit-animation: btnMenuOpen 500ms;
+          animation: btnMenuOpen 500ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .btnMenu :hover {
+  -webkit-animation: menu 500ms;
+          animation: menu 500ms;
+  color: rgb(210, 143, 94);
+}
+
+.bisMenuOpen {
+  width: 80%;
+  max-width: 500px;
+  height: 49px;
+  margin: auto;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  transition-duration: 300ms;
+}
+.bisMenuOpen span {
+  width: 30%;
+  list-style-type: none;
+  margin: 10px;
+  padding: 0px;
+  -webkit-animation: bisMenuOpen 2000ms forwards;
+          animation: bisMenuOpen 2000ms forwards;
+}
+.bisMenuOpen span .link {
+  font-family: "montserrat";
+  text-decoration: none;
+  margin: auto;
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  transition-duration: 300ms;
+}
+.bisMenuOpen span .link:hover {
+  color: rgb(210, 143, 94);
+  transition-duration: 300ms;
+}
+.bisMenuOpen span .linkActive {
+  font-family: "montserrat";
+  text-decoration: none;
+  margin: auto;
+  color: rgb(210, 143, 94);
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  transition-duration: 300ms;
+}
+.bisMenuOpen span .linkActive:hover {
+  color: rgb(210, 143, 94);
+  transition-duration: 300ms;
+}
+.bisMenuOpen span i {
+  font-size: 30px;
+  transition-duration: 300ms;
+  color: white;
+}
+.bisMenuOpen span i:hover {
+  color: rgb(210, 143, 94);
+  transition-duration: 300ms;
+}
+
+@-webkit-keyframes bisMenuOpen {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bisMenuOpen {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .menuBox {
+    width: 70%;
+    height: 40px;
+  }
+  .menuBox .box {
+    width: 100%;
+  }
+  .menuBox .box .btn {
+    border: none;
+  }
+  .menuBox .box .btn .menuneonlogoBox {
+    width: 80%;
+  }
+  .menuBox .box .btn .menuneonlogoBox .menuneonlogoclose {
+    display: none;
+  }
+  .menuBox .box .btn .menuneonlogoBox .menuneonlogo {
+    height: 40px;
+  }
+  .menuBox .box .btn .menuneonlogoBox .menuneonlogo .linkActive {
+    font-size: 20px;
+  }
+  .menuBox .box .btn .menuneonlogoBox .link {
+    font-size: 20px;
+  }
+  .menuBox .box .btn .menuneonlogoBox .btnMenu {
+    font-size: 20px;
+  }
+  .bisMenuOpen {
+    width: 80%;
+    max-width: 500px;
+    height: 40px;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-radius: 25px;
+    z-index: 1;
+    transition-duration: 300ms;
+  }
+  .bisMenuOpen span {
+    width: 33%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    -webkit-animation: bisMenuOpen 2000ms forwards;
+            animation: bisMenuOpen 2000ms forwards;
+  }
+  .bisMenuOpen span .link {
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: auto;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    transition-duration: 300ms;
+  }
+  .bisMenuOpen span .link:hover {
+    color: rgb(210, 143, 94);
+    transition-duration: 300ms;
+  }
+  .bisMenuOpen span .linkActive {
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: auto;
+    color: rgb(210, 143, 94);
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    transition-duration: 300ms;
+  }
+  .bisMenuOpen span .linkActive:hover {
+    color: rgb(210, 143, 94);
+    transition-duration: 300ms;
+  }
+  .bisMenuOpen span i {
+    font-size: 25px;
+    transition-duration: 300ms;
+    color: white;
+  }
+  .bisMenuOpen span i:hover {
+    color: rgb(210, 143, 94);
+    transition-duration: 300ms;
+  }
+}
+.presentation {
+  margin: auto;
+  margin-bottom: 0px;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 80px;
+}
+.presentation .lastReal {
+  width: 100%;
+}
+.presentation .lastReal .titlePart {
+  width: 90%;
+}
+.presentation .lastReal .titlePart h2 {
+  text-align: center;
+  font-family: roboting;
+  font-weight: 900;
+  font-size: 50px;
+  border-radius: 10px;
+  padding: 0px;
+  color: black;
+  margin-bottom: 0px;
+  -webkit-animation: lastProd 800ms ease-in;
+          animation: lastProd 800ms ease-in;
+}
+.presentation .lastReal .contentPart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: solid black 5px;
+  border-radius: 10px;
+  -webkit-animation: lastProd 800ms ease-in;
+          animation: lastProd 800ms ease-in;
+}
+.presentation .lastReal .contentPart .lastprodMini {
+  padding: 0px;
+}
+.presentation .lastReal .contentPart .lastprodMini img {
+  width: 250px;
+  padding: 30px;
+  transition-duration: 300ms;
+}
+.presentation .lastReal .contentPart .lastprodMini :hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+@-webkit-keyframes lastProd {
+  0% {
+    translate: -600%;
+  }
+  92% {
+    translate: 10%;
+  }
+  100% {
+    translate: 0%;
+  }
+}
+
+@keyframes lastProd {
+  0% {
+    translate: -600%;
+  }
+  92% {
+    translate: 10%;
+  }
+  100% {
+    translate: 0%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .presentation {
+    margin-top: 30px;
+  }
+  .presentation .lastReal {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "montserrat";
+  }
+  .presentation .lastReal .contentPart {
+    width: 90%;
+  }
+  .presentation .lastReal .contentPart .titlePart {
+    margin-top: 0px;
+    width: 100%;
+  }
+  .presentation .lastReal .contentPart .titlePart h2 {
+    text-align: center;
+    font-family: roboting;
+    font-weight: 900;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 0px;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 20px;
+    -webkit-animation: lastProd 800ms ease-in;
+            animation: lastProd 800ms ease-in;
+  }
+  .presentation .lastReal .contentPart .lastprodMini {
+    width: 32%;
+    margin: 30px;
+  }
+  .presentation .lastReal .contentPart .lastprodMini img {
+    width: 100%;
+    padding: 0px;
+    margin: auto;
+  }
+  .presentation .lastReal .contentPart .lastprodMini :hover {
+    transform: scale(1);
+    cursor: pointer;
+  }
+}
+.application {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  margin: -8px;
+  background-image: url(../img/background2.jpg);
+  background-position-x: 0%;
+  background-position-y: 40%;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-width: 1580px) {
+  .application {
+    background-size: 100%;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .application {
+    background-size: 100%;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .application {
+    background-size: 150%;
+  }
+}
+.formBox {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  -webkit-animation: onPage 600ms forwards;
+          animation: onPage 600ms forwards;
+}
+.formBox #contact-form {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 600px;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 80px;
+  padding-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: solid black 5px;
+  opacity: 0;
+  -webkit-animation: onPageContent 500ms 200ms forwards;
+          animation: onPageContent 500ms 200ms forwards;
+}
+.formBox #contact-form h2 {
+  font-family: roboting;
+  font-weight: 900;
+  font-size: 50px;
+  border-radius: 10px;
+  padding: 0px;
+  color: black;
+  margin-bottom: 20px;
+  opacity: 0;
+  -webkit-animation: onPageContent 500ms 200ms forwards;
+          animation: onPageContent 500ms 200ms forwards;
+  text-align: center;
+}
+.formBox #contact-form input {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  font-family: "raleway";
+  font-size: 18px;
+  height: 40px;
+  width: 80%;
+  text-align: left;
+  border: none;
+  opacity: 0;
+  -webkit-animation: onPageContent 500ms 200ms forwards;
+          animation: onPageContent 500ms 200ms forwards;
+}
+.formBox #contact-form label {
+  color: rgb(86, 120, 96);
+  font-family: "raleway";
+  font-size: 22px;
+  margin: 10px 0px 10px 0px;
+  text-align: left;
+  opacity: 0;
+  -webkit-animation: onPageContent 500ms 200ms forwards;
+          animation: onPageContent 500ms 200ms forwards;
+}
+.formBox #contact-form textarea {
+  height: 80px;
+  width: 80%;
+  margin: 0px;
+  border-radius: 10px;
+  text-align: left;
+  border: none;
+  opacity: 0;
+  -webkit-animation: onPageContent 500ms 200ms forwards;
+          animation: onPageContent 500ms 200ms forwards;
+}
+.formBox #contact-form .send {
+  color: rgb(247, 247, 247);
+  background: linear-gradient(130deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
+  font-family: "raleway";
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  height: 50px;
+  width: 160px;
+  margin: auto;
+  margin-bottom: 0px;
+  margin-top: 50px;
+  cursor: pointer;
+  opacity: 0;
+  -webkit-animation: onPageContent 500ms 200ms forwards;
+          animation: onPageContent 500ms 200ms forwards;
+}
+.formBox #contact-form .send :hover {
+  background: linear-gradient(0deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
+}
+
+@-webkit-keyframes onPage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes onPage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes onPageContent {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes onPageContent {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .formBox {
+    z-index: 5;
+    margin-top: 120px;
+  }
+  .formBox h2 {
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+  }
+}
+.Parcours {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.Parcours .FormBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: auto;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 1200px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: solid black 5px;
+  border-radius: 10px;
+  font-family: "raleway";
+}
+.Parcours .FormBox h2 {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  font-family: "roboting";
+  font-size: 45px;
+  padding: 0px 15px 0px 15px;
+  margin-bottom: 30px;
+}
+.Parcours .FormBox .card {
+  width: 45%;
+  margin-bottom: 20px;
+}
+.Parcours .FormBox .card h3 {
+  font-size: 25px;
+}
+.Parcours .FormBox .card p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.ParcoursMini {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: solid black 5px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  font-family: "raleway";
+  -webkit-animation: form 800ms ease-in;
+          animation: form 800ms ease-in;
+}
+.ParcoursMini h2 {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  font-family: "roboting";
+  font-size: 50px;
+}
+.ParcoursMini p {
+  width: 90%;
+  margin: auto;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.ParcoursMini .toParcours button {
+  margin: 40px 0px 40px 0px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  border: none;
+  background: rgb(86, 120, 96);
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  background: linear-gradient(130deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
+  cursor: pointer;
+  transition: 300ms;
+}
+.ParcoursMini .toParcours button :hover {
+  background: linear-gradient(0deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
+  transition: 300ms;
+}
+
+@-webkit-keyframes form {
+  0% {
+    translate: 600%;
+  }
+  92% {
+    translate: 10%;
+  }
+  100% {
+    translate: 0%;
+  }
+}
+
+@keyframes form {
+  0% {
+    translate: 600%;
+  }
+  92% {
+    translate: 10%;
+  }
+  100% {
+    translate: 0%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .ParcoursMini {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 90%;
+    margin-top: 30px;
+  }
+  .ParcoursMini h2 {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    font-family: "roboting";
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .ParcoursMini p {
+    width: 90%;
+    margin: auto;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+  .ParcoursMini .toParcours button {
+    margin: 30px 0px 30px 0px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    background: rgb(86, 120, 96);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background: linear-gradient(130deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
+    cursor: pointer;
+    transition: 300ms;
+  }
+  .ParcoursMini .toParcours button :hover {
+    background: linear-gradient(0deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
+    transition: 300ms;
+  }
+  .Parcours {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Parcours .FormBox {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .Parcours .FormBox h2 {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-family: "roboting";
+    font-size: 30px;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 30px;
+  }
+  .Parcours .FormBox .card {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .Parcours .FormBox .card h3 {
+    font-size: 20px;
+  }
+  .Parcours .FormBox .card p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+.content {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+}
+.content .lastProdBox {
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: solid black 5px;
+  border-radius: 10px;
+}
+.content .lastProdBox .titlePart {
+  width: 100%;
+  display: flex;
+  margin-bottom: 30px;
+}
+.content .lastProdBox .titlePart h2 {
+  text-align: center;
+  margin: auto;
+  font-family: "roboting";
+  font-size: 45px;
+  padding: 0px 15px 0px 15px;
+}
+.content .lastProdBox .contenu {
+  width: 32%;
+  margin: auto;
+  min-width: 350px;
+}
+.content .lastProdBox .contenu .lastprod {
+  border-radius: 10px;
+  height: 450px;
+  transition-duration: 200ms;
+  -webkit-animation: lastprod 500ms;
+          animation: lastprod 500ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  display: flex;
+  opacity: 0;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  margin: 20px;
+  margin-bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.content .lastProdBox .contenu .lastprod .logobox {
+  width: 97%;
+  height: 60%;
+  margin: auto;
+  margin-top: 6px;
+  padding: 0px;
+  border-radius: 8px 8px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(246, 246, 246);
+}
+.content .lastProdBox .contenu .lastprod .logobox img {
+  width: 50%;
+  height: auto;
+}
+.content .lastProdBox .contenu .lastprod .textpart {
+  color: rgb(93, 93, 93);
+  font-weight: 600;
+  height: 100px;
+  padding: 30px;
+  padding-bottom: 50px;
+  display: flex;
+  border-radius: 0px 0px 10px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "montserrat";
+}
+.content .lastProdBox .contenu .lastprod .textpart p {
+  text-align: left;
+}
+.content .lastProdBox .contenu .lastprod .moreOpt {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -30px;
+}
+.content .lastProdBox .contenu .lastprod .moreOpt .gitLink {
+  font-family: "montserrat";
+  display: flex;
+  align-items: center;
+  color: rgb(247, 247, 247);
+  text-decoration: none;
+  background: rgb(210, 143, 94);
+  padding: 5px;
+  height: 35px;
+  border-radius: 3px;
+  margin-bottom: -20px;
+  margin-right: -40px;
+}
+.content .lastProdBox .contenu .lastprod .moreOpt .fa-plus {
+  color: rgb(247, 247, 247);
+  background: linear-gradient(130deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 3px;
+  margin-left: -15px;
+  margin-bottom: -20px;
+}
+.content .lastProdBox .contenu .lastprod .moreOpt .fa-plus :hover {
+  transform: rotate(3turn);
+  transition: 300ms;
+}
+.content .lastProdBox .contenu .lastprod1 {
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+}
+.content .lastProdBox .contenu .lastprod2 {
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+}
+.content .lastProdBox .contenu .lastprod3 {
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+}
+.content .lastProdBox .contenu .lastprod4 {
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+.content .lastProdBox .contenu .lastprod5 {
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+}
+.content .lastProdBox .contenu .lastprod6 {
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+}
+@-webkit-keyframes lastprod {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes lastprod {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .content {
+    width: 95%;
+    padding: 0;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .content .lastProdBox {
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: transparent;
+    border: none;
+  }
+  .content .lastProdBox .titlePart {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .content .lastProdBox .titlePart h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 35px;
+    color: white;
+  }
+  .content .lastProdBox .contenu {
+    width: 100%;
+    margin: auto;
+    min-width: 350px;
+  }
+  .content .lastProdBox .contenu .lastprod {
+    width: 80%;
+    border-radius: 10px;
+    transition-duration: 200ms;
+    -webkit-animation: lastprod 500ms;
+            animation: lastprod 500ms;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    display: flex;
+    opacity: 0;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+.projetContent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 40px;
+  width: 80%;
+  height: auto;
+  max-width: 1200px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: solid black 5px;
+  border-radius: 10px;
+  font-family: "raleway";
+  -webkit-animation: onPage 600ms forwards;
+          animation: onPage 600ms forwards;
+  opacity: 0;
+}
+.projetContent img {
+  width: 30%;
+  -webkit-animation: onPageContent 500ms 200ms forwards;
+          animation: onPageContent 500ms 200ms forwards;
+  opacity: 0;
+}
+.projetContent .tagsBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  opacity: 0;
+  -webkit-animation: onPageContent 500ms 200ms forwards;
+          animation: onPageContent 500ms 200ms forwards;
+}
+.projetContent .tagsBox img {
+  width: 100px;
+  height: auto;
+  margin: 30px;
+}
+.projetContent h3 {
+  font-size: 28px;
+  font-family: "raleway";
+  text-align: center;
+  line-height: 38px;
+  width: 90%;
+  opacity: 0;
+  -webkit-animation: onPageContent 500ms 200ms forwards;
+          animation: onPageContent 500ms 200ms forwards;
+}
+.projetContent p {
+  font-size: 22px;
+  font-family: "raleway";
+  text-align: center;
+  line-height: 32px;
+  width: 90%;
+  opacity: 0;
+  -webkit-animation: onPageContent 500ms 200ms forwards;
+          animation: onPageContent 500ms 200ms forwards;
+}
+.projetContent .gitLink {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(130deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
+  padding: 25px;
+  border-radius: 5px;
+  margin-top: 40px;
+  opacity: 0;
+  -webkit-animation: gitLink 1500ms 0ms forwards;
+          animation: gitLink 1500ms 0ms forwards;
+}
+.projetContent .gitLink :hover {
+  background: linear-gradient(0deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
+}
+.projetContent .backToProjet {
+  width: 100%;
+  text-align: left;
+  height: 60px;
+  opacity: 0;
+  -webkit-animation: onPageContent 500ms 200ms forwards;
+          animation: onPageContent 500ms 200ms forwards;
+}
+.projetContent .backToProjet i {
+  font-size: 60px;
+  color: black;
+  transition-duration: 400ms;
+  margin: 15px;
+}
+.projetContent .backToProjet :hover {
+  transform: rotate(2turn);
+}
+
+@-webkit-keyframes gitLink {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  55% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  85% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes gitLink {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  55% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  85% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes onPage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes onPageContent {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .projetContent {
+    padding-bottom: 40px;
+    width: 90%;
+    margin-top: 3;
+  }
+  .projetContent img {
+    width: 50%;
+    -webkit-animation: onPageContent 500ms 200ms forwards;
+            animation: onPageContent 500ms 200ms forwards;
+    opacity: 0;
+  }
+  .projetContent .tagsBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    opacity: 0;
+    -webkit-animation: onPageContent 500ms 200ms forwards;
+            animation: onPageContent 500ms 200ms forwards;
+  }
+  .projetContent .tagsBox img {
+    width: 70px;
+    margin: 20px;
+  }
+  .projetContent h3 {
+    font-size: 22px;
+    font-family: "raleway";
+    text-align: center;
+    line-height: 38px;
+    width: 90%;
+    opacity: 0;
+    -webkit-animation: onPageContent 500ms 200ms forwards;
+            animation: onPageContent 500ms 200ms forwards;
+  }
+  .projetContent p {
+    font-size: 18px;
+    font-family: "raleway";
+    text-align: center;
+    line-height: 28px;
+    width: 90%;
+    opacity: 0;
+    -webkit-animation: onPageContent 500ms 200ms forwards;
+            animation: onPageContent 500ms 200ms forwards;
+  }
+  .projetContent .gitLink {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: linear-gradient(130deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 40px;
+    opacity: 0;
+    -webkit-animation: gitLink 1500ms 0ms forwards;
+            animation: gitLink 1500ms 0ms forwards;
+  }
+  .projetContent .backToProjet {
+    width: 100%;
+    text-align: left;
+    height: 60px;
+    opacity: 0;
+    -webkit-animation: onPageContent 500ms 200ms forwards;
+            animation: onPageContent 500ms 200ms forwards;
+  }
+  .projetContent .backToProjet i {
+    font-size: 40px;
+    color: black;
+    transition-duration: 400ms;
+    margin: 15px;
+  }
+  .projetContent .backToProjet :hover {
+    transform: rotate(2turn);
+  }
+}
+@font-face {
+  font-family: roboting;
+  src: url(../fonts/Fasthand/Fasthand-Regular.ttf);
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: raleway;
+  src: url(../fonts/Raleway/static/Raleway-Regular.ttf);
+}
+main {
+  height: 100%;
+  min-height: 80vh;
+  position: relative;
+  padding-bottom: 120px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,209 @@
+@import "../Components/keyframes";
+
+.projetContent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    width: 80%;
+    height: auto;
+    max-width: 1200px;
+    background-color: rgba($color: #ffffff, $alpha: 0.7);
+    border: solid black 5px;
+    border-radius: 10px;
+    font-family: "raleway";
+    animation: onPage 600ms forwards;
+    opacity: 0;
+    img{
+        width: 30%;
+        animation: onPageContent 500ms 200ms forwards;
+        opacity: 0;
+    }
+    .tagsBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        opacity: 0;
+        animation: onPageContent 500ms 200ms forwards;
+        img{
+            width: 100px;
+            height: auto;
+            margin: 30px;
+        }
+    }
+    h3{
+        font-size: 28px;
+        font-family: "raleway";
+        text-align: center;
+        line-height: 38px;
+        width: 90%;
+        opacity: 0;
+        animation: onPageContent 500ms 200ms forwards;
+    }
+    p{
+        font-size: 22px;
+        font-family: "raleway";
+        text-align: center;
+        line-height: 32px;
+        width: 90%;
+        opacity: 0;
+        animation: onPageContent 500ms 200ms forwards;
+    }
+    .gitLink{
+        font-size: 25px;
+        color: white;
+        text-decoration: none;
+        background: $color-3;
+        padding: 25px;
+        border-radius: 5px;
+        margin-top: 40px;
+        opacity: 0;
+        animation: gitLink 1500ms 0ms forwards;
+        :hover{
+            background: $color-8;
+        }
+    }
+    .backToProjet{
+        width: 100%;
+        text-align: left;
+        height: 60px;
+        opacity: 0;
+        animation: onPageContent 500ms 200ms forwards;
+        i{
+            font-size: 60px;
+            color: black;
+            transition-duration: 400ms;
+            margin: 15px;
+            
+        }
+        :hover{
+            transform: rotate(2turn);
+        }
+    }
+}
+
+@keyframes gitLink{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    55%{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    70%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    85%{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes onPage{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes onPageContent{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .projetContent{
+        padding-bottom: 40px;
+        width: 90%;
+        margin-top: 3;
+        img{
+            width: 50%;
+            animation: onPageContent 500ms 200ms forwards;
+            opacity: 0;
+        }
+        .tagsBox{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            margin: auto;
+            opacity: 0;
+            animation: onPageContent 500ms 200ms forwards;
+            img{
+                width: 70px;
+                margin: 20px;
+            }
+        }
+        h3{
+            font-size: 22px;
+            font-family: "raleway";
+            text-align: center;
+            line-height: 38px;
+            width: 90%;
+            opacity: 0;
+            animation: onPageContent 500ms 200ms forwards;
+        }
+        p{
+            font-size: 18px;
+            font-family: "raleway";
+            text-align: center;
+            line-height: 28px;
+            width: 90%;
+            opacity: 0;
+            animation: onPageContent 500ms 200ms forwards;
+        }
+        .gitLink{
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+            background-color: $color-3;
+            padding: 15px;
+            border-radius: 15px;
+            margin-top: 40px;
+            opacity: 0;
+            animation: gitLink 1500ms 0ms forwards;
+        }
+        .backToProjet{
+            width: 100%;
+            text-align: left;
+            height: 60px;
+            opacity: 0;
+            animation: onPageContent 500ms 200ms forwards;
+            i{
+                font-size: 40px;
+                color: black;
+                transition-duration: 400ms;
+                margin: 15px;
+            }
+            :hover{
+                transform: rotate(2turn);
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+@mixin mixinButton {
+    margin: 40px 0px 40px 0px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    background: $color-6;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background: $color-3;
+    cursor: pointer;
+    transition: 300ms;
+    :hover{
+        background: $color-8;
+        transition: 300ms;
+    }
+}

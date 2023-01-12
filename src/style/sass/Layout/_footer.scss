@@ -1,0 +1,90 @@
+footer{
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: 15vh;
+    h4{
+        color: $color-4;
+        font-family: roboting;
+        font-size: 30px;
+        margin: 10px;
+        padding-top: 10px;
+    }
+    p{
+        color: $color-4;
+        font-family: "raleway";
+        font-size: 15px;
+        margin: 10px;
+        padding-top: 10px;
+    }
+    #socialBox{
+        margin: auto;
+        font-size: 45px;
+        padding-bottom: 0px;
+        a{
+            color: $color-1;
+            transition: 300ms;
+            margin: 18px;
+            :visited{
+                color: $color-1;
+            }
+            :hover{
+                transform: scale(1.15) rotate(0.05turn);
+                transition: 300ms;
+                color: $color-4;
+            }
+    }
+        i{
+            transition: 300ms;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 800px){
+    footer{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        h4{
+            color: $color-4;
+            font-family: roboting;
+            font-size: 22px;
+            margin: 10px;
+            padding-top: 10px;
+        }
+        p{
+            color: $color-4;
+            font-family: roboting;
+            font-size: 20px;
+            margin: 0px;
+            padding-top: 0px;
+        }
+        #socialBox{
+            margin: auto;
+            font-size: 40px;
+            padding-bottom: 15px;
+            a{
+                color: $color-1;
+                transition: 300ms;
+                margin: 18px;
+                :visited{
+                    color: $color-1;
+                }
+                :hover{
+                    transform: scale(1.15) rotate(0.05turn);
+                    transition: 300ms;
+                    color: $color-4;
+                }
+        }
+            i{
+                transition: 300ms;
+            }
+        }
+    }
+}

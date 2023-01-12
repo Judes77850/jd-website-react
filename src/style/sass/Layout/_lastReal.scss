@@ -1,0 +1,110 @@
+.presentation{
+    margin: auto;
+    margin-bottom: 0px;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 80px;
+    .lastReal{
+        width: 100%;
+        .titlePart{
+            width: 90%;
+            h2{
+                text-align: center;
+                font-family: roboting;
+                font-weight: 900;
+                font-size: 50px;
+                border-radius: 10px;
+                padding: 0px;
+                color: black;
+                margin-bottom: 0px;
+                animation: lastProd 800ms ease-in;
+            }
+        }
+        .contentPart{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: auto;
+            width: 95%;
+            background-color: rgba($color: #ffffff, $alpha: 0.7);
+            border: solid black 5px;
+            border-radius: 10px;
+            animation: lastProd 800ms ease-in;
+            .lastprodMini{
+                padding: 0px;
+                img{
+                    width: 250px;
+                    padding: 30px;
+                    transition-duration: 300ms;
+                }
+                :hover{
+                    transform: scale(1.03);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+@keyframes lastProd {
+    0%{
+        translate: -600%;
+    }
+    92%{
+        translate: 10%
+    }
+    100%{
+        translate: 0%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .presentation{
+        margin-top: 30px;
+        .lastReal{
+            margin: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: "montserrat";
+            .contentPart{
+                width: 90%;
+                .titlePart{
+                    margin-top: 0px;
+                    width: 100%;
+                    h2{
+                        text-align: center;
+                        font-family: roboting;
+                        font-weight: 900;
+                        font-size: 30px;
+                        border-radius: 10px;
+                        padding: 0px;
+                        color: black;
+                        margin-top: 0;
+                        margin-bottom: 20px;
+                        animation: lastProd 800ms ease-in;
+                    }
+                }
+                .lastprodMini{
+                    width: 32%;
+                    margin: 30px;
+                    img{
+                        width: 100%;
+                        padding: 0px;
+                        margin: auto;
+                    }
+                    :hover{
+                        transform: scale(1);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+    }
+}

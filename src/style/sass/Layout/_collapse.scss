@@ -311,7 +311,7 @@
     }
     .bisMenuOpen {
         width: 80%;
-        max-width: 500px;
+        max-width: 350px;
         height: 40px;
         margin: auto;
         margin-top: 1px;
@@ -319,7 +319,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: black;
+        background-color: transparent;
         border-radius: 25px;
         z-index: 1;
         transition-duration: 300ms;
@@ -330,42 +330,96 @@
             padding: 0px;
             animation: bisMenuOpen 2000ms forwards;
             .link{
-                font-family: 'montserrat';
-                text-decoration: none;
-                margin: auto;
-                color: white;
-                width: 100%;
-                height: 100%;
                 font-size: 16px;
-                transition-duration: 300ms;
                 &:hover {
                     color: $color-4;
                     transition-duration: 300ms;
                 }
-                
             }
             .linkActive{
-                font-family: 'montserrat';
-                text-decoration: none;
-                margin: auto;
-                color: $color-4;
-                width: 100%;
-                height: 100%;
                 font-size: 16px;
-                transition-duration: 300ms;
                 &:hover {
                     color: $color-4;
-                    transition-duration: 300ms;
                 }
-                
             }
             i{
                 font-size: 25px;
-                transition-duration: 300ms;
-                color: white;
                 &:hover {
                     color: $color-4;
                     transition-duration: 300ms;
+                }
+            }
+        }
+    }
+    .menuBoxFixed{
+        width: 60%;
+        max-width: 350px;
+        height: 35px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba($color: #000000, $alpha: 0.9);
+        border-radius: 25px;
+        display: flex;
+        z-index: 1;
+        transition-duration: 300ms;
+        position: fixed;
+        .box{
+            width: 100%;
+            .btn{
+                border: none;
+                width: 100%;
+                background-color: transparent;
+                .menuneonlogoBox{
+                    width: 80%;
+                    max-width: 500px;
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
+                    background-color: transparent;
+                    border-radius: 25px;
+                    .menuneonlogoclose{
+                        display: none;
+                    }
+                    .menuneonlogo{
+                        width: 100%;
+                        max-width: 400px;
+                        height: 35px;
+                        display: flex;
+                        justify-content: space-around;
+                        background-color: transparent;
+                        align-items: center;
+                        transition-duration: 300ms;
+                        animation: bisMenuOpen 2000ms forwards;
+                        .linkActive{
+                            font-size: 20px;
+                            color: $color-4;
+                        }
+                        .link{
+                            color: $color-2;
+                            font-size: 20px;
+                            :hover{
+                                color: $color-4;
+                                transition-duration: 300ms;
+                            }                          
+                            
+                        }
+                        .btnMenu{
+                            background-color: transparent;
+                            color: $color-2;
+                            font-size: 20px;
+                            z-index: 2;
+                            border: none;
+                            animation: btnMenuOpen 500ms;
+                            animation-fill-mode: forwards;
+                            :hover{
+                                animation: menu 500ms;
+                                color: $color-4;
+                            }
+                        }
+                    }
                 }
             }
         }

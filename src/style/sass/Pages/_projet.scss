@@ -187,7 +187,8 @@
         }
         .gitLink{
             a{
-                @include mixinButtonGreenMini
+                @include mixinButtonGreenMini;
+                margin-top:400px;
             }
         }
         .DeviceBox{

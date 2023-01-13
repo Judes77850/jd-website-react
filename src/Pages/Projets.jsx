@@ -20,8 +20,6 @@ function Projet(){
                         </div>
                     </div>
                 </div>
-            
-
         ))
     )
 }

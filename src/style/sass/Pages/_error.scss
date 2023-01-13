@@ -1,0 +1,38 @@
+.erreur404Box{
+    width: 90%;
+    max-width: 1200px;
+    min-height: 55vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    h2{
+        color: $color-4;
+        font-size: 130px;
+        font-family: roboting;
+        margin-top: 160px;
+    }
+    .backBox{
+        height: 100px;
+        display: flex;
+        margin-top: 0px;
+        a{
+            margin: auto;
+            color: white;
+            text-decoration: none;
+            font-family: montserrat;
+            font-size: 35px;
+            margin: auto;
+            background: $color-3;
+            border-radius: 20px;
+            transition-duration: 200ms;
+            padding: 20px;
+            box-shadow: 1px 1px 3px rgb(85, 85, 85);
+            &:hover{
+                transform: scale(1.03);
+                box-shadow: 2px 2px 6px rgb(141, 141, 141);
+            }
+        }
+    }   
+}

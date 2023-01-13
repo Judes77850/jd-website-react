@@ -3,9 +3,15 @@
         "id": "1",
 		"title": "Booki",
         "underTitle": "Transformez une maquette en site web avec HTML & CSS",
-        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS.",
+        "description": "Développement d'un site Internet qui permette aux usagers de trouver des hébergements et des activités. Intégreration de l'interface du site avec du code HTML et CSS basé sur les principes du Material Design. Le code doit être valide aux normes W3C, le site doit être responsive",
 		"logo": "https://judes77850.github.io/hebergement/real/bookiblanc.png",
+		"functionalLink": "https://judes77850.github.io/Booki/",
 		"gitHubLink": "https://github.com/Judes77850/Booki",
+		"support": [
+			"mobile",
+			"tablette",
+			"desktop"
+		],
 		"tags": [
 			"html",
 			"css"
@@ -15,9 +21,15 @@
         "id": "2",
 		"title": "Ohmyfood",
         "underTitle": "Dynamisez une page web avec des animations CSS",
-        "description": "Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée.",
+        "description": "Ohmyfood! voudrait s'imposer sur le marché de la restauration. Developpement d'un site 100% mobile qui répertorie les menus de restaurants gastronomiques. Le code doit être valide aux validateurs W3C, le site doit être responsive",
 		"logo": "https://judes77850.github.io/hebergement/real/ohmyfood.png",
+		"functionalLink": "https://judes77850.github.io/new-ohmyfood/",
 		"gitHubLink": "https://github.com/Judes77850/new-ohmyfood",
+		"support": [
+			"mobile",
+			"tablette",
+			"desktop"
+		],
 		"tags": [
 			"html",
 			"css",
@@ -28,9 +40,15 @@
         "id": "3",
 		"title": "La Panthere",
         "underTitle": "Optimisez un site web existant",
-        "description": "Analyse de l’état actuel de SEO du site fourni, amélioration du SEO du site, comparaison des résultats",
+        "description": "Analyse de l’état actuel de SEO du site fourni, amélioration du SEO du site, bonnes pratiques puis comparaison des résultats",
 		"logo": "https://judes77850.github.io/hebergement/real/panthere.png",
+		"functionalLink": "https://judes77850.github.io/la-panthere/",
 		"gitHubLink": "https://github.com/Judes77850/la-panthere",
+		"support": [
+			"mobile",
+			"tablette",
+			"desktop"
+		],
 		"tags": [
 			"html",
 			"css",
@@ -41,9 +59,14 @@
         "id": "4",
 		"title": "Kanap",
         "underTitle": "Construisez un site e-commerce en JavaScript",
-        "description": "Unifier les travaux déjà réalisés en intégrant dynamiquement les éléments de l’API dans les différentes pages web avec JavaScript. Mettre en place un plan de test d’acceptation.",
+        "description": "Unifier les travaux déjà réalisés en intégrant dynamiquement les éléments de l’API dans les différentes pages web avec JavaScript. Mettre en place un plan de test d’acceptation. Pour ce projet il n’est autorisé que du Javascript pur, pas de librairie ou de framework",
 		"logo": "https://judes77850.github.io/hebergement/real/kanap.png",
 		"gitHubLink": "https://github.com/Judes77850/Kanap-jd",
+		"support": [
+			"mobile",
+			"tablette",
+			"desktop"
+		],
 		"tags": [
 			"html",
 			"css",
@@ -56,9 +79,14 @@
         "id": "5",
 		"title": "Piiquante",
         "underTitle": "Construction d'une API sécurisée pour une application d'avis gastronomiques",
-        "description": "Construction d'une API pour une application de sauces piquantes permettant aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker ou disliker les sauces que d'autres partagent.",
+        "description": "Construction d'une API pour une application de sauces piquantes permettant aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker ou disliker les sauces que d'autres partagent. Gestion de l'import et de la suppression de photos sur la base de données",
 		"logo": "https://judes77850.github.io/hebergement/real/piiquante.png",
 		"gitHubLink": "https://github.com/Judes77850/piiquante_final",
+		"support": [
+			"mobile",
+			"tablette",
+			"desktop"
+		],
 		"tags": [
 			"html",
 			"css",
@@ -72,9 +100,14 @@
         "id": "6",
 		"title": "Kasa",
         "underTitle": "Créez une application web de location immobilière avec React",
-        "description": "Kasa vous recrute pour développer sa nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.",
+        "description": "Développement d'une nouvelle plateforme web pour un site de location d’appartements entre particuliers. Construction du Front-end avec React.",
 		"logo": "https://judes77850.github.io/hebergement/real/kasa.png",
 		"gitHubLink": "https://github.com/Judes77850/kasa",
+		"support": [
+			"mobile",
+			"tablette",
+			"desktop"
+		],
 		"tags": [
 			"html",
 			"react",

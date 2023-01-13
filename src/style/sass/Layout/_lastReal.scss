@@ -2,17 +2,18 @@
     margin: auto;
     margin-bottom: 0px;
     width: 100%;
-    max-width: 1200px;
-    margin-top: 80px;
+    margin-top: 30px;
     .lastReal{
-        width: 100%;
+        width: 90%;
+        margin: auto;
+        max-width: 1200px;
         .titlePart{
-            width: 90%;
+            width: 100%;
             h2{
                 text-align: center;
-                font-family: roboting;
+                font-family: "montserrat";
                 font-weight: 900;
-                font-size: 50px;
+                font-size: 35px;
                 border-radius: 10px;
                 padding: 0px;
                 color: black;
@@ -26,22 +27,27 @@
             flex-wrap: wrap;
             justify-content: space-around;
             align-items: center;
-            margin: auto;
-            width: 95%;
-            background-color: rgba($color: #ffffff, $alpha: 0.7);
+            width: 100%;
+            background-color: $color-5;
             border: solid black 5px;
             border-radius: 10px;
-            animation: lastProd 800ms ease-in;
+            animation: lastProd 1000ms ease-in forwards;
             .lastprodMini{
                 padding: 0px;
-                img{
-                    width: 250px;
-                    padding: 30px;
-                    transition-duration: 300ms;
-                }
-                :hover{
-                    transform: scale(1.03);
-                    cursor: pointer;
+                width: 26%;
+                display: flex;
+                a{
+                    width: 100%;
+                    display: flex;
+                    img{
+                        margin: auto;
+                        width: 70%;
+                        transition-duration: 300ms;
+                    }
+                    :hover{
+                        cursor: pointer;
+                    }
+
                 }
             }
         }
@@ -79,11 +85,11 @@
                     width: 100%;
                     h2{
                         text-align: center;
-                        font-family: roboting;
+                        font-family: montserrat;
                         font-weight: 900;
-                        font-size: 30px;
+                        font-size: 25px;
                         border-radius: 10px;
-                        padding: 0px;
+                        padding-top: 25px;
                         color: black;
                         margin-top: 0;
                         margin-bottom: 20px;
@@ -91,7 +97,7 @@
                     }
                 }
                 .lastprodMini{
-                    width: 32%;
+                    width: 30%;
                     margin: 30px;
                     img{
                         width: 100%;

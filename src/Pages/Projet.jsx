@@ -1,5 +1,5 @@
 import Data from "../data.json"
-import { useParams } from 'react-router-dom'
+import { useParams, Navigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
 function CoolTagsCreate(){
@@ -13,13 +13,36 @@ function CoolTagsCreate(){
                 )
                 
             }))
-        }
+}
+
+function CoolDeviceCreate(){
+    const {id} = useParams()
+    const projet = Data.find(projet => projet.title === id)
+    const devices = projet.support
+    return(
+        devices.map((device) => {
+            if (device === "mobile"){
+                return(
+                    <i className="fa-solid fa-mobile-screen" key={device}></i>
+                    )
+            }else if (device === "desktop"){
+                return(
+                    <i className="fa-solid fa-computer" key={device}></i>
+                )
+            }else{
+                return(
+                    ""
+                )
+            }
+        }))
+}
 
 function ProjetInfo(){
     const {id} = useParams()
     const projet = Data.find(projet => projet.title === id)
-    return(
-        <div className="projetContent" key={projet.title}>
+    if (projet){
+        return(
+            <div className="projetContent" key={projet.title}>
             <div className="backToProjet">
             <Link to={`../Projets/`}>
             <i className="fa-solid fa-arrow-left"></i>
@@ -27,13 +50,24 @@ function ProjetInfo(){
             </div>
             <img src={projet.logo} alt="logo de l'entreprise"></img>
             <h3>{projet.underTitle}</h3>
+            <div className="DeviceBox">
+                {CoolDeviceCreate()}
+            </div>
             <p>{projet.description}</p>
             <div className="tagsBox">
                 {CoolTagsCreate()}
             </div>
-            <a href={projet.gitHubLink} className="gitLink">Voir sur Github</a>
-        </div>
-    )
+            <div className="linkBox">
+                <a href={projet.gitHubLink} className="gitLink">Voir sur Github</a>
+                <a href={projet.functionalLink} className={projet.functionalLink ? "gitLink" : "notGitLink"}>Voir le site</a>
+            </div>
+            </div>
+        )
+    }else{
+        return(
+            <Navigate to="/error" />
+        )
+    }
 }
 
 export default ProjetInfo;

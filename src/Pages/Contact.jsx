@@ -1,5 +1,3 @@
-import "../style/main.css"
-
 function Contact(){
     return(
       <div className="formBox">

@@ -12,10 +12,10 @@
     width: 80%;
     height: auto;
     max-width: 1200px;
-    background-color: rgba($color: #ffffff, $alpha: 0.7);
+    background-color: $color-5;
     border: solid black 5px;
     border-radius: 10px;
-    font-family: "raleway";
+    font-family: "montserrat";
     animation: onPage 600ms forwards;
     opacity: 0;
     img{
@@ -40,7 +40,7 @@
     }
     h3{
         font-size: 28px;
-        font-family: "raleway";
+        font-family: "montserrat";
         text-align: center;
         line-height: 38px;
         width: 90%;
@@ -49,25 +49,32 @@
     }
     p{
         font-size: 22px;
-        font-family: "raleway";
+        font-family: "montserrat";
         text-align: center;
         line-height: 32px;
         width: 90%;
         opacity: 0;
         animation: onPageContent 500ms 200ms forwards;
     }
-    .gitLink{
-        font-size: 25px;
-        color: white;
-        text-decoration: none;
-        background: $color-3;
-        padding: 25px;
-        border-radius: 5px;
-        margin-top: 40px;
-        opacity: 0;
-        animation: gitLink 1500ms 0ms forwards;
-        :hover{
-            background: $color-8;
+    .linkBox{
+        margin-top: 50px;
+        height: 60px;
+        .gitLink{
+            @include mixinButtonGreen;
+        }
+    }
+    .notGitLink{
+        display: none;
+    }
+    .DeviceBox{
+        width: 150px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0px 20px 0px;
+        i{
+            font-size: 50px;
+            color: rgb(19,55,51);
         }
     }
     .backToProjet{
@@ -162,7 +169,7 @@
         }
         h3{
             font-size: 22px;
-            font-family: "raleway";
+            font-family: "montserrat";
             text-align: center;
             line-height: 38px;
             width: 90%;
@@ -171,7 +178,7 @@
         }
         p{
             font-size: 18px;
-            font-family: "raleway";
+            font-family: "montserrat";
             text-align: center;
             line-height: 28px;
             width: 90%;
@@ -179,15 +186,14 @@
             animation: onPageContent 500ms 200ms forwards;
         }
         .gitLink{
-            font-size: 20px;
-            color: white;
-            text-decoration: none;
-            background-color: $color-3;
-            padding: 15px;
-            border-radius: 15px;
-            margin-top: 40px;
-            opacity: 0;
-            animation: gitLink 1500ms 0ms forwards;
+            a{
+                @include mixinButtonGreenMini
+            }
+        }
+        .DeviceBox{
+            i{
+                font-size: 30px;
+            }
         }
         .backToProjet{
             width: 100%;

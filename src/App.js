@@ -1,6 +1,7 @@
 import { Route, Routes} from "react-router-dom";
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+import Error from './Pages/Error';
 import LastReal from './Components/LastReal';
 import Contact from "./Pages/Contact";
 import Projets from "./Pages/Projets";
@@ -20,6 +21,7 @@ function App() {
             <Route path="/Parcours" element={<Parcours/>}/>
             <Route path="/Projets" element={<Projets/>}/>
             <Route path="/Projet/:id" element={<Projet/>}/>
+            <Route path="/*" element={<Error />} />
           </Routes>
       </div>
         <Footer />

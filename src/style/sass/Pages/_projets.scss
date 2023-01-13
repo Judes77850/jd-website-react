@@ -1,9 +1,9 @@
 
 .content{
-    width: 80%;
+    width: 90%;
     max-width: 1200px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 60px;
     
     .lastProdBox {
         margin: auto;
@@ -12,20 +12,19 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        background-color: rgba($color: #ffffff, $alpha: 0.7);
+        background-color: $color-5;
         border: solid black 5px;
         border-radius: 10px;
         .titlePart{
             width: 100%;
             display: flex;
             margin-bottom: 30px;
-            
             h2{
                 text-align: center;
                 margin: auto;
-                font-family: "roboting";
-                font-size: 45px;
-                padding: 0px 15px 0px 15px;
+                font-family: "montserrat";
+                font-size: 35px;
+                padding: 25px 0px 0px 0px;
             }
         }
         .contenu{
@@ -45,6 +44,7 @@
                 margin: 20px;
                 margin-bottom: 50px;
                 background-color: rgba($color: #ffffff, $alpha: 0.9);
+                box-shadow: 1px 1px 8px rgb(141, 141, 141);
                 .logobox {
                     width: 97%;
                     height: 60%;
@@ -55,7 +55,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    background-color: rgba(246, 246, 246, 1);
+                    background-color: transparent;
                     img {
                         width: 50%;
                         height: auto;
@@ -83,17 +83,9 @@
                     justify-content: space-between;
                     margin-top: -30px;
                     .gitLink{
+                        @include mixinButtonGold;
                         font-family: 'montserrat';
-                        display: flex;
-                        align-items: center;
-                        color: $color-2;
-                        text-decoration: none;
-                        background: $color-4;
-                        padding: 5px;
-                        height: 35px;
-                        border-radius: 3px;
-                        margin-bottom: -20px;
-                        margin-right: -40px;
+                        margin: 10px -40px -10px 0px;
                     }
                     .fa-plus{
                         color: $color-2;
@@ -103,10 +95,12 @@
                         border-radius: 3px;
                         margin-left: -15px;
                         margin-bottom: -20px;
-                        :hover{
-                            transform: rotate(3turn);
-                            transition: 300ms;
-                        }
+                        box-shadow: 1px 1px 8px rgb(141, 141, 141);
+                        transition-duration: 200ms;
+
+                    }
+                    :hover{
+                        transform: scale(1.04);
                     }
                 }
             }
@@ -163,7 +157,7 @@
                 h2{
                     text-align: center;
                     margin: auto;
-                    font-size: 35px;
+                    font-size: 25px;
                     color: white;
                 }
             }

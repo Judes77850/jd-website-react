@@ -388,7 +388,7 @@ footer {
   background-color: black;
   padding-bottom: 30px;
   text-align: center;
-  margin-top: 15vh;
+  margin-top: 18vh;
 }
 footer h4 {
   color: rgb(210, 143, 94);
@@ -398,8 +398,8 @@ footer h4 {
   padding-top: 10px;
 }
 footer p {
-  color: rgb(210, 143, 94);
-  font-family: "raleway";
+  color: rgb(93, 93, 93);
+  font-family: "montserrat";
   font-size: 15px;
   margin: 10px;
   padding-top: 10px;
@@ -432,7 +432,7 @@ footer #socialBox i {
     height: auto;
     background-color: black;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
     text-align: center;
   }
   footer h4 {
@@ -443,11 +443,7 @@ footer #socialBox i {
     padding-top: 10px;
   }
   footer p {
-    color: rgb(210, 143, 94);
-    font-family: roboting;
-    font-size: 20px;
-    margin: 0px;
-    padding-top: 0px;
+    font-size: 15px;
   }
   footer #socialBox {
     margin: auto;
@@ -531,7 +527,7 @@ footer #socialBox i {
   margin-bottom: 0px;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
   border-radius: 25px;
   display: flex;
   z-index: 1;
@@ -552,7 +548,7 @@ footer #socialBox i {
   margin: auto;
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: transparent;
   border-radius: 25px;
 }
 .menuBox .box .btn .menuneonlogoBox .menuneonlogoclose {
@@ -564,7 +560,7 @@ footer #socialBox i {
   height: 49px;
   display: flex;
   justify-content: space-around;
-  background-color: black;
+  background-color: transparent;
   align-items: center;
   transition-duration: 300ms;
   -webkit-animation: bisMenuOpen 2000ms forwards;
@@ -583,7 +579,7 @@ footer #socialBox i {
   transition-duration: 300ms;
 }
 .menuBox .box .btn .menuneonlogoBox .btnMenu {
-  background-color: black;
+  background-color: transparent;
   color: rgb(247, 247, 247);
   font-size: 25px;
   z-index: 2;
@@ -601,14 +597,14 @@ footer #socialBox i {
 
 .menuBoxFixed {
   width: 80%;
-  max-width: 500px;
+  max-width: 350px;
   height: 49px;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 0px;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
   border-radius: 25px;
   display: flex;
   z-index: 1;
@@ -629,7 +625,7 @@ footer #socialBox i {
   margin: auto;
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: transparent;
   border-radius: 25px;
 }
 .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogoclose {
@@ -641,7 +637,7 @@ footer #socialBox i {
   height: 49px;
   display: flex;
   justify-content: space-around;
-  background-color: black;
+  background-color: transparent;
   align-items: center;
   transition-duration: 300ms;
   -webkit-animation: bisMenuOpen 2000ms forwards;
@@ -658,7 +654,7 @@ footer #socialBox i {
   transition-duration: 300ms;
 }
 .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .btnMenu {
-  background-color: black;
+  background-color: transparent;
   color: rgb(247, 247, 247);
   font-size: 25px;
   z-index: 2;
@@ -675,7 +671,7 @@ footer #socialBox i {
 }
 
 .bisMenuOpen {
-  width: 80%;
+  width: 90%;
   max-width: 500px;
   height: 49px;
   margin: auto;
@@ -683,7 +679,7 @@ footer #socialBox i {
   margin-bottom: 1px;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: transparent;
   border-radius: 25px;
   display: flex;
   align-items: center;
@@ -691,7 +687,7 @@ footer #socialBox i {
   transition-duration: 300ms;
 }
 .bisMenuOpen span {
-  width: 30%;
+  width: 33%;
   list-style-type: none;
   margin: 10px;
   padding: 0px;
@@ -847,20 +843,21 @@ footer #socialBox i {
   margin: auto;
   margin-bottom: 0px;
   width: 100%;
-  max-width: 1200px;
-  margin-top: 80px;
+  margin-top: 30px;
 }
 .presentation .lastReal {
-  width: 100%;
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
 }
 .presentation .lastReal .titlePart {
-  width: 90%;
+  width: 100%;
 }
 .presentation .lastReal .titlePart h2 {
   text-align: center;
-  font-family: roboting;
+  font-family: "montserrat";
   font-weight: 900;
-  font-size: 50px;
+  font-size: 35px;
   border-radius: 10px;
   padding: 0px;
   color: black;
@@ -874,24 +871,28 @@ footer #socialBox i {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: auto;
-  width: 95%;
-  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
   border: solid black 5px;
   border-radius: 10px;
-  -webkit-animation: lastProd 800ms ease-in;
-          animation: lastProd 800ms ease-in;
+  -webkit-animation: lastProd 1000ms ease-in forwards;
+          animation: lastProd 1000ms ease-in forwards;
 }
 .presentation .lastReal .contentPart .lastprodMini {
   padding: 0px;
+  width: 26%;
+  display: flex;
 }
-.presentation .lastReal .contentPart .lastprodMini img {
-  width: 250px;
-  padding: 30px;
+.presentation .lastReal .contentPart .lastprodMini a {
+  width: 100%;
+  display: flex;
+}
+.presentation .lastReal .contentPart .lastprodMini a img {
+  margin: auto;
+  width: 70%;
   transition-duration: 300ms;
 }
-.presentation .lastReal .contentPart .lastprodMini :hover {
-  transform: scale(1.03);
+.presentation .lastReal .contentPart .lastprodMini a :hover {
   cursor: pointer;
 }
 
@@ -940,11 +941,11 @@ footer #socialBox i {
   }
   .presentation .lastReal .contentPart .titlePart h2 {
     text-align: center;
-    font-family: roboting;
+    font-family: montserrat;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 10px;
-    padding: 0px;
+    padding-top: 25px;
     color: black;
     margin-top: 0;
     margin-bottom: 20px;
@@ -952,7 +953,7 @@ footer #socialBox i {
             animation: lastProd 800ms ease-in;
   }
   .presentation .lastReal .contentPart .lastprodMini {
-    width: 32%;
+    width: 30%;
     margin: 30px;
   }
   .presentation .lastReal .contentPart .lastprodMini img {
@@ -1007,26 +1008,26 @@ footer #socialBox i {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 80%;
-  height: 600px;
+  height: auto;
   max-width: 1200px;
   margin: auto;
   margin-top: 80px;
   padding-bottom: 40px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   border: solid black 5px;
   opacity: 0;
   -webkit-animation: onPageContent 500ms 200ms forwards;
           animation: onPageContent 500ms 200ms forwards;
 }
 .formBox #contact-form h2 {
-  font-family: roboting;
+  font-family: montserrat;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 35px;
   border-radius: 10px;
-  padding: 0px;
+  padding-top: 0px;
   color: black;
   margin-bottom: 20px;
   opacity: 0;
@@ -1037,7 +1038,7 @@ footer #socialBox i {
 .formBox #contact-form input {
   margin-bottom: 20px;
   border-radius: 8px;
-  font-family: "raleway";
+  font-family: "montserrat";
   font-size: 18px;
   height: 40px;
   width: 80%;
@@ -1069,24 +1070,22 @@ footer #socialBox i {
           animation: onPageContent 500ms 200ms forwards;
 }
 .formBox #contact-form .send {
-  color: rgb(247, 247, 247);
-  background: linear-gradient(130deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
-  font-family: "raleway";
-  font-size: 25px;
-  text-align: center;
+  margin: 40px 10px 40px 10px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
   border: none;
-  height: 50px;
-  width: 160px;
-  margin: auto;
-  margin-bottom: 0px;
-  margin-top: 50px;
+  background: rgb(86, 120, 96);
+  box-shadow: 1px 1px 8px rgb(141, 141, 141);
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  background: linear-gradient(130deg, rgb(39, 70, 66), rgb(11, 13, 10) 70.71%);
   cursor: pointer;
-  opacity: 0;
-  -webkit-animation: onPageContent 500ms 200ms forwards;
-          animation: onPageContent 500ms 200ms forwards;
+  transition: 300ms;
+  width: auto;
 }
-.formBox #contact-form .send :hover {
-  background: linear-gradient(0deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
+.formBox #contact-form .send:hover {
+  transform: scale(1.04);
 }
 
 @-webkit-keyframes onPage {
@@ -1124,13 +1123,97 @@ footer #socialBox i {
 }
 @media only screen and (max-width: 800px) {
   .formBox {
-    z-index: 5;
-    margin-top: 120px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    -webkit-animation: onPage 600ms forwards;
+            animation: onPage 600ms forwards;
   }
-  .formBox h2 {
-    font-size: 35px;
+  .formBox #contact-form {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid black 5px;
+    opacity: 0;
+    -webkit-animation: onPageContent 500ms 200ms forwards;
+            animation: onPageContent 500ms 200ms forwards;
+  }
+  .formBox #contact-form h2 {
+    font-family: montserrat;
+    font-weight: 900;
+    font-size: 25px;
+    padding-top: 25;
+    border-radius: 10px;
+    padding: 0px;
+    color: black;
+    margin-bottom: 20px;
+    opacity: 0;
+    -webkit-animation: onPageContent 500ms 200ms forwards;
+            animation: onPageContent 500ms 200ms forwards;
     text-align: center;
-    margin: 0;
+  }
+  .formBox #contact-form input {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-family: "raleway";
+    font-size: 16px;
+    height: 30px;
+    width: 80%;
+    text-align: left;
+    border: none;
+    opacity: 0;
+    -webkit-animation: onPageContent 500ms 200ms forwards;
+            animation: onPageContent 500ms 200ms forwards;
+  }
+  .formBox #contact-form label {
+    color: rgb(86, 120, 96);
+    font-family: "raleway";
+    font-size: 18px;
+    margin: 10px 0px 10px 0px;
+    text-align: left;
+    opacity: 0;
+    -webkit-animation: onPageContent 500ms 200ms forwards;
+            animation: onPageContent 500ms 200ms forwards;
+  }
+  .formBox #contact-form textarea {
+    height: 80px;
+    width: 80%;
+    margin: 0px;
+    border-radius: 10px;
+    text-align: left;
+    border: none;
+    opacity: 0;
+    -webkit-animation: onPageContent 500ms 200ms forwards;
+            animation: onPageContent 500ms 200ms forwards;
+  }
+  .formBox #contact-form .send {
+    margin: 30px 10px 30px 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    background: rgb(86, 120, 96);
+    box-shadow: 1px 1px 8px rgb(141, 141, 141);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background: linear-gradient(130deg, rgb(39, 70, 66), rgb(11, 13, 10) 70.71%);
+    cursor: pointer;
+    transition: 300ms;
+  }
+  .formBox #contact-form .send:hover {
+    transform: scale(1.04);
   }
 }
 .Parcours {
@@ -1141,7 +1224,7 @@ footer #socialBox i {
   display: flex;
   flex-direction: column;
 }
-.Parcours .FormBox {
+.Parcours .ParcoursBox {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1151,34 +1234,120 @@ footer #socialBox i {
   margin-top: 30px;
   width: 100%;
   max-width: 1200px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   border: solid black 5px;
   border-radius: 10px;
-  font-family: "raleway";
+  font-family: "montserrat";
+}
+.Parcours .ParcoursBox h2 {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  font-family: "montserrat";
+  font-size: 35px;
+  padding: 25px 0px 0px 0px;
+  margin-bottom: 30px;
+}
+.Parcours .ParcoursBox .card {
+  width: 45%;
+  height: 45%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Parcours .ParcoursBox .card h3 {
+  font-size: 25px;
+}
+.Parcours .ParcoursBox .card p {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+.Parcours .ParcoursBox .card img {
+  margin: auto;
+  height: 50px;
+}
+.Parcours .ParcoursBox .card a {
+  margin: 40px 10px 40px 10px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  border: none;
+  background: linear-gradient(130deg, rgb(209, 143, 94), rgb(190, 128, 40) 70.71%);
+  box-shadow: 1px 1px 8px rgb(141, 141, 141);
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 300ms;
+}
+.Parcours .ParcoursBox .card a:hover {
+  transform: scale(1.04);
+}
+.Parcours .FormBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 1200px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: solid black 5px;
+  border-radius: 10px;
+  font-family: "montserrat";
 }
 .Parcours .FormBox h2 {
   width: 100%;
   text-align: center;
   margin: auto;
-  font-family: "roboting";
-  font-size: 45px;
-  padding: 0px 15px 0px 15px;
+  font-family: "montserrat";
+  font-size: 35px;
+  padding: 25px 0px 0px 0px;
   margin-bottom: 30px;
 }
 .Parcours .FormBox .card {
-  width: 45%;
+  width: 90%;
+  height: auto;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 .Parcours .FormBox .card h3 {
-  font-size: 25px;
+  font-size: 22px;
 }
 .Parcours .FormBox .card p {
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 5px;
+}
+.Parcours .FormBox .card a {
+  margin: 40px 10px 40px 10px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  border: none;
+  background: linear-gradient(130deg, rgb(209, 143, 94), rgb(190, 128, 40) 70.71%);
+  box-shadow: 1px 1px 8px rgb(141, 141, 141);
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 300ms;
+  margin: auto;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+.Parcours .FormBox .card a:hover {
+  transform: scale(1.04);
 }
 
 .ParcoursMini {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   border: solid black 5px;
   width: 90%;
   max-width: 1200px;
@@ -1188,40 +1357,48 @@ footer #socialBox i {
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
-  font-family: "raleway";
-  -webkit-animation: form 800ms ease-in;
-          animation: form 800ms ease-in;
+  font-family: "montserrat";
+  -webkit-animation: form 1000ms ease-in forwards;
+          animation: form 1000ms ease-in forwards;
 }
 .ParcoursMini h2 {
-  width: 100%;
+  width: auto;
   max-width: 1200px;
   text-align: center;
-  font-family: "roboting";
-  font-size: 50px;
+  font-family: "montserrat";
+  font-size: 35px;
 }
 .ParcoursMini p {
   width: 90%;
   margin: auto;
   font-size: 20px;
   line-height: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  color: linear-gradient(130deg, rgb(209, 143, 94), rgb(190, 128, 40) 70.71%);
 }
-.ParcoursMini .toParcours button {
-  margin: 40px 0px 40px 0px;
-  font-size: 25px;
+.ParcoursMini .toParcours {
+  margin-top: 20px;
+  height: 50px;
+}
+.ParcoursMini .toParcours a {
+  margin: 40px 10px 40px 10px;
+  font-size: 20px;
   color: white;
   text-decoration: none;
   border: none;
   background: rgb(86, 120, 96);
-  padding: 10px 20px 10px 20px;
+  box-shadow: 1px 1px 8px rgb(141, 141, 141);
+  padding: 10px 10px 10px 10px;
   border-radius: 5px;
-  background: linear-gradient(130deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
+  background: linear-gradient(130deg, rgb(39, 70, 66), rgb(11, 13, 10) 70.71%);
   cursor: pointer;
   transition: 300ms;
 }
-.ParcoursMini .toParcours button :hover {
-  background: linear-gradient(0deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
-  transition: 300ms;
+.ParcoursMini .toParcours a:hover {
+  transform: scale(1.04);
+}
+.ParcoursMini .toParcours a:hover {
+  transform: scale(1.04);
 }
 
 @-webkit-keyframes form {
@@ -1229,10 +1406,10 @@ footer #socialBox i {
     translate: 600%;
   }
   92% {
-    translate: 10%;
+    translate: -10%;
   }
   100% {
-    translate: 0%;
+    translate: 0.4%;
   }
 }
 
@@ -1241,15 +1418,15 @@ footer #socialBox i {
     translate: 600%;
   }
   92% {
-    translate: 10%;
+    translate: -10%;
   }
   100% {
-    translate: 0%;
+    translate: 0.4%;
   }
 }
 @media only screen and (max-width: 800px) {
   .ParcoursMini {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     width: 90%;
     margin-top: 30px;
   }
@@ -1257,8 +1434,8 @@ footer #socialBox i {
     width: 100%;
     max-width: 1200px;
     text-align: center;
-    font-family: "roboting";
-    font-size: 30px;
+    font-family: "montserrat";
+    font-size: 25px;
     line-height: 35px;
   }
   .ParcoursMini p {
@@ -1268,22 +1445,22 @@ footer #socialBox i {
     line-height: 25px;
     margin-bottom: 30px;
   }
-  .ParcoursMini .toParcours button {
-    margin: 30px 0px 30px 0px;
+  .ParcoursMini a {
+    margin: 30px 10px 30px 10px;
     font-size: 20px;
     color: white;
     text-decoration: none;
     border: none;
     background: rgb(86, 120, 96);
+    box-shadow: 1px 1px 8px rgb(141, 141, 141);
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
-    background: linear-gradient(130deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
+    background: linear-gradient(130deg, rgb(39, 70, 66), rgb(11, 13, 10) 70.71%);
     cursor: pointer;
     transition: 300ms;
   }
-  .ParcoursMini .toParcours button :hover {
-    background: linear-gradient(0deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
-    transition: 300ms;
+  .ParcoursMini a:hover {
+    transform: scale(1.04);
   }
   .Parcours {
     width: 100%;
@@ -1310,9 +1487,9 @@ footer #socialBox i {
     width: 100%;
     text-align: center;
     margin: auto;
-    font-family: "roboting";
+    font-family: "montserrat";
     font-size: 30px;
-    padding: 0px 0px 0px 0px;
+    padding: 25px 0px 0px 0px;
     margin-bottom: 30px;
   }
   .Parcours .FormBox .card {
@@ -1329,10 +1506,10 @@ footer #socialBox i {
   }
 }
 .content {
-  width: 80%;
+  width: 90%;
   max-width: 1200px;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 .content .lastProdBox {
   margin: auto;
@@ -1341,7 +1518,7 @@ footer #socialBox i {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   border: solid black 5px;
   border-radius: 10px;
 }
@@ -1353,9 +1530,9 @@ footer #socialBox i {
 .content .lastProdBox .titlePart h2 {
   text-align: center;
   margin: auto;
-  font-family: "roboting";
-  font-size: 45px;
-  padding: 0px 15px 0px 15px;
+  font-family: "montserrat";
+  font-size: 35px;
+  padding: 25px 0px 0px 0px;
 }
 .content .lastProdBox .contenu {
   width: 32%;
@@ -1377,6 +1554,7 @@ footer #socialBox i {
   margin: 20px;
   margin-bottom: 50px;
   background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 1px 1px 8px rgb(141, 141, 141);
 }
 .content .lastProdBox .contenu .lastprod .logobox {
   width: 97%;
@@ -1388,7 +1566,7 @@ footer #socialBox i {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(246, 246, 246);
+  background-color: transparent;
 }
 .content .lastProdBox .contenu .lastprod .logobox img {
   width: 50%;
@@ -1417,30 +1595,36 @@ footer #socialBox i {
   margin-top: -30px;
 }
 .content .lastProdBox .contenu .lastprod .moreOpt .gitLink {
-  font-family: "montserrat";
-  display: flex;
-  align-items: center;
-  color: rgb(247, 247, 247);
+  margin: 40px 10px 40px 10px;
+  font-size: 20px;
+  color: white;
   text-decoration: none;
-  background: rgb(210, 143, 94);
-  padding: 5px;
-  height: 35px;
-  border-radius: 3px;
-  margin-bottom: -20px;
-  margin-right: -40px;
+  border: none;
+  background: linear-gradient(130deg, rgb(209, 143, 94), rgb(190, 128, 40) 70.71%);
+  box-shadow: 1px 1px 8px rgb(141, 141, 141);
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 300ms;
+  font-family: "montserrat";
+  margin: 10px -40px -10px 0px;
+}
+.content .lastProdBox .contenu .lastprod .moreOpt .gitLink:hover {
+  transform: scale(1.04);
 }
 .content .lastProdBox .contenu .lastprod .moreOpt .fa-plus {
   color: rgb(247, 247, 247);
-  background: linear-gradient(130deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
+  background: linear-gradient(130deg, rgb(39, 70, 66), rgb(11, 13, 10) 70.71%);
   font-size: 30px;
   padding: 10px;
   border-radius: 3px;
   margin-left: -15px;
   margin-bottom: -20px;
+  box-shadow: 1px 1px 8px rgb(141, 141, 141);
+  transition-duration: 200ms;
 }
-.content .lastProdBox .contenu .lastprod .moreOpt .fa-plus :hover {
-  transform: rotate(3turn);
-  transition: 300ms;
+.content .lastProdBox .contenu .lastprod .moreOpt :hover {
+  transform: scale(1.04);
 }
 .content .lastProdBox .contenu .lastprod1 {
   -webkit-animation-delay: 200ms;
@@ -1509,7 +1693,7 @@ footer #socialBox i {
   .content .lastProdBox .titlePart h2 {
     text-align: center;
     margin: auto;
-    font-size: 35px;
+    font-size: 25px;
     color: white;
   }
   .content .lastProdBox .contenu {
@@ -1545,10 +1729,10 @@ footer #socialBox i {
   width: 80%;
   height: auto;
   max-width: 1200px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   border: solid black 5px;
   border-radius: 10px;
-  font-family: "raleway";
+  font-family: "montserrat";
   -webkit-animation: onPage 600ms forwards;
           animation: onPage 600ms forwards;
   opacity: 0;
@@ -1577,7 +1761,7 @@ footer #socialBox i {
 }
 .projetContent h3 {
   font-size: 28px;
-  font-family: "raleway";
+  font-family: "montserrat";
   text-align: center;
   line-height: 38px;
   width: 90%;
@@ -1587,7 +1771,7 @@ footer #socialBox i {
 }
 .projetContent p {
   font-size: 22px;
-  font-family: "raleway";
+  font-family: "montserrat";
   text-align: center;
   line-height: 32px;
   width: 90%;
@@ -1595,20 +1779,40 @@ footer #socialBox i {
   -webkit-animation: onPageContent 500ms 200ms forwards;
           animation: onPageContent 500ms 200ms forwards;
 }
-.projetContent .gitLink {
-  font-size: 25px;
+.projetContent .linkBox {
+  margin-top: 50px;
+  height: 60px;
+}
+.projetContent .linkBox .gitLink {
+  margin: 40px 10px 40px 10px;
+  font-size: 20px;
   color: white;
   text-decoration: none;
-  background: linear-gradient(130deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
-  padding: 25px;
+  border: none;
+  background: rgb(86, 120, 96);
+  box-shadow: 1px 1px 8px rgb(141, 141, 141);
+  padding: 10px 10px 10px 10px;
   border-radius: 5px;
-  margin-top: 40px;
-  opacity: 0;
-  -webkit-animation: gitLink 1500ms 0ms forwards;
-          animation: gitLink 1500ms 0ms forwards;
+  background: linear-gradient(130deg, rgb(39, 70, 66), rgb(11, 13, 10) 70.71%);
+  cursor: pointer;
+  transition: 300ms;
 }
-.projetContent .gitLink :hover {
-  background: linear-gradient(0deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
+.projetContent .linkBox .gitLink:hover {
+  transform: scale(1.04);
+}
+.projetContent .notGitLink {
+  display: none;
+}
+.projetContent .DeviceBox {
+  width: 150px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px 20px 0px;
+}
+.projetContent .DeviceBox i {
+  font-size: 50px;
+  color: rgb(19, 55, 51);
 }
 .projetContent .backToProjet {
   width: 100%;
@@ -1730,7 +1934,7 @@ footer #socialBox i {
   }
   .projetContent h3 {
     font-size: 22px;
-    font-family: "raleway";
+    font-family: "montserrat";
     text-align: center;
     line-height: 38px;
     width: 90%;
@@ -1740,7 +1944,7 @@ footer #socialBox i {
   }
   .projetContent p {
     font-size: 18px;
-    font-family: "raleway";
+    font-family: "montserrat";
     text-align: center;
     line-height: 28px;
     width: 90%;
@@ -1748,17 +1952,25 @@ footer #socialBox i {
     -webkit-animation: onPageContent 500ms 200ms forwards;
             animation: onPageContent 500ms 200ms forwards;
   }
-  .projetContent .gitLink {
+  .projetContent .gitLink a {
+    margin: 30px 10px 30px 10px;
     font-size: 20px;
     color: white;
     text-decoration: none;
-    background-color: linear-gradient(130deg, rgb(42, 69, 48), rgb(11, 13, 10) 70.71%);
-    padding: 15px;
-    border-radius: 15px;
-    margin-top: 40px;
-    opacity: 0;
-    -webkit-animation: gitLink 1500ms 0ms forwards;
-            animation: gitLink 1500ms 0ms forwards;
+    border: none;
+    background: rgb(86, 120, 96);
+    box-shadow: 1px 1px 8px rgb(141, 141, 141);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background: linear-gradient(130deg, rgb(39, 70, 66), rgb(11, 13, 10) 70.71%);
+    cursor: pointer;
+    transition: 300ms;
+  }
+  .projetContent .gitLink a:hover {
+    transform: scale(1.04);
+  }
+  .projetContent .DeviceBox i {
+    font-size: 30px;
   }
   .projetContent .backToProjet {
     width: 100%;
@@ -1778,6 +1990,45 @@ footer #socialBox i {
     transform: rotate(2turn);
   }
 }
+.erreur404Box {
+  width: 90%;
+  max-width: 1200px;
+  min-height: 55vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.erreur404Box h2 {
+  color: rgb(210, 143, 94);
+  font-size: 130px;
+  font-family: roboting;
+  margin-top: 160px;
+}
+.erreur404Box .backBox {
+  height: 100px;
+  display: flex;
+  margin-top: 0px;
+}
+.erreur404Box .backBox a {
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  font-family: montserrat;
+  font-size: 35px;
+  margin: auto;
+  background: linear-gradient(130deg, rgb(39, 70, 66), rgb(11, 13, 10) 70.71%);
+  border-radius: 20px;
+  transition-duration: 200ms;
+  padding: 20px;
+  box-shadow: 1px 1px 3px rgb(85, 85, 85);
+}
+.erreur404Box .backBox a:hover {
+  transform: scale(1.03);
+  box-shadow: 2px 2px 6px rgb(141, 141, 141);
+}
+
 @font-face {
   font-family: roboting;
   src: url(../fonts/Fasthand/Fasthand-Regular.ttf);

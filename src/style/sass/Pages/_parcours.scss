@@ -1,38 +1,4 @@
-@mixin mixinButton {
-    margin: 40px 0px 40px 0px;
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    border: none;
-    background: $color-6;
-    padding: 10px 20px 10px 20px;
-    border-radius: 5px;
-    background: $color-3;
-    cursor: pointer;
-    transition: 300ms;
-    :hover{
-        background: $color-8;
-        transition: 300ms;
-    }
-}
-
-@mixin mixinButtonMini {
-    margin: 30px 0px 30px 0px;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    border: none;
-    background: $color-6;
-    padding: 5px 10px 5px 10px;
-    border-radius: 5px;
-    background: $color-3;
-    cursor: pointer;
-    transition: 300ms;
-    :hover{
-        background: $color-8;
-        transition: 300ms;
-    }
-}
+@import "../Utils/mixines";
 
 .Parcours{
     width: 90%;
@@ -41,7 +7,7 @@
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    .FormBox{
+    .ParcoursBox{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -51,35 +17,96 @@
         margin-top: 30px;
         width: 100%;
         max-width: 1200px;
-        background-color: rgba($color: #ffffff, $alpha: 0.7);
+        background-color: $color-5;
         border: solid black 5px;
         border-radius: 10px;
-        font-family: "raleway";
+        font-family: "montserrat";
         h2{
             width: 100%;
             text-align: center;
             margin: auto;
-            font-family: 'roboting';
-            font-size: 45px;
-            padding: 0px 15px 0px 15px;
+            font-family: 'montserrat';
+            font-size: 35px;
+            padding: 25px 0px 0px 0px;
             margin-bottom: 30px;
         }
         .card{
             width: 45%;
-            margin-bottom: 20px;
+            height: 45%;
+            margin-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             h3{
                 font-size: 25px;
             }
             p{
-                font-size: 18px;
-                line-height: 25px;
+                font-size: 16px;
+                line-height: 22px;
+                text-align: center;
+            }
+            img{
+                margin: auto;
+                height: 50px;
+            }
+            a{
+                @include mixinButtonGold;
+            }
+        }
+    }
+    .FormBox{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        margin-top: 30px;
+        width: 100%;
+        max-width: 1200px;
+        background-color: $color-5;
+        border: solid black 5px;
+        border-radius: 10px;
+        font-family: "montserrat";
+        h2{
+            width: 100%;
+            text-align: center;
+            margin: auto;
+            font-family: 'montserrat';
+            font-size: 35px;
+            padding: 25px 0px 0px 0px;
+            margin-bottom: 30px;
+        }
+        .card{
+            width: 90%;
+            height: auto;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            h3{
+                font-size: 22px;
+
+            }
+            p{
+                font-size: 16px;
+                line-height: 20px;
+                margin: 5px
+            }
+            a{
+                @include mixinButtonGold;
+                margin: auto;
+                margin-bottom: 0;
+                margin-top: 15px;
             }
         }
     }
 }
 
 .ParcoursMini{
-    background-color: rgba($color: #ffffff, $alpha: 0.7);
+    background-color: $color-5;
     border: solid black 5px;
     width: 90%;
     max-width: 1200px;
@@ -89,25 +116,31 @@
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    font-family: "raleway";
-    animation: form 800ms ease-in;
+    font-family: "montserrat";
+    animation: form 1000ms ease-in forwards;
     h2{
-        width: 100%;
+        width: auto;
         max-width: 1200px;
         text-align: center;
-        font-family: 'roboting';
-        font-size: 50px;
+        font-family: 'montserrat';
+        font-size: 35px;
     }
     p{
         width: 90%;
         margin: auto;
         font-size: 20px;
         line-height: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        color: $color-7;
     }
     .toParcours{
-        button{
-            @include mixinButton;
+        margin-top: 20px;
+        height: 50px;
+        a{
+            @include mixinButtonGreen;
+        }
+        a:hover{
+            transform: scale(1.04);
         }
     }
 }
@@ -117,24 +150,24 @@
         translate: 600%;
     }
     92%{
-        translate: 10%
+        translate: -10%
     }
     100%{
-        translate: 0%;
+        translate: 0.4%;
     }
 }
 
 @media only screen and (max-width: 800px){
     .ParcoursMini{
-        background-color: rgba($color: #ffffff, $alpha: 0.7);
+        background-color: $color-5;
         width: 90%;
         margin-top: 30px;
         h2{
             width: 100%;
             max-width: 1200px;
             text-align: center;
-            font-family: 'roboting';
-            font-size: 30px;
+            font-family: 'montserrat';
+            font-size: 25px;
             line-height: 35px;
         }
         p{
@@ -144,10 +177,8 @@
             line-height: 25px;
             margin-bottom: 30px;
         }
-        .toParcours{
-            button{
-                @include mixinButtonMini;
-            }
+        a{
+            @include mixinButtonGreenMini;
         }
     }
     .Parcours{
@@ -173,9 +204,9 @@
                 width: 100%;
                 text-align: center;
                 margin: auto;
-                font-family: 'roboting';
+                font-family: 'montserrat';
                 font-size: 30px;
-                padding: 0px 0px 0px 0px;
+                padding: 25px 0px 0px 0px;
                 margin-bottom: 30px;
             }
             .card{

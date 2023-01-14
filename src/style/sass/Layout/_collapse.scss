@@ -65,7 +65,7 @@
 
 .menuBox{
     width: 80%;
-    max-width: 500px;
+    max-width: 450px;
     height: 49px;
     margin: auto;
     margin-top: 10px;
@@ -85,20 +85,16 @@
             width: 100%;
             background-color: transparent;
             .menuneonlogoBox{
-                width: 80%;
-                max-width: 500px;
+                width: 90%;
                 margin: auto;
                 display: flex;
                 justify-content: center;
+                align-items: center;
                 background-color: transparent;
-                border-radius: 25px;
-                .menuneonlogoclose{
-                    display: none;
-                }
                 .menuneonlogo{
                     width: 100%;
                     max-width: 400px;
-                    height: 49px;
+                    height: 100%;
                     display: flex;
                     justify-content: space-around;
                     background-color: transparent;
@@ -122,7 +118,6 @@
                         background-color: transparent;
                         color: $color-2;
                         font-size: 25px;
-                        z-index: 2;
                         border: none;
                         animation: btnMenuOpen 500ms;
                         animation-fill-mode: forwards;
@@ -139,7 +134,7 @@
 
 .menuBoxFixed{
     width: 80%;
-    max-width: 350px;
+    max-width: 420px;
     height: 49px;
     margin: auto;
     margin-top: 10px;
@@ -159,13 +154,11 @@
             width: 100%;
             background-color: transparent;
             .menuneonlogoBox{
-                width: 80%;
-                max-width: 500px;
+                width: 90%;
                 margin: auto;
                 display: flex;
                 justify-content: center;
                 background-color: transparent;
-                border-radius: 25px;
                 .menuneonlogoclose{
                     display: none;
                 }
@@ -179,11 +172,14 @@
                     align-items: center;
                     transition-duration: 300ms;
                     animation: bisMenuOpen 2000ms forwards;
+                    font-size: 25px;
                     .linkActive{
                             color: $color-4;
+                            font-size: 25px;
                     }
                     .link{
                         color: $color-2;
+                        font-size: 25px;
                         :hover{
                             color: $color-4;
                             transition-duration: 300ms;
@@ -193,8 +189,6 @@
                     .btnMenu{
                         background-color: transparent;
                         color: $color-2;
-                        font-size: 25px;
-                        z-index: 2;
                         border: none;
                         animation: btnMenuOpen 500ms;
                         animation-fill-mode: forwards;
@@ -210,7 +204,7 @@
 }
 
 .bisMenuOpen {
-    width: 90%;
+    width: 100%;
     max-width: 500px;
     height: 49px;
     margin: auto;
@@ -310,8 +304,8 @@
             }
     }
     .bisMenuOpen {
-        width: 80%;
-        max-width: 350px;
+        width: 90%;
+        max-width: 650px;
         height: 40px;
         margin: auto;
         margin-top: 1px;

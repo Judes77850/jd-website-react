@@ -520,7 +520,7 @@ footer #socialBox i {
 }
 .menuBox {
   width: 80%;
-  max-width: 500px;
+  max-width: 450px;
   height: 49px;
   margin: auto;
   margin-top: 10px;
@@ -543,21 +543,17 @@ footer #socialBox i {
   background-color: transparent;
 }
 .menuBox .box .btn .menuneonlogoBox {
-  width: 80%;
-  max-width: 500px;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: transparent;
-  border-radius: 25px;
-}
-.menuBox .box .btn .menuneonlogoBox .menuneonlogoclose {
-  display: none;
 }
 .menuBox .box .btn .menuneonlogoBox .menuneonlogo {
   width: 100%;
   max-width: 400px;
-  height: 49px;
+  height: 100%;
   display: flex;
   justify-content: space-around;
   background-color: transparent;
@@ -582,7 +578,6 @@ footer #socialBox i {
   background-color: transparent;
   color: rgb(247, 247, 247);
   font-size: 25px;
-  z-index: 2;
   border: none;
   -webkit-animation: btnMenuOpen 500ms;
           animation: btnMenuOpen 500ms;
@@ -597,7 +592,7 @@ footer #socialBox i {
 
 .menuBoxFixed {
   width: 80%;
-  max-width: 350px;
+  max-width: 420px;
   height: 49px;
   margin: auto;
   margin-top: 10px;
@@ -620,13 +615,11 @@ footer #socialBox i {
   background-color: transparent;
 }
 .menuBoxFixed .box .btn .menuneonlogoBox {
-  width: 80%;
-  max-width: 500px;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: center;
   background-color: transparent;
-  border-radius: 25px;
 }
 .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogoclose {
   display: none;
@@ -642,12 +635,15 @@ footer #socialBox i {
   transition-duration: 300ms;
   -webkit-animation: bisMenuOpen 2000ms forwards;
           animation: bisMenuOpen 2000ms forwards;
+  font-size: 25px;
 }
 .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .linkActive {
   color: rgb(210, 143, 94);
+  font-size: 25px;
 }
 .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .link {
   color: rgb(247, 247, 247);
+  font-size: 25px;
 }
 .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .link :hover {
   color: rgb(210, 143, 94);
@@ -656,8 +652,6 @@ footer #socialBox i {
 .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .btnMenu {
   background-color: transparent;
   color: rgb(247, 247, 247);
-  font-size: 25px;
-  z-index: 2;
   border: none;
   -webkit-animation: btnMenuOpen 500ms;
           animation: btnMenuOpen 500ms;
@@ -671,7 +665,7 @@ footer #socialBox i {
 }
 
 .bisMenuOpen {
-  width: 90%;
+  width: 100%;
   max-width: 500px;
   height: 49px;
   margin: auto;
@@ -779,8 +773,8 @@ footer #socialBox i {
     font-size: 20px;
   }
   .bisMenuOpen {
-    width: 80%;
-    max-width: 350px;
+    width: 90%;
+    max-width: 650px;
     height: 40px;
     margin: auto;
     margin-top: 1px;
@@ -1038,19 +1032,10 @@ footer #socialBox i {
   background-attachment: fixed;
 }
 
-@media only screen and (max-width: 1580px) {
-  .application {
-    background-size: 100%;
-  }
-}
-@media only screen and (max-width: 1280px) {
-  .application {
-    background-size: 100%;
-  }
-}
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 800px) {
   .application {
     background-size: 200%;
+    background-attachment: fixed;
   }
 }
 .formBox {
@@ -1559,7 +1544,7 @@ footer #socialBox i {
     text-align: center;
     margin: auto;
     font-family: "montserrat";
-    font-size: 35px;
+    font-size: 25px;
     padding: 25px 0px 0px 0px;
     margin-bottom: 30px;
   }
@@ -1574,7 +1559,7 @@ footer #socialBox i {
     border-bottom: 2px solid darkgray;
   }
   .Parcours .ParcoursBox .card h3 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .Parcours .ParcoursBox .card p {
     font-size: 16px;
@@ -1583,7 +1568,7 @@ footer #socialBox i {
   }
   .Parcours .ParcoursBox .card img {
     margin: auto;
-    height: 40px;
+    height: 30px;
   }
   .Parcours .ParcoursBox .card a {
     margin: 40px 10px 40px 10px;
@@ -1617,7 +1602,7 @@ footer #socialBox i {
     text-align: center;
     margin: auto;
     font-family: "montserrat";
-    font-size: 30px;
+    font-size: 25px;
     padding: 25px 0px 0px 0px;
     margin-bottom: 30px;
   }

@@ -217,7 +217,7 @@
                 text-align: center;
                 margin: auto;
                 font-family: 'montserrat';
-                font-size: 35px;
+                font-size: 25px;
                 padding: 25px 0px 0px 0px;
                 margin-bottom: 30px;
             }
@@ -231,7 +231,7 @@
                 align-items: center;
                 border-bottom: 2px solid darkgray;
                 h3{
-                    font-size: 25px;
+                    font-size: 20px;
                 }
                 p{
                     font-size: 16px;
@@ -240,7 +240,7 @@
                 }
                 img{
                     margin: auto;
-                    height: 40px;
+                    height: 30px;
                 }
                 a{
                     @include mixinButtonGold;
@@ -263,7 +263,7 @@
                 text-align: center;
                 margin: auto;
                 font-family: 'montserrat';
-                font-size: 30px;
+                font-size: 25px;
                 padding: 25px 0px 0px 0px;
                 margin-bottom: 30px;
             }

@@ -144,10 +144,14 @@
 }
 
 @media only screen and (max-width: 800px) {
+    
     .projetContent{
-        padding-bottom: 40px;
-        width: 90%;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 95%;
         margin-top: 3;
+        border: none;
         img{
             width: 50%;
             animation: onPageContent 500ms 200ms forwards;

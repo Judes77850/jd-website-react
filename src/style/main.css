@@ -926,7 +926,7 @@ footer #socialBox i {
   align-items: center;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.8);
-  border: solid black 5px;
+  border: solid 5px black;
   border-radius: 10px;
   -webkit-animation: lastProd 1000ms ease-in forwards;
           animation: lastProd 1000ms ease-in forwards;
@@ -986,7 +986,10 @@ footer #socialBox i {
     font-family: "montserrat";
   }
   .presentation .lastReal .contentPart {
-    width: 90%;
+    padding-bottom: 20px;
+    width: 97%;
+    border: none;
+    box-shadow: 1px 1px 3px rgb(141, 141, 141);
   }
   .presentation .lastReal .contentPart .titlePart {
     margin-top: 0px;
@@ -1006,8 +1009,8 @@ footer #socialBox i {
             animation: lastProd 800ms ease-in;
   }
   .presentation .lastReal .contentPart .lastprodMini {
-    width: 30%;
-    margin: 30px;
+    width: 45%;
+    margin: 0px;
   }
   .presentation .lastReal .contentPart .lastprodMini img {
     width: 100%;
@@ -1025,17 +1028,14 @@ footer #socialBox i {
   justify-content: space-between;
   padding: 0;
   margin: -8px;
-  background-image: url(../img/background2.jpg);
-  background-position-x: 0%;
-  background-position-y: 40%;
-  background-size: 100%;
+  background: url(../img/background2.jpg);
+  background-size: cover;
   background-attachment: fixed;
 }
 
 @media only screen and (max-width: 800px) {
   .application {
-    background-size: 200%;
-    background-attachment: fixed;
+    background: white;
   }
 }
 .formBox {
@@ -1182,17 +1182,18 @@ footer #socialBox i {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 98%;
     height: auto;
     max-width: 1200px;
     margin: auto;
     margin-top: 30px;
     padding-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: solid black 5px;
+    border: none;
     opacity: 0;
     -webkit-animation: onPageContent 500ms 200ms forwards;
             animation: onPageContent 500ms 200ms forwards;
+    background: url(../img/background2.jpg);
+    background-size: cover;
   }
   .formBox #contact-form h2 {
     font-family: montserrat;
@@ -1201,7 +1202,7 @@ footer #socialBox i {
     padding-top: 25;
     border-radius: 10px;
     padding: 0px;
-    color: black;
+    color: white;
     margin-bottom: 20px;
     opacity: 0;
     -webkit-animation: onPageContent 500ms 200ms forwards;
@@ -1222,7 +1223,7 @@ footer #socialBox i {
             animation: onPageContent 500ms 200ms forwards;
   }
   .formBox #contact-form label {
-    color: rgb(86, 120, 96);
+    color: rgb(210, 143, 94);
     font-family: "raleway";
     font-size: 18px;
     margin: 10px 0px 10px 0px;
@@ -1243,16 +1244,15 @@ footer #socialBox i {
             animation: onPageContent 500ms 200ms forwards;
   }
   .formBox #contact-form .send {
-    margin: 20px 5px 20px 5px;
+    margin: 30px 10px 30px 10px;
     font-size: 15px;
     color: white;
     text-decoration: none;
     border: none;
-    background: rgb(86, 120, 96);
+    background: linear-gradient(130deg, rgb(209, 143, 94), rgb(190, 128, 40) 70.71%);
     box-shadow: 1px 1px 8px rgb(141, 141, 141);
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
-    background: linear-gradient(130deg, rgb(39, 70, 66), rgb(11, 13, 10) 70.71%);
     cursor: pointer;
     transition: 300ms;
   }
@@ -1470,9 +1470,11 @@ footer #socialBox i {
 }
 @media only screen and (max-width: 800px) {
   .ParcoursMini {
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 90%;
+    background: url(../img/background2.jpg);
+    background-size: cover;
+    width: 98%;
     margin-top: 30px;
+    border: none;
   }
   .ParcoursMini h2 {
     width: 100%;
@@ -1481,6 +1483,7 @@ footer #socialBox i {
     font-family: "montserrat";
     font-size: 25px;
     line-height: 35px;
+    color: white;
   }
   .ParcoursMini p {
     width: 90%;
@@ -1488,22 +1491,22 @@ footer #socialBox i {
     font-size: 16px;
     line-height: 25px;
     margin-bottom: 30px;
+    color: white;
   }
   .ParcoursMini .toParcours {
     margin-top: 20px;
     height: 50px;
   }
   .ParcoursMini .toParcours a {
-    margin: 20px 5px 20px 5px;
+    margin: 30px 10px 30px 10px;
     font-size: 15px;
     color: white;
     text-decoration: none;
     border: none;
-    background: rgb(86, 120, 96);
+    background: linear-gradient(130deg, rgb(209, 143, 94), rgb(190, 128, 40) 70.71%);
     box-shadow: 1px 1px 8px rgb(141, 141, 141);
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
-    background: linear-gradient(130deg, rgb(39, 70, 66), rgb(11, 13, 10) 70.71%);
     cursor: pointer;
     transition: 300ms;
   }
@@ -1514,7 +1517,7 @@ footer #socialBox i {
     transform: scale(1.04);
   }
   .Parcours {
-    width: 100%;
+    width: 97%;
     max-width: 1200px;
     margin: auto;
     margin-top: 30px;
@@ -1522,6 +1525,8 @@ footer #socialBox i {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: url(../img/background2.jpg);
+    border-radius: 10px;
   }
   .Parcours .ParcoursBox {
     display: flex;
@@ -1532,7 +1537,7 @@ footer #socialBox i {
     margin: auto;
     margin-top: 30px;
     margin-bottom: 40px;
-    width: 90%;
+    width: 95%;
     max-width: 1200px;
     background-color: rgba(255, 255, 255, 0.8);
     border: solid black 5px;
@@ -1587,7 +1592,7 @@ footer #socialBox i {
     transform: scale(1.04);
   }
   .Parcours .FormBox {
-    width: 90%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -1657,7 +1662,7 @@ footer #socialBox i {
 }
 .content .lastProdBox .contenu .lastprod {
   border-radius: 10px;
-  height: 450px;
+  height: 350px;
   transition-duration: 200ms;
   -webkit-animation: lastprod 500ms;
           animation: lastprod 500ms;
@@ -1691,10 +1696,11 @@ footer #socialBox i {
 .content .lastProdBox .contenu .lastprod .textpart {
   color: rgb(93, 93, 93);
   font-weight: 600;
-  height: 100px;
-  padding: 30px;
+  height: 60px;
+  padding: 20px;
   padding-bottom: 50px;
   display: flex;
+  margin: auto;
   border-radius: 0px 0px 10px 10px;
   flex-direction: column;
   justify-content: center;
@@ -1702,7 +1708,7 @@ footer #socialBox i {
   font-family: "montserrat";
 }
 .content .lastProdBox .contenu .lastprod .textpart p {
-  text-align: left;
+  text-align: center;
 }
 .content .lastProdBox .contenu .lastprod .moreOpt {
   width: 90%;
@@ -1711,19 +1717,20 @@ footer #socialBox i {
   margin-top: -30px;
 }
 .content .lastProdBox .contenu .lastprod .moreOpt .gitLink {
-  margin: 40px 10px 40px 10px;
-  font-size: 20px;
+  margin: 30px 10px 30px 10px;
+  font-size: 15px;
   color: white;
   text-decoration: none;
   border: none;
   background: linear-gradient(130deg, rgb(209, 143, 94), rgb(190, 128, 40) 70.71%);
   box-shadow: 1px 1px 8px rgb(141, 141, 141);
-  padding: 10px 10px 10px 10px;
+  padding: 5px 10px 5px 10px;
   border-radius: 5px;
   cursor: pointer;
   transition: 300ms;
   font-family: "montserrat";
-  margin: 10px -40px -10px 0px;
+  margin: 10px -50px -20px 0px;
+  height: 22px;
 }
 .content .lastProdBox .contenu .lastprod .moreOpt .gitLink:hover {
   transform: scale(1.04);
@@ -1785,7 +1792,7 @@ footer #socialBox i {
 
 @media only screen and (max-width: 800px) {
   .content {
-    width: 95%;
+    width: 98%;
     padding: 0;
     margin: auto;
     margin-top: 40px;
@@ -1798,7 +1805,8 @@ footer #socialBox i {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    background: transparent;
+    background: url(../img/background2.jpg);
+    background-size: cover;
     border: none;
   }
   .content .lastProdBox .titlePart {
@@ -1818,7 +1826,7 @@ footer #socialBox i {
     min-width: 350px;
   }
   .content .lastProdBox .contenu .lastprod {
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
     transition-duration: 200ms;
     -webkit-animation: lastprod 500ms;
@@ -2023,9 +2031,12 @@ footer #socialBox i {
 }
 @media only screen and (max-width: 800px) {
   .projetContent {
-    padding-bottom: 40px;
-    width: 90%;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 95%;
     margin-top: 3;
+    border: none;
   }
   .projetContent img {
     width: 50%;
@@ -2146,6 +2157,50 @@ footer #socialBox i {
   box-shadow: 2px 2px 6px rgb(141, 141, 141);
 }
 
+@media only screen and (max-width: 800px) {
+  .erreur404Box {
+    width: 98%;
+    background: url(../img/background2.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    max-width: 1200px;
+    min-height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .erreur404Box h2 {
+    color: rgb(210, 143, 94);
+    font-size: 60px;
+    font-family: roboting;
+    margin-top: 50px;
+  }
+  .erreur404Box .backBox {
+    height: 100px;
+    display: flex;
+    margin-top: 0px;
+  }
+  .erreur404Box .backBox a {
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: 16px;
+    margin: auto;
+    background: linear-gradient(130deg, rgb(209, 143, 94), rgb(190, 128, 40) 70.71%);
+    border-radius: 10px;
+    transition-duration: 200ms;
+    padding: 15px;
+    box-shadow: 1px 1px 3px rgb(85, 85, 85);
+  }
+  .erreur404Box .backBox a:hover {
+    transform: scale(1.03);
+    box-shadow: 2px 2px 6px rgb(141, 141, 141);
+  }
+}
 @font-face {
   font-family: roboting;
   src: url(../fonts/Fasthand/Fasthand-Regular.ttf);

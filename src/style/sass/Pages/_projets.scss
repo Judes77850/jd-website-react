@@ -33,7 +33,7 @@
             min-width: 350px;
             .lastprod {
                 border-radius: 10px;
-                height: 450px;
+                height: 350px;
                 transition-duration: 200ms;
                 animation: lastprod 500ms;
                 animation-fill-mode: forwards;
@@ -64,17 +64,18 @@
                 .textpart {
                     color: $color-1;
                     font-weight: 600;
-                    height: 100px;
-                    padding: 30px;
+                    height: 60px;
+                    padding: 20px;
                     padding-bottom: 50px;
                     display: flex;
+                    margin: auto;
                     border-radius: 0px 0px 10px 10px;
                     flex-direction: column;
                     justify-content: center;
                     align-items: flex-start;
                     font-family: 'montserrat';
                     p{
-                        text-align: left;
+                        text-align: center;
                     }
                 }
                 .moreOpt{
@@ -83,9 +84,10 @@
                     justify-content: space-between;
                     margin-top: -30px;
                     .gitLink{
-                        @include mixinButtonGold;
+                        @include mixinButtonGoldMini;
                         font-family: 'montserrat';
-                        margin: 10px -40px -10px 0px;
+                        margin: 10px -50px -20px 0px;
+                        height: 22px;
                     }
                     .fa-plus{
                         color: $color-2;
@@ -136,7 +138,7 @@
 
 @media only screen and (max-width: 800px) {
     .content{
-        width: 95%;
+        width: 98%;
         padding: 0;
         margin: auto;
         margin-top: 40px;
@@ -148,7 +150,8 @@
             flex-direction: column;
             justify-content: center;
             flex-wrap: wrap;
-            background: transparent;
+            background: url(../img/background2.jpg);
+            background-size: cover;
             border: none;
             .titlePart{
                 width: 100%;
@@ -166,7 +169,7 @@
                 margin: auto;
                 min-width: 350px;
                 .lastprod {
-                    width: 80%;
+                    width: 90%;
                     border-radius: 10px;
                     transition-duration: 200ms;
                     animation: lastprod 500ms;

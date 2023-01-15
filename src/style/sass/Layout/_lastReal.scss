@@ -7,20 +7,6 @@
         width: 90%;
         margin: auto;
         max-width: 1200px;
-        .titlePart{
-            width: 100%;
-            h2{
-                text-align: center;
-                font-family: "montserrat";
-                font-weight: 900;
-                font-size: 35px;
-                border-radius: 10px;
-                padding: 0px;
-                color: black;
-                margin-bottom: 0px;
-                animation: lastProd 800ms ease-in;
-            }
-        }
         .contentPart{
             display: flex;
             flex-direction: row;
@@ -32,6 +18,20 @@
             border: solid 5px black;
             border-radius: 10px;
             animation: lastProd 1000ms ease-in forwards;
+            .titlePart{
+                width: 100%;
+                h2{
+                    text-align: center;
+                    font-family: "montserrat";
+                    font-weight: 400;
+                    font-size: 35px;
+                    border-radius: 10px;
+                    padding: 0px;
+                    color: black;
+                    margin-bottom: 0px;
+                    animation: lastProd 800ms ease-in;
+                }
+            }
             .lastprodMini{
                 padding: 0px;
                 width: 26%;
@@ -88,8 +88,8 @@
                     width: 100%;
                     h2{
                         text-align: center;
-                        font-family: montserrat;
-                        font-weight: 900;
+                        font-family: "montserrat";
+                        font-weight: 400;
                         font-size: 25px;
                         border-radius: 10px;
                         padding-top: 25px;

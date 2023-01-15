@@ -4,7 +4,6 @@
     max-width: 1200px;
     margin: auto;
     margin-top: 60px;
-    
     .lastProdBox {
         margin: auto;
         width: 100%;
@@ -23,6 +22,7 @@
                 text-align: center;
                 margin: auto;
                 font-family: "montserrat";
+                font-weight: 400;
                 font-size: 35px;
                 padding: 25px 0px 0px 0px;
             }
@@ -74,6 +74,7 @@
                     justify-content: center;
                     align-items: flex-start;
                     font-family: 'montserrat';
+                    font-weight: 400;
                     p{
                         text-align: center;
                     }

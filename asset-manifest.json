@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jd-website-react/static/css/main.ae1fd5bb.css",
+    "main.css": "/jd-website-react/static/css/main.63ff8d6d.css",
     "main.js": "/jd-website-react/static/js/main.688ff924.js",
     "static/media/background2.jpg": "/jd-website-react/static/media/background2.838b6b33c247689b85f2.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/jd-website-react/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
@@ -11,11 +11,11 @@
     "static/media/audi.webp": "/jd-website-react/static/media/audi.9b7bc37c47d62e9c0a47.webp",
     "static/media/lexus.webp": "/jd-website-react/static/media/lexus.5b07f198be3cabdb584c.webp",
     "index.html": "/jd-website-react/index.html",
-    "main.ae1fd5bb.css.map": "/jd-website-react/static/css/main.ae1fd5bb.css.map",
+    "main.63ff8d6d.css.map": "/jd-website-react/static/css/main.63ff8d6d.css.map",
     "main.688ff924.js.map": "/jd-website-react/static/js/main.688ff924.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae1fd5bb.css",
+    "static/css/main.63ff8d6d.css",
     "static/js/main.688ff924.js"
   ]
 }

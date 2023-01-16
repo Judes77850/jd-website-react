@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jd-website-react/static/css/main.924dd08e.css",
-    "main.js": "/jd-website-react/static/js/main.483bddd9.js",
+    "main.js": "/jd-website-react/static/js/main.36cdea51.js",
     "static/media/background2.jpg": "/jd-website-react/static/media/background2.838b6b33c247689b85f2.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/jd-website-react/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/Fasthand-Regular.ttf": "/jd-website-react/static/media/Fasthand-Regular.83ad7a92c1580f6e78b8.ttf",
@@ -12,10 +12,10 @@
     "static/media/lexus.webp": "/jd-website-react/static/media/lexus.5b07f198be3cabdb584c.webp",
     "index.html": "/jd-website-react/index.html",
     "main.924dd08e.css.map": "/jd-website-react/static/css/main.924dd08e.css.map",
-    "main.483bddd9.js.map": "/jd-website-react/static/js/main.483bddd9.js.map"
+    "main.36cdea51.js.map": "/jd-website-react/static/js/main.36cdea51.js.map"
   },
   "entrypoints": [
     "static/css/main.924dd08e.css",
-    "static/js/main.483bddd9.js"
+    "static/js/main.36cdea51.js"
   ]
 }

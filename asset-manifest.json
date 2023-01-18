@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/jd-website-react/static/css/main.924dd08e.css",
-    "main.js": "/jd-website-react/static/js/main.36cdea51.js",
-    "static/media/background2.jpg": "/jd-website-react/static/media/background2.838b6b33c247689b85f2.jpg",
-    "static/media/Montserrat-VariableFont_wght.ttf": "/jd-website-react/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
-    "static/media/Fasthand-Regular.ttf": "/jd-website-react/static/media/Fasthand-Regular.83ad7a92c1580f6e78b8.ttf",
-    "static/media/Raleway-Regular.ttf": "/jd-website-react/static/media/Raleway-Regular.3927fa2a37e6f7f4c7c0.ttf",
-    "static/media/honda.webp": "/jd-website-react/static/media/honda.8726a9cb25a39697b5f0.webp",
-    "static/media/volkswagen.webp": "/jd-website-react/static/media/volkswagen.56cad0ed1ff41575a8a1.webp",
-    "static/media/audi.webp": "/jd-website-react/static/media/audi.9b7bc37c47d62e9c0a47.webp",
-    "static/media/lexus.webp": "/jd-website-react/static/media/lexus.5b07f198be3cabdb584c.webp",
-    "index.html": "/jd-website-react/index.html",
-    "main.924dd08e.css.map": "/jd-website-react/static/css/main.924dd08e.css.map",
-    "main.36cdea51.js.map": "/jd-website-react/static/js/main.36cdea51.js.map"
+    "main.css": "/static/css/main.06dfdb4a.css",
+    "main.js": "/static/js/main.1f8f0d48.js",
+    "static/media/background2.jpg": "/static/media/background2.838b6b33c247689b85f2.jpg",
+    "static/media/background.jpg": "/static/media/background.d9d79e5b786fcb716b5f.jpg",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
+    "static/media/Fasthand-Regular.ttf": "/static/media/Fasthand-Regular.83ad7a92c1580f6e78b8.ttf",
+    "static/media/Raleway-Regular.ttf": "/static/media/Raleway-Regular.3927fa2a37e6f7f4c7c0.ttf",
+    "static/media/honda.webp": "/static/media/honda.8726a9cb25a39697b5f0.webp",
+    "static/media/volkswagen.webp": "/static/media/volkswagen.56cad0ed1ff41575a8a1.webp",
+    "static/media/audi.webp": "/static/media/audi.9b7bc37c47d62e9c0a47.webp",
+    "static/media/lexus.webp": "/static/media/lexus.5b07f198be3cabdb584c.webp",
+    "index.html": "/index.html",
+    "main.06dfdb4a.css.map": "/static/css/main.06dfdb4a.css.map",
+    "main.1f8f0d48.js.map": "/static/js/main.1f8f0d48.js.map"
   },
   "entrypoints": [
-    "static/css/main.924dd08e.css",
-    "static/js/main.36cdea51.js"
+    "static/css/main.06dfdb4a.css",
+    "static/js/main.1f8f0d48.js"
   ]
 }

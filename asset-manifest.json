@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.06dfdb4a.css",
-    "main.js": "/static/js/main.1f8f0d48.js",
-    "static/media/background2.jpg": "/static/media/background2.838b6b33c247689b85f2.jpg",
-    "static/media/background.jpg": "/static/media/background.d9d79e5b786fcb716b5f.jpg",
+    "main.css": "/static/css/main.a0b3cf9c.css",
+    "main.js": "/static/js/main.2895de90.js",
+    "static/media/background.webp": "/static/media/background.a8c1f33877531c82e20d.webp",
     "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/Fasthand-Regular.ttf": "/static/media/Fasthand-Regular.83ad7a92c1580f6e78b8.ttf",
     "static/media/Raleway-Regular.ttf": "/static/media/Raleway-Regular.3927fa2a37e6f7f4c7c0.ttf",
@@ -12,11 +11,11 @@
     "static/media/audi.webp": "/static/media/audi.9b7bc37c47d62e9c0a47.webp",
     "static/media/lexus.webp": "/static/media/lexus.5b07f198be3cabdb584c.webp",
     "index.html": "/index.html",
-    "main.06dfdb4a.css.map": "/static/css/main.06dfdb4a.css.map",
-    "main.1f8f0d48.js.map": "/static/js/main.1f8f0d48.js.map"
+    "main.a0b3cf9c.css.map": "/static/css/main.a0b3cf9c.css.map",
+    "main.2895de90.js.map": "/static/js/main.2895de90.js.map"
   },
   "entrypoints": [
-    "static/css/main.06dfdb4a.css",
-    "static/js/main.1f8f0d48.js"
+    "static/css/main.a0b3cf9c.css",
+    "static/js/main.2895de90.js"
   ]
 }

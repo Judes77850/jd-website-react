@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0b3cf9c.css",
-    "main.js": "/static/js/main.2895de90.js",
-    "static/media/background.webp": "/static/media/background.a8c1f33877531c82e20d.webp",
-    "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
-    "static/media/Fasthand-Regular.ttf": "/static/media/Fasthand-Regular.83ad7a92c1580f6e78b8.ttf",
-    "static/media/Raleway-Regular.ttf": "/static/media/Raleway-Regular.3927fa2a37e6f7f4c7c0.ttf",
-    "static/media/honda.webp": "/static/media/honda.8726a9cb25a39697b5f0.webp",
-    "static/media/volkswagen.webp": "/static/media/volkswagen.56cad0ed1ff41575a8a1.webp",
-    "static/media/audi.webp": "/static/media/audi.9b7bc37c47d62e9c0a47.webp",
-    "static/media/lexus.webp": "/static/media/lexus.5b07f198be3cabdb584c.webp",
-    "index.html": "/index.html",
-    "main.a0b3cf9c.css.map": "/static/css/main.a0b3cf9c.css.map",
-    "main.2895de90.js.map": "/static/js/main.2895de90.js.map"
+    "main.css": "/jd-website-react/static/css/main.0bf9d85f.css",
+    "main.js": "/jd-website-react/static/js/main.dbc700dc.js",
+    "static/media/background.webp": "/jd-website-react/static/media/background.a8c1f33877531c82e20d.webp",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/jd-website-react/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
+    "static/media/Fasthand-Regular.ttf": "/jd-website-react/static/media/Fasthand-Regular.83ad7a92c1580f6e78b8.ttf",
+    "static/media/Raleway-Regular.ttf": "/jd-website-react/static/media/Raleway-Regular.3927fa2a37e6f7f4c7c0.ttf",
+    "static/media/honda.webp": "/jd-website-react/static/media/honda.8726a9cb25a39697b5f0.webp",
+    "static/media/volkswagen.webp": "/jd-website-react/static/media/volkswagen.56cad0ed1ff41575a8a1.webp",
+    "static/media/audi.webp": "/jd-website-react/static/media/audi.9b7bc37c47d62e9c0a47.webp",
+    "static/media/lexus.webp": "/jd-website-react/static/media/lexus.5b07f198be3cabdb584c.webp",
+    "index.html": "/jd-website-react/index.html",
+    "main.0bf9d85f.css.map": "/jd-website-react/static/css/main.0bf9d85f.css.map",
+    "main.dbc700dc.js.map": "/jd-website-react/static/js/main.dbc700dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0b3cf9c.css",
-    "static/js/main.2895de90.js"
+    "static/css/main.0bf9d85f.css",
+    "static/js/main.dbc700dc.js"
   ]
 }

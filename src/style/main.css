@@ -11,10 +11,10 @@ header {
 }
 header .neonlogo {
   background-color: black;
-  padding: 10px 0px 30px 0px;
+  padding: 10px 0px 10px 0px;
   width: 100%;
   margin: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 header .neonlogo a {
   text-decoration: none;
@@ -24,259 +24,46 @@ header .neonlogo a h1 {
   padding-top: 0px;
   margin: auto;
   margin-top: 0px;
-  color: rgb(210, 143, 94);
-  text-shadow: 1px 1px 10px grey;
+  color: rgb(211, 163, 126);
   font-family: "roboting";
   font-size: 50px;
-  -webkit-animation: h1 1500ms;
-          animation: h1 1500ms;
-  -webkit-animation-iteration-count: 2;
-          animation-iteration-count: 2;
 }
 header .neonlogo a .acch1 {
   margin: auto;
   color: rgb(247, 247, 247);
   font-family: "Courier New", Courier, monospace;
-  text-shadow: 2px 2px 10px grey;
   font-size: 18px;
   margin-bottom: 10px;
-  -webkit-animation: acch1 1500ms;
-          animation: acch1 1500ms;
-  -webkit-animation-iteration-count: 2;
-          animation-iteration-count: 2;
-  -webkit-animation-delay: 233ms;
-          animation-delay: 233ms;
 }
 
-@-webkit-keyframes h1 {
-  0% {
-    color: rgb(210, 143, 94);
-  }
-  5% {
-    color: rgb(93, 93, 93);
-  }
-  6% {
-    color: rgb(210, 143, 94);
-  }
-  7% {
-    color: rgb(93, 93, 93);
-  }
-  14% {
-    color: rgb(210, 143, 94);
-  }
-  15% {
-    color: rgb(93, 93, 93);
-  }
-  19% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  20% {
-    color: rgb(210, 143, 94);
-  }
-  21% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  59% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  60% {
-    color: rgb(210, 143, 94);
-  }
-  61% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  97% {
-    color: rgb(210, 143, 94);
-  }
-  100% {
-    color: rgb(210, 143, 94);
-  }
-}
-
-@keyframes h1 {
-  0% {
-    color: rgb(210, 143, 94);
-  }
-  5% {
-    color: rgb(93, 93, 93);
-  }
-  6% {
-    color: rgb(210, 143, 94);
-  }
-  7% {
-    color: rgb(93, 93, 93);
-  }
-  14% {
-    color: rgb(210, 143, 94);
-  }
-  15% {
-    color: rgb(93, 93, 93);
-  }
-  19% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  20% {
-    color: rgb(210, 143, 94);
-  }
-  21% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  59% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  60% {
-    color: rgb(210, 143, 94);
-  }
-  61% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  97% {
-    color: rgb(210, 143, 94);
-  }
-  100% {
-    color: rgb(210, 143, 94);
-  }
-}
-@-webkit-keyframes acch1 {
-  0% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  5% {
-    color: rgb(247, 247, 247);
-  }
-  6% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  7% {
-    color: rgb(247, 247, 247);
-  }
-  14% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  15% {
-    color: rgb(247, 247, 247);
-  }
-  19% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  20% {
-    color: rgb(247, 247, 247);
-  }
-  21% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  59% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  60% {
-    color: rgb(247, 247, 247);
-  }
-  61% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  97% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  100% {
-    color: rgb(247, 247, 247);
-  }
-}
-@keyframes acch1 {
-  0% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  5% {
-    color: rgb(247, 247, 247);
-  }
-  6% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  7% {
-    color: rgb(247, 247, 247);
-  }
-  14% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  15% {
-    color: rgb(247, 247, 247);
-  }
-  19% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  20% {
-    color: rgb(247, 247, 247);
-  }
-  21% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  59% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  60% {
-    color: rgb(247, 247, 247);
-  }
-  61% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  97% {
-    color: rgb(93, 93, 93);
-    text-shadow: none;
-  }
-  100% {
-    color: rgb(247, 247, 247);
-  }
-}
 @-webkit-keyframes menu {
   0% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   5% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   6% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   7% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   14% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   15% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   19% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   20% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   21% {
     color: rgb(86, 120, 96);
@@ -287,47 +74,48 @@ header .neonlogo a .acch1 {
     text-shadow: none;
   }
   60% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   61% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   97% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   100% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
 }
+
 @keyframes menu {
   0% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   5% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   6% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   7% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   14% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   15% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   19% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   20% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   21% {
     color: rgb(86, 120, 96);
@@ -338,17 +126,17 @@ header .neonlogo a .acch1 {
     text-shadow: none;
   }
   60% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   61% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   97% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   100% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
 }
 #neonlogobox {
@@ -386,12 +174,12 @@ footer {
   width: 100%;
   height: 180px;
   background-color: black;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 footer h4 {
-  color: rgb(210, 143, 94);
+  color: rgb(211, 163, 126);
   font-family: roboting;
   font-size: 30px;
   margin: 10px;
@@ -420,7 +208,7 @@ footer #socialBox a :visited {
 footer #socialBox a :hover {
   transform: scale(1.15) rotate(0.05turn);
   transition: 300ms;
-  color: rgb(210, 143, 94);
+  color: rgb(60, 155, 228);
 }
 footer #socialBox i {
   transition: 300ms;
@@ -429,14 +217,15 @@ footer #socialBox i {
 @media only screen and (max-width: 800px) {
   footer {
     width: 100%;
-    height: auto;
+    height: 150px;
     background-color: black;
     left: 0;
     bottom: -1px;
     text-align: center;
+    margin-top: 0px;
   }
   footer h4 {
-    color: rgb(210, 143, 94);
+    color: rgb(211, 163, 126);
     font-family: roboting;
     font-size: 22px;
     margin: 10px;
@@ -448,7 +237,7 @@ footer #socialBox i {
   footer #socialBox {
     margin: auto;
     font-size: 40px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
   }
   footer #socialBox a {
     color: rgb(93, 93, 93);
@@ -461,7 +250,7 @@ footer #socialBox i {
   footer #socialBox a :hover {
     transform: scale(1.15) rotate(0.05turn);
     transition: 300ms;
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   footer #socialBox i {
     transition: 300ms;
@@ -473,28 +262,28 @@ footer #socialBox i {
     text-shadow: none;
   }
   5% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   6% {
     color: rgb(93, 93, 93);
     text-shadow: none;
   }
   7% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   14% {
     color: rgb(93, 93, 93);
     text-shadow: none;
   }
   15% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   19% {
     color: rgb(93, 93, 93);
     text-shadow: none;
   }
   20% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   21% {
     color: rgb(93, 93, 93);
@@ -505,25 +294,39 @@ footer #socialBox i {
     text-shadow: none;
   }
   60% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   61% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
   97% {
     color: rgb(93, 93, 93);
     text-shadow: none;
   }
   100% {
-    color: rgb(210, 143, 94);
+    color: rgb(60, 155, 228);
   }
 }
-.menuBox {
+.MenuBoxToFix {
+  height: 50px;
+  width: 100%;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.MenuBoxToFix .toFixMenu {
+  width: 100%;
+  height: 0px;
+  position: relative;
+  opacity: 0;
+}
+.MenuBoxToFix .menuBox {
   width: 80%;
-  max-width: 450px;
-  height: 49px;
-  margin: auto;
-  margin-top: 10px;
+  max-width: 270px;
+  height: 39px;
+  margin-top: 0px;
   margin-bottom: 0px;
   justify-content: space-between;
   align-items: center;
@@ -531,18 +334,17 @@ footer #socialBox i {
   border-radius: 25px;
   display: flex;
   z-index: 1;
-  transition-duration: 300ms;
   position: relative;
 }
-.menuBox .box {
+.MenuBoxToFix .menuBox .box {
   width: 100%;
 }
-.menuBox .box .btn {
+.MenuBoxToFix .menuBox .box .btn {
   border: none;
   width: 100%;
   background-color: transparent;
 }
-.menuBox .box .btn .menuneonlogoBox {
+.MenuBoxToFix .menuBox .box .btn .menuneonlogoBox {
   width: 90%;
   margin: auto;
   display: flex;
@@ -550,81 +352,71 @@ footer #socialBox i {
   align-items: center;
   background-color: transparent;
 }
-.menuBox .box .btn .menuneonlogoBox .menuneonlogo {
+.MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo {
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
   height: 100%;
   display: flex;
   justify-content: space-around;
   background-color: transparent;
   align-items: center;
-  transition-duration: 300ms;
-  -webkit-animation: bisMenuOpen 2000ms forwards;
-          animation: bisMenuOpen 2000ms forwards;
 }
-.menuBox .box .btn .menuneonlogoBox .menuneonlogo .linkActive {
-  color: rgb(210, 143, 94);
+.MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .linkActive {
+  color: rgb(60, 155, 228);
   transition-duration: 300ms;
 }
-.menuBox .box .btn .menuneonlogoBox .link {
+.MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .link {
   color: rgb(247, 247, 247);
   transition-duration: 300ms;
 }
-.menuBox .box .btn .menuneonlogoBox .link :hover {
-  color: rgb(210, 143, 94);
+.MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .link :hover {
+  color: rgb(60, 155, 228);
   transition-duration: 300ms;
 }
-.menuBox .box .btn .menuneonlogoBox .btnMenu {
+.MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .btnMenu {
   background-color: transparent;
   color: rgb(247, 247, 247);
   font-size: 25px;
   border: none;
-  -webkit-animation: btnMenuOpen 500ms;
-          animation: btnMenuOpen 500ms;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
-.menuBox .box .btn .menuneonlogoBox .btnMenu :hover {
-  -webkit-animation: menu 500ms;
-          animation: menu 500ms;
-  color: rgb(210, 143, 94);
+.MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .btnMenu :hover {
+  color: rgb(60, 155, 228);
+  transition-duration: 300ms;
 }
-
-.menuBoxFixed {
+.MenuBoxToFix .menuBoxFixed {
   width: 80%;
-  max-width: 420px;
-  height: 49px;
+  max-width: 270px;
+  height: 39px;
   margin: auto;
-  margin-top: 10px;
+  margin-top: -270px;
   margin-bottom: 0px;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
   border-radius: 25px;
   display: flex;
   z-index: 1;
-  transition-duration: 300ms;
   position: fixed;
 }
-.menuBoxFixed .box {
+.MenuBoxToFix .menuBoxFixed .box {
   width: 100%;
 }
-.menuBoxFixed .box .btn {
+.MenuBoxToFix .menuBoxFixed .box .btn {
   border: none;
   width: 100%;
   background-color: transparent;
 }
-.menuBoxFixed .box .btn .menuneonlogoBox {
+.MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogoBox {
   width: 90%;
   margin: auto;
   display: flex;
   justify-content: center;
   background-color: transparent;
 }
-.menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogoclose {
+.MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogoclose {
   display: none;
 }
-.menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo {
+.MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo {
   width: 100%;
   max-width: 400px;
   height: 49px;
@@ -632,42 +424,34 @@ footer #socialBox i {
   justify-content: space-around;
   background-color: transparent;
   align-items: center;
-  transition-duration: 300ms;
-  -webkit-animation: bisMenuOpen 2000ms forwards;
-          animation: bisMenuOpen 2000ms forwards;
   font-size: 25px;
 }
-.menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .linkActive {
-  color: rgb(210, 143, 94);
+.MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .linkActive {
+  color: rgb(60, 155, 228);
   font-size: 25px;
 }
-.menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .link {
+.MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .link {
   color: rgb(247, 247, 247);
   font-size: 25px;
 }
-.menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .link :hover {
-  color: rgb(210, 143, 94);
+.MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .link :hover {
+  color: rgb(60, 155, 228);
   transition-duration: 300ms;
 }
-.menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .btnMenu {
+.MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .btnMenu {
   background-color: transparent;
   color: rgb(247, 247, 247);
   border: none;
-  -webkit-animation: btnMenuOpen 500ms;
-          animation: btnMenuOpen 500ms;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  font-size: 25px;
 }
-.menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .btnMenu :hover {
-  -webkit-animation: menu 500ms;
-          animation: menu 500ms;
-  color: rgb(210, 143, 94);
+.MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .btnMenu :hover {
+  color: rgb(60, 155, 228);
+  transition-duration: 300ms;
 }
-
-.bisMenuOpen {
+.MenuBoxToFix .bisMenuOpen {
   width: 100%;
-  max-width: 500px;
-  height: 49px;
+  max-width: 250px;
+  height: 39px;
   margin: auto;
   margin-top: 1px;
   margin-bottom: 1px;
@@ -678,19 +462,18 @@ footer #socialBox i {
   display: flex;
   align-items: center;
   z-index: 1;
-  transition-duration: 300ms;
 }
-.bisMenuOpen span {
+.MenuBoxToFix .bisMenuOpen span {
   width: 33%;
   list-style-type: none;
-  margin: 10px;
+  text-align: center;
+  margin: 0px;
   padding: 0px;
-  -webkit-animation: bisMenuOpen 2000ms forwards;
-          animation: bisMenuOpen 2000ms forwards;
 }
-.bisMenuOpen span .link {
+.MenuBoxToFix .bisMenuOpen span .link {
   font-family: "montserrat";
   text-decoration: none;
+  text-align: center;
   margin: auto;
   color: white;
   width: 100%;
@@ -698,31 +481,31 @@ footer #socialBox i {
   font-size: 20px;
   transition-duration: 300ms;
 }
-.bisMenuOpen span .link:hover {
-  color: rgb(210, 143, 94);
+.MenuBoxToFix .bisMenuOpen span .link:hover {
+  color: rgb(60, 155, 228);
   transition-duration: 300ms;
 }
-.bisMenuOpen span .linkActive {
+.MenuBoxToFix .bisMenuOpen span .linkActive {
   font-family: "montserrat";
   text-decoration: none;
   margin: auto;
-  color: rgb(210, 143, 94);
+  color: rgb(60, 155, 228);
   width: 100%;
   height: 100%;
   font-size: 20px;
   transition-duration: 300ms;
 }
-.bisMenuOpen span .linkActive:hover {
-  color: rgb(210, 143, 94);
+.MenuBoxToFix .bisMenuOpen span .linkActive:hover {
+  color: rgb(60, 155, 228);
   transition-duration: 300ms;
 }
-.bisMenuOpen span i {
+.MenuBoxToFix .bisMenuOpen span i {
   font-size: 30px;
   transition-duration: 300ms;
   color: white;
 }
-.bisMenuOpen span i:hover {
-  color: rgb(210, 143, 94);
+.MenuBoxToFix .bisMenuOpen span i:hover {
+  color: rgb(60, 155, 228);
   transition-duration: 300ms;
 }
 
@@ -744,164 +527,263 @@ footer #socialBox i {
   }
 }
 @media only screen and (max-width: 800px) {
-  .menuBox {
-    width: 70%;
-    height: 40px;
-  }
-  .menuBox .box {
+  .MenuBoxToFix {
+    height: 100px;
     width: 100%;
-  }
-  .menuBox .box .btn {
-    border: none;
-  }
-  .menuBox .box .btn .menuneonlogoBox {
-    width: 80%;
-  }
-  .menuBox .box .btn .menuneonlogoBox .menuneonlogoclose {
-    display: none;
-  }
-  .menuBox .box .btn .menuneonlogoBox .menuneonlogo {
-    height: 40px;
-  }
-  .menuBox .box .btn .menuneonlogoBox .menuneonlogo .linkActive {
-    font-size: 20px;
-  }
-  .menuBox .box .btn .menuneonlogoBox .link {
-    font-size: 20px;
-  }
-  .menuBox .box .btn .menuneonlogoBox .btnMenu {
-    font-size: 20px;
-  }
-  .bisMenuOpen {
-    width: 90%;
-    max-width: 650px;
-    height: 40px;
-    margin: auto;
-    margin-top: 1px;
-    margin-bottom: 1px;
+    margin-top: 10px;
+    margin-bottom: -40px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column-reverse;
+    justify-content: center;
     align-items: center;
     background-color: transparent;
-    border-radius: 25px;
-    z-index: 1;
-    transition-duration: 300ms;
   }
-  .bisMenuOpen span {
-    width: 33%;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    -webkit-animation: bisMenuOpen 2000ms forwards;
-            animation: bisMenuOpen 2000ms forwards;
+  .MenuBoxToFix .toFixMenu {
+    width: 100%;
+    height: 0px;
+    position: relative;
+    opacity: 0;
+    background-color: transparent;
   }
-  .bisMenuOpen span .link {
-    font-size: 16px;
-  }
-  .bisMenuOpen span .link:hover {
-    color: rgb(210, 143, 94);
-    transition-duration: 300ms;
-  }
-  .bisMenuOpen span .linkActive {
-    font-size: 16px;
-  }
-  .bisMenuOpen span .linkActive:hover {
-    color: rgb(210, 143, 94);
-  }
-  .bisMenuOpen span i {
-    font-size: 25px;
-  }
-  .bisMenuOpen span i:hover {
-    color: rgb(210, 143, 94);
-    transition-duration: 300ms;
-  }
-  .menuBoxFixed {
-    width: 60%;
-    max-width: 350px;
-    height: 35px;
-    margin: auto;
-    margin-top: 10px;
+  .MenuBoxToFix .menuBox {
+    width: 70%;
+    max-width: 300px;
+    height: 49px;
+    margin-top: -60px;
     margin-bottom: 0px;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: transparent;
     border-radius: 25px;
     display: flex;
     z-index: 1;
-    transition-duration: 300ms;
-    position: fixed;
+    position: relative;
   }
-  .menuBoxFixed .box {
+  .MenuBoxToFix .menuBox .box {
     width: 100%;
   }
-  .menuBoxFixed .box .btn {
+  .MenuBoxToFix .menuBox .box .btn {
     border: none;
     width: 100%;
     background-color: transparent;
   }
-  .menuBoxFixed .box .btn .menuneonlogoBox {
-    width: 80%;
-    max-width: 500px;
+  .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox {
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: transparent;
-    border-radius: 25px;
   }
-  .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogoclose {
-    display: none;
-  }
-  .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo {
+  .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo {
     width: 100%;
     max-width: 400px;
-    height: 35px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    align-items: center;
+  }
+  .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .linkActive {
+    color: rgb(60, 155, 228);
+    transition-duration: 300ms;
+  }
+  .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .link {
+    color: rgb(247, 247, 247);
+    transition-duration: 300ms;
+  }
+  .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .link :hover {
+    color: rgb(60, 155, 228);
+    transition-duration: 300ms;
+  }
+  .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .btnMenu {
+    background-color: transparent;
+    color: rgb(247, 247, 247);
+    font-size: 25px;
+    border: none;
+  }
+  .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .btnMenu :hover {
+    color: rgb(60, 155, 228);
+    transition-duration: 300ms;
+  }
+  .MenuBoxToFix .menuBoxFixed {
+    width: 70%;
+    max-width: 300px;
+    height: 49px;
+    margin: auto;
+    margin-top: -258px;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    display: flex;
+    z-index: 1;
+    position: fixed;
+  }
+  .MenuBoxToFix .menuBoxFixed .box {
+    width: 100%;
+  }
+  .MenuBoxToFix .menuBoxFixed .box .btn {
+    border: none;
+    width: 100%;
+    background-color: transparent;
+  }
+  .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogo {
+    width: 100%;
+    max-width: 400px;
+    height: 49px;
     display: flex;
     justify-content: space-around;
     background-color: transparent;
     align-items: center;
     transition-duration: 300ms;
-    -webkit-animation: bisMenuOpen 2000ms forwards;
-            animation: bisMenuOpen 2000ms forwards;
+    font-size: 25px;
   }
-  .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .linkActive {
-    font-size: 20px;
-    color: rgb(210, 143, 94);
+  .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogo .menuneonlogoBox {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
   }
-  .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .link {
+  .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogo .menuneonlogoBox .menuneonlogoclose {
+    display: none;
+  }
+  .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogo .menuneonlogoBox .linkActive {
+    color: rgb(60, 155, 228);
+    font-size: 25px;
+    width: 33%;
+  }
+  .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogo .menuneonlogoBox .link {
     color: rgb(247, 247, 247);
-    font-size: 20px;
+    font-size: 25px;
+    width: 33%;
   }
-  .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .link :hover {
-    color: rgb(210, 143, 94);
+  .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogo .menuneonlogoBox .link :hover {
+    color: rgb(60, 155, 228);
     transition-duration: 300ms;
   }
-  .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .btnMenu {
+  .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogo .menuneonlogoBox .btnMenu {
     background-color: transparent;
     color: rgb(247, 247, 247);
-    font-size: 20px;
-    z-index: 2;
     border: none;
-    -webkit-animation: btnMenuOpen 500ms;
-            animation: btnMenuOpen 500ms;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
+    font-size: 25px;
+    width: 33%;
   }
-  .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .btnMenu :hover {
-    -webkit-animation: menu 500ms;
-            animation: menu 500ms;
-    color: rgb(210, 143, 94);
+  .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogo .menuneonlogoBox .btnMenu :hover {
+    color: rgb(60, 155, 228);
+    transition-duration: 300ms;
+  }
+  .MenuBoxToFix .bisMenuOpen {
+    width: 90%;
+    max-width: 350px;
+    height: 49px;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+  }
+  .MenuBoxToFix .bisMenuOpen span {
+    width: 33%;
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    -webkit-animation: bisMenuOpen 200ms forwards;
+            animation: bisMenuOpen 200ms forwards;
+  }
+  .MenuBoxToFix .bisMenuOpen span .link {
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: auto;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    transition-duration: 300ms;
+  }
+  .MenuBoxToFix .bisMenuOpen span .link:hover {
+    color: rgb(60, 155, 228);
+    transition-duration: 300ms;
+  }
+  .MenuBoxToFix .bisMenuOpen span .linkActive {
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: auto;
+    color: rgb(60, 155, 228);
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    transition-duration: 300ms;
+  }
+  .MenuBoxToFix .bisMenuOpen span .linkActive:hover {
+    color: rgb(60, 155, 228);
+    transition-duration: 300ms;
+  }
+  .MenuBoxToFix .bisMenuOpen span i {
+    font-size: 30px;
+    transition-duration: 300ms;
+    color: white;
+  }
+  .MenuBoxToFix .bisMenuOpen span i:hover {
+    color: rgb(60, 155, 228);
+    transition-duration: 300ms;
   }
 }
 .presentation {
-  margin: auto;
   margin-bottom: 0px;
   width: 100%;
+  max-width: 1500px;
+  margin: auto;
   margin-top: 30px;
+  padding: 0px;
+  padding-bottom: 0px;
+  background-position-y: 10%;
+  background-position-x: 200%;
+  background-color: black;
+  border-radius: 0px;
+  opacity: 0;
+  -webkit-animation: lastProd 800ms forwards;
+          animation: lastProd 800ms forwards;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.presentation .titlePart {
+  width: 30%;
+  z-index: 2;
+}
+.presentation .titlePart h2 {
+  text-align: left;
+  font-family: "montserrat";
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 80px;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  opacity: 0;
+  -webkit-animation: lastProd 800ms forwards;
+          animation: lastProd 800ms forwards;
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
 }
 .presentation .lastReal {
-  width: 90%;
-  margin: auto;
-  max-width: 1200px;
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background: url(../img/cahier.webp);
+  background-size: 190%;
+  background-position-x: 25%;
+  border-radius: 10px;
+  z-index: 1;
 }
 .presentation .lastReal .contentPart {
   display: flex;
@@ -909,32 +791,13 @@ footer #socialBox i {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: solid 5px black;
-  border-radius: 10px;
-  -webkit-animation: lastProd 1000ms ease-in forwards;
-          animation: lastProd 1000ms ease-in forwards;
-}
-.presentation .lastReal .contentPart .titlePart {
-  width: 100%;
-}
-.presentation .lastReal .contentPart .titlePart h2 {
-  text-align: center;
-  font-family: "montserrat";
-  font-weight: 400;
-  font-size: 35px;
-  border-radius: 10px;
-  padding: 0px;
-  color: black;
-  margin-bottom: 0px;
-  -webkit-animation: lastProd 800ms ease-in;
-          animation: lastProd 800ms ease-in;
+  width: 65%;
 }
 .presentation .lastReal .contentPart .lastprodMini {
   padding: 0px;
-  width: 26%;
+  width: 50%;
   display: flex;
+  margin-top: 50px;
 }
 .presentation .lastReal .contentPart .lastprodMini a {
   width: 100%;
@@ -943,7 +806,6 @@ footer #socialBox i {
 .presentation .lastReal .contentPart .lastprodMini a img {
   margin: auto;
   width: 70%;
-  transition-duration: 300ms;
 }
 .presentation .lastReal .contentPart .lastprodMini a :hover {
   cursor: pointer;
@@ -951,74 +813,91 @@ footer #socialBox i {
 
 @-webkit-keyframes lastProd {
   0% {
-    translate: -600%;
-  }
-  92% {
-    translate: 10%;
+    opacity: 0;
   }
   100% {
-    translate: 0%;
+    opacity: 1;
   }
 }
 
 @keyframes lastProd {
   0% {
-    translate: -600%;
-  }
-  92% {
-    translate: 10%;
+    opacity: 0;
   }
   100% {
-    translate: 0%;
+    opacity: 1;
   }
 }
 @media only screen and (max-width: 800px) {
   .presentation {
-    margin-top: 30px;
-  }
-  .presentation .lastReal {
-    margin: auto;
+    margin-bottom: 0px;
     width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 0px;
+    padding: 0px;
+    padding-bottom: 0px;
+    background-color: black;
+    border-radius: 0px;
+    opacity: 0;
+    -webkit-animation: lastProd 800ms forwards;
+            animation: lastProd 800ms forwards;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+  }
+  .presentation .titlePart {
+    width: 100%;
+    z-index: 2;
+    margin-bottom: -30px;
+  }
+  .presentation .titlePart h2 {
+    text-align: left;
     font-family: "montserrat";
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 5px;
+    line-height: 40px;
+    border-radius: 10px;
+    padding: 0px;
+    color: white;
+  }
+  .presentation .lastReal {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: url(../img/cahier.webp);
+    background-size: 190%;
+    background-position-x: 25%;
+    border-radius: 10px;
+    z-index: 1;
+    margin-top: -20px;
   }
   .presentation .lastReal .contentPart {
-    padding-bottom: 20px;
-    width: 97%;
-    border: none;
-    box-shadow: 1px 1px 3px rgb(141, 141, 141);
-  }
-  .presentation .lastReal .contentPart .titlePart {
-    margin-top: 0px;
-    width: 100%;
-  }
-  .presentation .lastReal .contentPart .titlePart h2 {
-    text-align: center;
-    font-family: "montserrat";
-    font-weight: 400;
-    font-size: 25px;
-    border-radius: 10px;
-    padding-top: 25px;
-    color: black;
-    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 65%;
     margin-bottom: 20px;
-    -webkit-animation: lastProd 800ms ease-in;
-            animation: lastProd 800ms ease-in;
   }
   .presentation .lastReal .contentPart .lastprodMini {
-    width: 45%;
-    margin: 0px;
-  }
-  .presentation .lastReal .contentPart .lastprodMini img {
-    width: 100%;
     padding: 0px;
-    margin: auto;
+    width: 50%;
+    display: flex;
+    margin-top: 50px;
   }
-  .presentation .lastReal .contentPart .lastprodMini :hover {
-    transform: scale(1);
+  .presentation .lastReal .contentPart .lastprodMini a {
+    width: 100%;
+    display: flex;
+  }
+  .presentation .lastReal .contentPart .lastprodMini a img {
+    margin: auto;
+    width: 70%;
+  }
+  .presentation .lastReal .contentPart .lastprodMini a :hover {
     cursor: pointer;
   }
 }
@@ -1029,108 +908,238 @@ footer #socialBox i {
   padding: 0;
   margin: -8px;
   min-height: 100vh;
-  background: url(../img/background2.jpg);
+  background: black;
   background-size: cover;
   background-attachment: fixed;
 }
 
 @media only screen and (max-width: 800px) {
   .application {
-    background: white;
+    background: rgb(0, 0, 0);
   }
 }
 .formBox {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: auto;
+  margin-top: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   opacity: 0;
-  -webkit-animation: onPage 600ms forwards;
-          animation: onPage 600ms forwards;
+  -webkit-animation: onPage 800ms forwards;
+          animation: onPage 800ms forwards;
+  background: url(../img/contact.webp);
+  background-size: cover;
+  background-position-y: 70%;
 }
-.formBox #contact-form {
-  border-radius: 10px;
+.formBox .contact-form {
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 80%;
+  width: 100%;
   height: auto;
-  max-width: 1200px;
   margin: auto;
-  margin-top: 80px;
-  padding-bottom: 40px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: solid black 5px;
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   opacity: 0;
   -webkit-animation: onPageContent 500ms 200ms forwards;
           animation: onPageContent 500ms 200ms forwards;
 }
-.formBox #contact-form h2 {
+.formBox .contact-form h2 {
   font-family: "montserrat";
-  font-weight: 400;
-  font-size: 35px;
+  font-weight: 600;
+  font-size: 50px;
   border-radius: 10px;
   padding-top: 0px;
-  color: black;
+  color: white;
   margin-bottom: 20px;
   opacity: 0;
   -webkit-animation: onPageContent 500ms 200ms forwards;
           animation: onPageContent 500ms 200ms forwards;
   text-align: center;
 }
-.formBox #contact-form input {
+.formBox .contact-form input {
   margin-bottom: 20px;
   border-radius: 8px;
   font-family: "montserrat";
   font-size: 18px;
   height: 40px;
-  width: 80%;
+  width: 50%;
   text-align: left;
   border: none;
+  color: black;
   opacity: 0;
   -webkit-animation: onPageContent 500ms 200ms forwards;
           animation: onPageContent 500ms 200ms forwards;
+  background-color: white;
 }
-.formBox #contact-form label {
-  color: rgb(86, 120, 96);
-  font-family: "raleway";
+.formBox .contact-form label {
+  color: rgb(60, 155, 228);
+  font-family: "montserrat";
   font-size: 22px;
   margin: 10px 0px 10px 0px;
   text-align: left;
+  width: 50%;
   opacity: 0;
   -webkit-animation: onPageContent 500ms 200ms forwards;
           animation: onPageContent 500ms 200ms forwards;
 }
-.formBox #contact-form textarea {
-  height: 80px;
-  width: 80%;
+.formBox .contact-form textarea {
+  height: 120px;
+  width: 50%;
   margin: 0px;
   border-radius: 10px;
   text-align: left;
+  color: black;
   border: none;
+  background-color: white;
   opacity: 0;
   -webkit-animation: onPageContent 500ms 200ms forwards;
           animation: onPageContent 500ms 200ms forwards;
 }
-.formBox #contact-form .send {
+.formBox .contact-form .send {
   margin: 40px 10px 40px 10px;
   font-size: 20px;
   color: white;
   text-decoration: none;
   border: none;
-  background: rgb(86, 120, 96);
-  box-shadow: 1px 1px 8px rgb(141, 141, 141);
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
-  background: linear-gradient(130deg, rgb(39, 70, 66), rgb(11, 13, 10) 70.71%);
+  background: rgb(60, 155, 228);
   cursor: pointer;
   transition: 300ms;
   width: auto;
 }
-.formBox #contact-form .send:hover {
+.formBox .contact-form .send:hover {
   transform: scale(1.04);
+}
+
+.contactMiniBox {
+  background: url(../img/meet.webp);
+  background-size: cover;
+  background-position-y: 75%;
+  margin: auto;
+  width: 100%;
+  height: 400px;
+  max-width: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 30px;
+  opacity: 0;
+  -webkit-animation: onPage 800ms forwards;
+          animation: onPage 800ms forwards;
+  border-radius: 10px;
+}
+.contactMiniBox .contactMini {
+  padding-top: 50px;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contactMiniBox .contactMini .contactTitletrue {
+  font-size: 70px;
+  font-family: "montserrat";
+  line-height: 70px;
+  font-weight: 600;
+  color: white;
+  opacity: 1;
+}
+.contactMiniBox .contactMini a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactMiniBox .contactMini a .toContacttrue {
+  background-color: rgb(60, 155, 228);
+  padding: 10px;
+  line-height: 70px;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 70px;
+  font-weight: 800;
+  font-family: "montserrat";
+  color: black;
+  margin-left: 10px;
+  -webkit-animation: contact 600ms forwards;
+          animation: contact 600ms forwards;
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+  opacity: 0;
+}
+.contactMiniBox .contactMini .contactTitlefalse {
+  font-size: 70px;
+  font-family: "montserrat";
+  line-height: 70px;
+  font-weight: 600;
+  color: white;
+  opacity: 1;
+  transition: 300ms;
+}
+.contactMiniBox .contactMini .toContactfalse {
+  display: none;
+}
+@-webkit-keyframes contact {
+  0% {
+    opacity: 0;
+    background-color: rgb(60, 155, 228);
+  }
+  20% {
+    opacity: 1;
+    background-color: rgb(247, 247, 247);
+  }
+  40% {
+    opacity: 1;
+    background-color: rgb(93, 93, 93);
+  }
+  60% {
+    opacity: 1;
+    background-color: rgb(247, 247, 247);
+  }
+  80% {
+    opacity: 1;
+    background-color: rgb(93, 93, 93);
+  }
+  100% {
+    opacity: 1;
+    background-color: rgb(60, 155, 228);
+  }
+}
+@keyframes contact {
+  0% {
+    opacity: 0;
+    background-color: rgb(60, 155, 228);
+  }
+  20% {
+    opacity: 1;
+    background-color: rgb(247, 247, 247);
+  }
+  40% {
+    opacity: 1;
+    background-color: rgb(93, 93, 93);
+  }
+  60% {
+    opacity: 1;
+    background-color: rgb(247, 247, 247);
+  }
+  80% {
+    opacity: 1;
+    background-color: rgb(93, 93, 93);
+  }
+  100% {
+    opacity: 1;
+    background-color: rgb(60, 155, 228);
+  }
 }
 
 @-webkit-keyframes onPage {
@@ -1169,6 +1178,7 @@ footer #socialBox i {
 @media only screen and (max-width: 800px) {
   .formBox {
     width: 100%;
+    border-radius: 0px;
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -1176,98 +1186,139 @@ footer #socialBox i {
     opacity: 0;
     -webkit-animation: onPage 600ms forwards;
             animation: onPage 600ms forwards;
+    background-position-x: 0%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: url(../img/contact.webp);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position-x: 30%;
+    border-radius: 5px;
   }
-  .formBox #contact-form {
-    border-radius: 10px;
+  .formBox .contact-form {
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 98%;
+    width: 100%;
     height: auto;
     max-width: 1200px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
     padding-bottom: 20px;
     border: none;
     opacity: 0;
     -webkit-animation: onPageContent 500ms 200ms forwards;
             animation: onPageContent 500ms 200ms forwards;
-    background: url(../img/background2.jpg);
-    background-size: cover;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2) 10%);
   }
-  .formBox #contact-form h2 {
+  .formBox .contact-form h2 {
     font-family: "montserrat";
-    font-weight: 400;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 40px;
     padding-top: 25;
     border-radius: 10px;
     padding: 0px;
-    color: white;
     margin-bottom: 20px;
     opacity: 0;
     -webkit-animation: onPageContent 500ms 200ms forwards;
             animation: onPageContent 500ms 200ms forwards;
     text-align: center;
   }
-  .formBox #contact-form input {
+  .formBox .contact-form input {
     margin-bottom: 20px;
     border-radius: 8px;
-    font-family: "raleway";
+    font-family: "montserrat";
     font-size: 16px;
     height: 30px;
     width: 80%;
     text-align: left;
-    border: none;
     opacity: 0;
     -webkit-animation: onPageContent 500ms 200ms forwards;
             animation: onPageContent 500ms 200ms forwards;
   }
-  .formBox #contact-form label {
-    color: rgb(210, 143, 94);
-    font-family: "raleway";
+  .formBox .contact-form label {
+    color: rgb(60, 155, 228);
+    font-family: "montserrat";
     font-size: 18px;
     margin: 10px 0px 10px 0px;
     text-align: left;
+    width: 80%;
     opacity: 0;
     -webkit-animation: onPageContent 500ms 200ms forwards;
             animation: onPageContent 500ms 200ms forwards;
   }
-  .formBox #contact-form textarea {
+  .formBox .contact-form textarea {
     height: 80px;
     width: 80%;
     margin: 0px;
     border-radius: 10px;
     text-align: left;
-    border: none;
     opacity: 0;
     -webkit-animation: onPageContent 500ms 200ms forwards;
             animation: onPageContent 500ms 200ms forwards;
   }
-  .formBox #contact-form .send {
-    margin: 30px 10px 30px 10px;
+  .formBox .contact-form .send {
+    margin: 20px 5px 20px 5px;
     font-size: 15px;
     color: white;
     text-decoration: none;
     border: none;
-    background: linear-gradient(130deg, rgb(209, 143, 94), rgb(190, 128, 40) 70.71%);
-    box-shadow: 1px 1px 8px rgb(141, 141, 141);
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
+    background: rgb(60, 155, 228);
     cursor: pointer;
     transition: 300ms;
+    font-weight: 400;
   }
-  .formBox #contact-form .send:hover {
+  .formBox .contact-form .send:hover {
     transform: scale(1.04);
+  }
+  .contactMiniBox {
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+  .contactMiniBox .contactMini {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .contactMiniBox .contactMini .contactTitletrue {
+    font-size: 40px;
+    line-height: 70px;
+    margin-top: 0;
+  }
+  .contactMiniBox .contactMini a {
+    margin-top: 0px;
+  }
+  .contactMiniBox .contactMini a .toContacttrue {
+    margin-top: -30px;
+    margin-right: 0px;
+    padding: 5px;
+    width: 310px;
+    text-align: center;
+    font-size: 60px;
   }
 }
 .Parcours {
-  width: 90%;
-  max-width: 1200px;
+  width: 100%;
   margin: auto;
   margin-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
+  background: url(../img/road.webp) fixed;
+  background-size: cover;
+  opacity: 0;
+  -webkit-animation: lastProd 800ms forwards;
+          animation: lastProd 800ms forwards;
 }
 .Parcours .ParcoursBox {
   display: flex;
@@ -1276,12 +1327,11 @@ footer #socialBox i {
   justify-content: space-around;
   align-items: flex-start;
   margin: auto;
-  margin-top: 30px;
-  width: 100%;
+  margin-top: 0px;
+  width: 90%;
   max-width: 1200px;
   background-color: rgba(255, 255, 255, 0.8);
-  border: solid black 5px;
-  border-radius: 10px;
+  border-radius: 5px;
   font-family: "montserrat";
 }
 .Parcours .ParcoursBox h2 {
@@ -1290,7 +1340,7 @@ footer #socialBox i {
   margin: auto;
   font-family: "montserrat";
   font-weight: 400;
-  font-size: 35px;
+  font-size: 30px;
   padding: 25px 0px 0px 0px;
   margin-bottom: 30px;
 }
@@ -1306,6 +1356,7 @@ footer #socialBox i {
 .Parcours .ParcoursBox .card h3 {
   font-size: 25px;
   font-weight: 400;
+  text-align: center;
 }
 .Parcours .ParcoursBox .card p {
   font-size: 16px;
@@ -1322,8 +1373,7 @@ footer #socialBox i {
   color: white;
   text-decoration: none;
   border: none;
-  background: linear-gradient(130deg, rgb(209, 143, 94), rgb(190, 128, 40) 70.71%);
-  box-shadow: 1px 1px 8px rgb(141, 141, 141);
+  background: rgb(211, 163, 126);
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
   cursor: pointer;
@@ -1340,11 +1390,10 @@ footer #socialBox i {
   align-items: center;
   margin: auto;
   margin-top: 30px;
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   background-color: rgba(255, 255, 255, 0.8);
-  border: solid black 5px;
-  border-radius: 10px;
+  border-radius: 5px;
   font-family: "montserrat";
 }
 .Parcours .FormBox h2 {
@@ -1353,37 +1402,40 @@ footer #socialBox i {
   margin: auto;
   font-family: "montserrat";
   font-weight: 400;
-  font-size: 35px;
+  font-size: 30px;
   padding: 25px 0px 0px 0px;
   margin-bottom: 30px;
 }
 .Parcours .FormBox .card {
   width: 90%;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  border-bottom: 1px solid darkgray;
 }
 .Parcours .FormBox .card h3 {
   font-size: 22px;
   font-weight: 400;
+  text-align: center;
 }
 .Parcours .FormBox .card p {
   font-size: 16px;
   line-height: 20px;
   margin: 5px;
+  text-align: center;
 }
 .Parcours .FormBox .card a {
-  margin: 30px 10px 30px 10px;
-  font-size: 15px;
+  margin: 40px 10px 40px 10px;
+  font-size: 20px;
   color: white;
   text-decoration: none;
   border: none;
-  background: linear-gradient(130deg, rgb(209, 143, 94), rgb(190, 128, 40) 70.71%);
-  box-shadow: 1px 1px 8px rgb(141, 141, 141);
-  padding: 5px 10px 5px 10px;
+  background: rgb(211, 163, 126);
+  padding: 10px 10px 10px 10px;
   border-radius: 5px;
   cursor: pointer;
   transition: 300ms;
@@ -1395,144 +1447,398 @@ footer #socialBox i {
   transform: scale(1.04);
 }
 
+@keyframes lastProd {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .ParcoursMini {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: solid black 5px;
-  width: 90%;
-  max-width: 1200px;
+  background-color: #0f0f0f;
+  width: 100%;
+  max-width: 1500px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 1;
+  font-family: "montserrat";
+  border-radius: 10px;
+  overflow: hidden;
+}
+.ParcoursMini .PixParttrue {
+  width: 40%;
+  display: flex;
+}
+.ParcoursMini .PixParttrue img {
+  margin: auto;
+  width: 60%;
+  border-radius: 10px;
+  opacity: 0;
+  -webkit-animation: light 1200ms forwards;
+          animation: light 1200ms forwards;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+.ParcoursMini .PixPartfalse {
+  width: 40%;
+  display: flex;
+  opacity: 0;
+}
+.ParcoursMini .PixPartfalse img {
+  margin: auto;
+  width: 70%;
+  border-radius: 10px;
+  opacity: 1;
+}
+.ParcoursMini .parcoursMiniBoxtrue {
+  width: 60%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 10px;
-  font-family: "montserrat";
-  -webkit-animation: form 1000ms ease-in forwards;
-          animation: form 1000ms ease-in forwards;
+  color: white;
 }
-.ParcoursMini h2 {
-  width: auto;
+.ParcoursMini .parcoursMiniBoxtrue h2 {
+  width: 100%;
   max-width: 1200px;
   text-align: center;
   font-family: "montserrat";
-  font-size: 35px;
-  font-weight: 400;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 600;
 }
-.ParcoursMini p {
+.ParcoursMini .parcoursMiniBoxtrue .aproposTextPart {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.ParcoursMini .parcoursMiniBoxtrue .aproposTextPart p {
   width: 90%;
+  max-width: 1200px;
   margin: auto;
-  font-size: 20px;
-  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
   margin-bottom: 20px;
-  color: linear-gradient(130deg, rgb(209, 143, 94), rgb(190, 128, 40) 70.71%);
+  color: linear-gradient(130deg, rgb(211, 163, 126), rgb(197, 141, 62) 70.71%);
 }
-.ParcoursMini .toParcours {
-  margin-top: 20px;
-  height: 50px;
+.ParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours {
+  margin: auto;
+  margin-top: 80px;
 }
-.ParcoursMini .toParcours a {
+.ParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours a {
   margin: 40px 10px 40px 10px;
   font-size: 20px;
   color: white;
   text-decoration: none;
   border: none;
-  background: rgb(86, 120, 96);
-  box-shadow: 1px 1px 8px rgb(141, 141, 141);
+  background: rgb(211, 163, 126);
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
-  background: linear-gradient(130deg, rgb(39, 70, 66), rgb(11, 13, 10) 70.71%);
   cursor: pointer;
   transition: 300ms;
 }
-.ParcoursMini .toParcours a:hover {
+.ParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours a:hover {
   transform: scale(1.04);
 }
-.ParcoursMini .toParcours a:hover {
+.ParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours a:hover {
+  transform: scale(1.04);
+}
+.ParcoursMini .parcoursMiniBoxfalse {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.ParcoursMini .parcoursMiniBoxfalse h2 {
+  width: 90%;
+  max-width: 1200px;
+  text-align: center;
+  font-family: "montserrat";
+  font-size: 30px;
+  font-weight: 400;
+}
+.ParcoursMini .parcoursMiniBoxfalse .aproposTextPart {
+  width: 100%;
+}
+.ParcoursMini .parcoursMiniBoxfalse .aproposTextPart p {
+  width: 85%;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  color: linear-gradient(130deg, rgb(211, 163, 126), rgb(197, 141, 62) 70.71%);
+}
+.ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours {
+  display: flex;
+  margin-top: 0px;
+  height: 100px;
+}
+.ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours a {
+  margin: 40px 10px 40px 10px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  border: none;
+  background: rgb(211, 163, 126);
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 300ms;
+}
+.ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours a:hover {
+  transform: scale(1.04);
+}
+.ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours a:hover {
   transform: scale(1.04);
 }
 
 @-webkit-keyframes form {
   0% {
-    translate: 600%;
-  }
-  92% {
-    translate: -10%;
+    opacity: 0;
   }
   100% {
-    translate: 0.4%;
+    opacity: 1;
   }
 }
 
 @keyframes form {
   0% {
-    translate: 600%;
-  }
-  92% {
-    translate: -10%;
+    opacity: 0;
   }
   100% {
-    translate: 0.4%;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes light {
+  0% {
+    margin-top: -200%;
+    opacity: 1;
+  }
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+@keyframes light {
+  0% {
+    margin-top: -200%;
+    opacity: 1;
+  }
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes lightOff {
+  0% {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+}
+@keyframes lightOff {
+  0% {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.9);
   }
 }
 @media only screen and (max-width: 800px) {
   .ParcoursMini {
-    background: url(../img/background2.jpg);
-    background-size: cover;
-    width: 98%;
-    margin-top: 30px;
-    border: none;
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 850px;
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 1;
+    font-family: "montserrat";
+    border-radius: 10px;
+    overflow: hidden;
   }
-  .ParcoursMini h2 {
+  .ParcoursMini .PixParttrue {
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+  }
+  .ParcoursMini .PixParttrue img {
+    margin: auto;
+    width: 60%;
+    border-radius: 10px;
+    opacity: 0;
+    margin-top: -100%;
+    -webkit-animation: light 1200ms forwards;
+            animation: light 1200ms forwards;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
+  }
+  .ParcoursMini .PixPartfalse {
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+  }
+  .ParcoursMini .PixPartfalse img {
+    margin: auto;
+    width: 60%;
+    border-radius: 10px;
+    opacity: 0;
+    margin-top: -100%;
+  }
+  .ParcoursMini .parcoursMiniBoxtrue {
+    width: 95%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  .ParcoursMini .parcoursMiniBoxtrue h2 {
     width: 100%;
     max-width: 1200px;
     text-align: center;
     font-family: "montserrat";
-    font-size: 25px;
-    line-height: 35px;
-    color: white;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
   }
-  .ParcoursMini p {
+  .ParcoursMini .parcoursMiniBoxtrue .aproposTextPart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ParcoursMini .parcoursMiniBoxtrue .aproposTextPart p {
     width: 90%;
+    max-width: 1200px;
     margin: auto;
+    text-align: center;
     font-size: 16px;
     line-height: 25px;
-    margin-bottom: 30px;
-    color: white;
+    margin-bottom: 20px;
+    color: linear-gradient(130deg, rgb(211, 163, 126), rgb(197, 141, 62) 70.71%);
   }
-  .ParcoursMini .toParcours {
-    margin-top: 20px;
-    height: 50px;
+  .ParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours {
+    margin: auto;
+    margin-top: 40px;
   }
-  .ParcoursMini .toParcours a {
+  .ParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours a {
     margin: 30px 10px 30px 10px;
     font-size: 15px;
     color: white;
     text-decoration: none;
     border: none;
-    background: linear-gradient(130deg, rgb(209, 143, 94), rgb(190, 128, 40) 70.71%);
-    box-shadow: 1px 1px 8px rgb(141, 141, 141);
+    background: rgb(211, 163, 126);
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     transition: 300ms;
   }
-  .ParcoursMini .toParcours a:hover {
+  .ParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours a:hover {
     transform: scale(1.04);
   }
-  .ParcoursMini .toParcours a:hover {
+  .ParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours a:hover {
+    transform: scale(1.04);
+  }
+  .ParcoursMini .parcoursMiniBoxfalse {
+    width: 95%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  .ParcoursMini .parcoursMiniBoxfalse h2 {
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+    font-family: "montserrat";
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .ParcoursMini .parcoursMiniBoxfalse .aproposTextPart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ParcoursMini .parcoursMiniBoxfalse .aproposTextPart p {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: linear-gradient(130deg, rgb(211, 163, 126), rgb(197, 141, 62) 70.71%);
+  }
+  .ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours {
+    margin: auto;
+    margin-top: 40px;
+  }
+  .ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours a {
+    margin: 30px 10px 30px 10px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    background: rgb(211, 163, 126);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 300ms;
+  }
+  .ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours a:hover {
+    transform: scale(1.04);
+  }
+  .ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours a:hover {
     transform: scale(1.04);
   }
   .Parcours {
-    width: 98%;
+    width: 100%;
     max-width: 1200px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url(../img/background2.jpg);
-    border-radius: 10px;
+    background: url(../img/road.webp);
+    background-position-x: 50%;
+    background-size: cover;
+    border-radius: 5px;
   }
   .Parcours .ParcoursBox {
     display: flex;
@@ -1541,29 +1847,30 @@ footer #socialBox i {
     justify-content: space-around;
     align-items: center;
     margin: auto;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 95%;
     max-width: 1200px;
     background-color: rgba(255, 255, 255, 0.8);
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: "montserrat";
+    padding-bottom: 30px;
   }
   .Parcours .ParcoursBox h2 {
     width: 100%;
     text-align: center;
     margin: auto;
     font-family: "montserrat";
-    font-size: 25px;
+    font-size: 22px;
     padding: 25px 0px 0px 0px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .Parcours .ParcoursBox .card {
     width: 90%;
     height: auto;
-    margin-bottom: 50px;
-    margin-top: -20px;
+    margin-bottom: 0px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1572,6 +1879,8 @@ footer #socialBox i {
   }
   .Parcours .ParcoursBox .card h3 {
     font-size: 20px;
+    margin-bottom: -10px;
+    text-align: center;
   }
   .Parcours .ParcoursBox .card p {
     font-size: 16px;
@@ -1582,24 +1891,8 @@ footer #socialBox i {
     margin: auto;
     height: 30px;
   }
-  .Parcours .ParcoursBox .card a {
-    margin: 40px 10px 40px 10px;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    border: none;
-    background: linear-gradient(130deg, rgb(209, 143, 94), rgb(190, 128, 40) 70.71%);
-    box-shadow: 1px 1px 8px rgb(141, 141, 141);
-    padding: 10px 10px 10px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 300ms;
-  }
-  .Parcours .ParcoursBox .card a:hover {
-    transform: scale(1.04);
-  }
   .Parcours .FormBox {
-    width: 90%;
+    width: 95%;
     border: none;
     display: flex;
     flex-direction: column;
@@ -1607,23 +1900,23 @@ footer #socialBox i {
     align-items: center;
     margin: auto;
     margin-top: 0px;
-    margin-bottom: 30px;
-    border-radius: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-bottom: 30px;
   }
   .Parcours .FormBox h2 {
     width: 100%;
     text-align: center;
     margin: auto;
     font-family: "montserrat";
-    font-size: 25px;
+    font-size: 22px;
     padding: 25px 0px 0px 0px;
     margin-bottom: 30px;
   }
   .Parcours .FormBox .card {
     width: 90%;
     margin: auto;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 0px;
     border-bottom: 2px solid darkgray;
   }
   .Parcours .FormBox .card h3 {
@@ -1632,46 +1925,75 @@ footer #socialBox i {
   .Parcours .FormBox .card p {
     font-size: 16px;
     line-height: 22px;
+    text-align: center;
+  }
+  .Parcours .FormBox .card a {
+    margin: 30px 10px 30px 10px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    background: rgb(211, 163, 126);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 300ms;
+    margin-bottom: 0;
+  }
+  .Parcours .FormBox .card a:hover {
+    transform: scale(1.04);
   }
 }
 .content {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-  margin-top: 60px;
-}
-.content .lastProdBox {
-  margin: auto;
   width: 100%;
+  max-width: 1500px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 30px;
+  background: url(../img/background6.webp);
+  background-size: cover;
+}
+.content .ForGradient {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2) 10%);
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.content .ForGradient .lastProdBox {
+  margin: auto;
+  width: 90%;
   max-width: 1200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: solid black 5px;
-  border-radius: 10px;
 }
-.content .lastProdBox .titlePart {
+.content .ForGradient .lastProdBox .titlePart {
   width: 100%;
   display: flex;
   margin-bottom: 30px;
 }
-.content .lastProdBox .titlePart h2 {
+.content .ForGradient .lastProdBox .titlePart h2 {
   text-align: center;
   margin: auto;
   font-family: "montserrat";
-  font-weight: 400;
-  font-size: 35px;
+  font-weight: 600;
+  font-size: 50px;
   padding: 25px 0px 0px 0px;
+  color: white;
 }
-.content .lastProdBox .contenu {
+.content .ForGradient .lastProdBox .contenu {
   width: 32%;
   margin: auto;
+  margin-bottom: 50px;
   min-width: 350px;
+  height: 500px;
 }
-.content .lastProdBox .contenu .lastprod {
-  border-radius: 10px;
-  height: 350px;
+.content .ForGradient .lastProdBox .contenu a {
+  text-decoration: none;
+}
+.content .ForGradient .lastProdBox .contenu .lastprod {
+  border-radius: 5px;
+  max-width: 450px;
+  height: 90%;
   transition-duration: 200ms;
   -webkit-animation: lastprod 500ms;
           animation: lastprod 500ms;
@@ -1679,107 +2001,105 @@ footer #socialBox i {
           animation-fill-mode: forwards;
   display: flex;
   opacity: 0;
-  flex-direction: column-reverse;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 20px;
   margin-bottom: 50px;
-  background-color: rgba(255, 255, 255, 0.9);
-  box-shadow: 1px 1px 8px rgb(141, 141, 141);
+  background-color: rgb(242, 242, 242);
 }
-.content .lastProdBox .contenu .lastprod .logobox {
+.content .ForGradient .lastProdBox .contenu .lastprod .logobox {
   width: 97%;
   height: 60%;
   margin: auto;
-  margin-top: 6px;
+  margin-top: 20px;
   padding: 0px;
-  border-radius: 8px 8px 0px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: transparent;
 }
-.content .lastProdBox .contenu .lastprod .logobox img {
-  width: 50%;
+.content .ForGradient .lastProdBox .contenu .lastprod .logobox img {
+  width: 60%;
   height: auto;
+  margin-bottom: 0;
 }
-.content .lastProdBox .contenu .lastprod .textpart {
+.content .ForGradient .lastProdBox .contenu .lastprod .textpart {
+  width: 100%;
   color: rgb(93, 93, 93);
   font-weight: 600;
-  height: 60px;
-  padding: 20px;
-  padding-bottom: 50px;
+  height: 20%;
+  padding: 0px;
+  padding-bottom: 30px;
   display: flex;
-  margin: auto;
-  border-radius: 0px 0px 10px 10px;
+  margin: 0;
+  border-radius: 30px 30px 5px 5px;
+  box-shadow: 2px 2px 5px rgb(206, 206, 206);
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   font-family: "montserrat";
   font-weight: 400;
+  background-color: white;
 }
-.content .lastProdBox .contenu .lastprod .textpart p {
+.content .ForGradient .lastProdBox .contenu .lastprod .textpart p {
   text-align: center;
-}
-.content .lastProdBox .contenu .lastprod .moreOpt {
+  margin: auto;
+  margin-top: 50px;
   width: 90%;
+}
+.content .ForGradient .lastProdBox .contenu .lastprod .moreOpt {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-top: -30px;
+  align-items: flex-end;
 }
-.content .lastProdBox .contenu .lastprod .moreOpt .gitLink {
-  margin: 30px 10px 30px 10px;
-  font-size: 15px;
-  color: white;
-  text-decoration: none;
-  border: none;
-  background: linear-gradient(130deg, rgb(209, 143, 94), rgb(190, 128, 40) 70.71%);
-  box-shadow: 1px 1px 8px rgb(141, 141, 141);
-  padding: 5px 10px 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 300ms;
+.content .ForGradient .lastProdBox .contenu .lastprod .moreOpt .gitLink {
+  border-radius: 0;
   font-family: "montserrat";
-  margin: 10px -50px -20px 0px;
-  height: 22px;
+  font-size: 50px;
+  padding: 10px;
+  margin: 0px 0px 0px 0px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(60, 155, 228);
 }
-.content .lastProdBox .contenu .lastprod .moreOpt .gitLink:hover {
-  transform: scale(1.04);
+.content .ForGradient .lastProdBox .contenu .lastprod .moreOpt .gitLink :hover {
+  color: rgb(93, 93, 93);
 }
-.content .lastProdBox .contenu .lastprod .moreOpt .fa-plus {
+.content .ForGradient .lastProdBox .contenu .lastprod .moreOpt .fa-plus {
   color: rgb(247, 247, 247);
-  background: linear-gradient(130deg, rgb(39, 70, 66), rgb(11, 13, 10) 70.71%);
+  background: rgb(60, 155, 228);
   font-size: 30px;
   padding: 10px;
-  border-radius: 3px;
-  margin-left: -15px;
-  margin-bottom: -20px;
-  box-shadow: 1px 1px 8px rgb(141, 141, 141);
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
   transition-duration: 200ms;
 }
-.content .lastProdBox .contenu .lastprod .moreOpt :hover {
-  transform: scale(1.04);
+.content .ForGradient .lastProdBox .contenu .lastprodScroll {
+  opacity: 0;
 }
-.content .lastProdBox .contenu .lastprod1 {
+.content .ForGradient .lastProdBox .lastprod1 {
   -webkit-animation-delay: 200ms;
           animation-delay: 200ms;
 }
-.content .lastProdBox .contenu .lastprod2 {
+.content .ForGradient .lastProdBox .lastprod2 {
   -webkit-animation-delay: 300ms;
           animation-delay: 300ms;
 }
-.content .lastProdBox .contenu .lastprod3 {
+.content .ForGradient .lastProdBox .lastprod3 {
   -webkit-animation-delay: 400ms;
           animation-delay: 400ms;
 }
-.content .lastProdBox .contenu .lastprod4 {
+.content .ForGradient .lastProdBox .lastprod4 {
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
 }
-.content .lastProdBox .contenu .lastprod5 {
+.content .ForGradient .lastProdBox .lastprod5 {
   -webkit-animation-delay: 600ms;
           animation-delay: 600ms;
 }
-.content .lastProdBox .contenu .lastprod6 {
+.content .ForGradient .lastProdBox .lastprod6 {
   -webkit-animation-delay: 700ms;
           animation-delay: 700ms;
 }
@@ -1802,12 +2122,19 @@ footer #socialBox i {
 
 @media only screen and (max-width: 800px) {
   .content {
-    width: 98%;
+    width: 100%;
     padding: 0;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 10px;
+    background: url(../img/background.webp);
+    background-size: cover;
   }
-  .content .lastProdBox {
+  .content .ForGradient {
+    background: transparent;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .content .ForGradient .lastProdBox {
     margin: auto;
     width: 100%;
     max-width: 1200px;
@@ -1815,29 +2142,30 @@ footer #socialBox i {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    background: url(../img/background2.jpg);
-    background-size: cover;
     border: none;
+    border-radius: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2) 10%);
   }
-  .content .lastProdBox .titlePart {
+  .content .ForGradient .lastProdBox .titlePart {
     width: 100%;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
-  .content .lastProdBox .titlePart h2 {
+  .content .ForGradient .lastProdBox .titlePart h2 {
     text-align: center;
     margin: auto;
-    font-size: 25px;
+    margin-bottom: 40px;
+    font-size: 40px;
     color: white;
   }
-  .content .lastProdBox .contenu {
-    width: 100%;
+  .content .ForGradient .lastProdBox .contenu {
+    width: 95%;
     margin: auto;
     min-width: 350px;
   }
-  .content .lastProdBox .contenu .lastprod {
+  .content .ForGradient .lastProdBox .contenu .lastprod {
     width: 90%;
-    border-radius: 10px;
+    border-radius: 5px;
     transition-duration: 200ms;
     -webkit-animation: lastprod 500ms;
             animation: lastprod 500ms;
@@ -1845,7 +2173,7 @@ footer #socialBox i {
             animation-fill-mode: forwards;
     display: flex;
     opacity: 0;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: flex-start;
     margin: auto;
     margin-bottom: 30px;
@@ -1858,26 +2186,39 @@ footer #socialBox i {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  margin-top: 50px;
-  padding-bottom: 40px;
-  width: 80%;
+  margin-top: 30px;
+  padding-bottom: 0px;
+  width: 90%;
   height: auto;
   max-width: 1200px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: solid black 5px;
-  border-radius: 10px;
+  background: url(../img/paper.webp);
+  background-size: cover;
+  border-radius: 5px;
   font-family: "montserrat";
   -webkit-animation: onPage 600ms forwards;
           animation: onPage 600ms forwards;
   opacity: 0;
 }
-.projetContent img {
+.projetContent .projetBox {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  margin-top: 0px;
+  background: transparent;
+  -webkit-animation: onPageContent 500ms forwards;
+          animation: onPageContent 500ms forwards;
+}
+.projetContent .projetBox img {
   width: 30%;
   -webkit-animation: onPageContent 500ms 200ms forwards;
           animation: onPageContent 500ms 200ms forwards;
   opacity: 0;
 }
-.projetContent .tagsBox {
+.projetContent .projetBox .tagsBox {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -1888,12 +2229,12 @@ footer #socialBox i {
   -webkit-animation: onPageContent 500ms 200ms forwards;
           animation: onPageContent 500ms 200ms forwards;
 }
-.projetContent .tagsBox img {
-  width: 100px;
+.projetContent .projetBox .tagsBox img {
+  width: 60px;
   height: auto;
   margin: 30px;
 }
-.projetContent h3 {
+.projetContent .projetBox h3 {
   font-size: 27px;
   font-weight: 400;
   font-family: "montserrat";
@@ -1904,7 +2245,7 @@ footer #socialBox i {
   -webkit-animation: onPageContent 500ms 200ms forwards;
           animation: onPageContent 500ms 200ms forwards;
 }
-.projetContent p {
+.projetContent .projetBox p {
   font-size: 22px;
   font-family: "montserrat";
   text-align: center;
@@ -1914,42 +2255,43 @@ footer #socialBox i {
   -webkit-animation: onPageContent 500ms 200ms forwards;
           animation: onPageContent 500ms 200ms forwards;
 }
-.projetContent .linkBox {
+.projetContent .projetBox .linkBox {
   margin-top: 50px;
-  height: 60px;
+  margin-bottom: 20px;
 }
-.projetContent .linkBox .gitLink {
-  margin: 40px 10px 40px 10px;
-  font-size: 20px;
+.projetContent .projetBox .linkBox .gitLink {
+  font-size: 50px;
+  background-color: rgb(211, 163, 126);
   color: white;
   text-decoration: none;
-  border: none;
-  background: rgb(86, 120, 96);
-  box-shadow: 1px 1px 8px rgb(141, 141, 141);
-  padding: 10px 10px 10px 10px;
+  margin: 20px;
+  padding: 5px;
   border-radius: 5px;
-  background: linear-gradient(130deg, rgb(39, 70, 66), rgb(11, 13, 10) 70.71%);
-  cursor: pointer;
-  transition: 300ms;
 }
-.projetContent .linkBox .gitLink:hover {
-  transform: scale(1.04);
+.projetContent .projetBox .linkBox .link {
+  font-size: 20px;
+  background-color: rgb(60, 155, 228);
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 5px;
 }
-.projetContent .notGitLink {
+.projetContent .projetBox .notLink {
   display: none;
 }
-.projetContent .DeviceBox {
-  width: 150px;
+.projetContent .projetBox .DeviceBox {
+  width: 120px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   margin: 10px 0px 20px 0px;
 }
-.projetContent .DeviceBox i {
-  font-size: 50px;
-  color: rgb(19, 55, 51);
+.projetContent .projetBox .DeviceBox i {
+  font-size: 40px;
+  color: rgb(211, 163, 126);
 }
-.projetContent .backToProjet {
+.projetContent .projetBox .backToProjet {
   width: 100%;
   text-align: left;
   height: 60px;
@@ -1957,14 +2299,16 @@ footer #socialBox i {
   -webkit-animation: onPageContent 500ms 200ms forwards;
           animation: onPageContent 500ms 200ms forwards;
 }
-.projetContent .backToProjet i {
-  font-size: 60px;
-  color: black;
+.projetContent .projetBox .backToProjet i {
+  font-size: 40px;
+  color: rgb(93, 93, 93);
   transition-duration: 400ms;
   margin: 15px;
+  -webkit-animation-duration: 300ms;
+          animation-duration: 300ms;
 }
-.projetContent .backToProjet :hover {
-  transform: rotate(2turn);
+.projetContent .projetBox .backToProjet :hover {
+  color: black;
 }
 
 @-webkit-keyframes gitLink {
@@ -2045,17 +2389,32 @@ footer #socialBox i {
     padding-bottom: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 95%;
+    width: 100%;
     margin-top: 3;
     border: none;
+    background-size: cover;
   }
-  .projetContent img {
+  .projetContent .projetBox {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    border-radius: 15px;
+    margin-top: 15px;
+    background: transparent;
+    -webkit-animation: onPageContent 500ms forwards;
+            animation: onPageContent 500ms forwards;
+  }
+  .projetContent .projetBox img {
     width: 50%;
     -webkit-animation: onPageContent 500ms 200ms forwards;
             animation: onPageContent 500ms 200ms forwards;
     opacity: 0;
   }
-  .projetContent .tagsBox {
+  .projetContent .projetBox .tagsBox {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -2066,101 +2425,102 @@ footer #socialBox i {
     -webkit-animation: onPageContent 500ms 200ms forwards;
             animation: onPageContent 500ms 200ms forwards;
   }
-  .projetContent .tagsBox img {
-    width: 70px;
-    margin: 20px;
+  .projetContent .projetBox .tagsBox img {
+    width: 50px;
+    margin: 10px;
+    margin-top: 0;
   }
-  .projetContent h3 {
+  .projetContent .projetBox h3 {
     font-size: 22px;
     font-family: "montserrat";
     text-align: center;
-    line-height: 38px;
+    line-height: 35px;
+    margin-top: 20;
     width: 90%;
     opacity: 0;
     -webkit-animation: onPageContent 500ms 200ms forwards;
             animation: onPageContent 500ms 200ms forwards;
   }
-  .projetContent p {
-    font-size: 18px;
+  .projetContent .projetBox p {
+    font-size: 16px;
     font-family: "montserrat";
     text-align: center;
+    color: black;
     line-height: 28px;
     width: 90%;
+    padding: 15px;
+    opacity: 0;
+    background-size: cover;
+    border-radius: 10px;
+    -webkit-animation: onPageContent 500ms 200ms forwards;
+            animation: onPageContent 500ms 200ms forwards;
+  }
+  .projetContent .projetBox .linkBox {
+    margin-top: 40px;
+    height: 40px;
+  }
+  .projetContent .projetBox .linkBox .gitLink {
+    font-size: 50px;
+  }
+  .projetContent .projetBox .DeviceBox {
+    width: 90px;
     opacity: 0;
     -webkit-animation: onPageContent 500ms 200ms forwards;
             animation: onPageContent 500ms 200ms forwards;
   }
-  .projetContent .gitLink a {
-    margin: 20px 5px 20px 5px;
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
-    border: none;
-    background: rgb(86, 120, 96);
-    box-shadow: 1px 1px 8px rgb(141, 141, 141);
-    padding: 5px 10px 5px 10px;
-    border-radius: 5px;
-    background: linear-gradient(130deg, rgb(39, 70, 66), rgb(11, 13, 10) 70.71%);
-    cursor: pointer;
-    transition: 300ms;
-    margin-top: 400px;
-  }
-  .projetContent .gitLink a:hover {
-    transform: scale(1.04);
-  }
-  .projetContent .DeviceBox i {
+  .projetContent .projetBox .DeviceBox i {
     font-size: 30px;
   }
-  .projetContent .backToProjet {
+  .projetContent .projetBox .backToProjet {
     width: 100%;
     text-align: left;
-    height: 60px;
+    height: 30px;
     opacity: 0;
     -webkit-animation: onPageContent 500ms 200ms forwards;
             animation: onPageContent 500ms 200ms forwards;
   }
-  .projetContent .backToProjet i {
-    font-size: 40px;
-    color: black;
+  .projetContent .projetBox .backToProjet i {
+    font-size: 30px;
+    color: rgb(93, 93, 93);
     transition-duration: 400ms;
-    margin: 15px;
-  }
-  .projetContent .backToProjet :hover {
-    transform: rotate(2turn);
+    margin: 15px px 0px 15px;
   }
 }
 .erreur404Box {
-  width: 90%;
-  max-width: 1200px;
+  width: 100%;
   min-height: 55vh;
   margin: auto;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  background: url(../img/background4.jpg);
+  background-size: cover;
 }
 .erreur404Box h2 {
-  color: rgb(210, 143, 94);
+  color: black;
+  text-shadow: rgb(211, 163, 126) 5px 5px 6px;
   font-size: 130px;
   font-family: roboting;
-  margin-top: 160px;
+  margin-top: 120px;
 }
 .erreur404Box .backBox {
   height: 100px;
   display: flex;
-  margin-top: 0px;
+  margin-bottom: 80px;
 }
 .erreur404Box .backBox a {
   margin: auto;
   color: white;
   text-decoration: none;
   font-family: montserrat;
-  font-size: 35px;
+  font-size: 25px;
   margin: auto;
-  background: linear-gradient(130deg, rgb(39, 70, 66), rgb(11, 13, 10) 70.71%);
-  border-radius: 20px;
+  background: linear-gradient(130deg, rgb(211, 163, 126), rgb(197, 141, 62) 70.71%);
+  border-radius: 5px;
   transition-duration: 200ms;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 1px 1px 3px rgb(85, 85, 85);
 }
 .erreur404Box .backBox a:hover {
@@ -2170,22 +2530,23 @@ footer #socialBox i {
 
 @media only screen and (max-width: 800px) {
   .erreur404Box {
-    width: 98%;
-    background: url(../img/background2.jpg);
+    width: 100%;
+    background: url(../img/background4.jpg);
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 0px;
     max-width: 1200px;
     min-height: 300px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
   }
   .erreur404Box h2 {
-    color: rgb(210, 143, 94);
-    font-size: 60px;
+    color: black;
+    font-size: 80px;
+    text-shadow: rgb(211, 163, 126) 5px 5px 5px;
     font-family: roboting;
     margin-top: 50px;
   }
@@ -2201,7 +2562,7 @@ footer #socialBox i {
     font-family: montserrat;
     font-size: 16px;
     margin: auto;
-    background: linear-gradient(130deg, rgb(209, 143, 94), rgb(190, 128, 40) 70.71%);
+    background: linear-gradient(130deg, rgb(211, 163, 126), rgb(197, 141, 62) 70.71%);
     border-radius: 10px;
     transition-duration: 200ms;
     padding: 15px;
@@ -2210,6 +2571,287 @@ footer #socialBox i {
   .erreur404Box .backBox a:hover {
     transform: scale(1.03);
     box-shadow: 2px 2px 6px rgb(141, 141, 141);
+  }
+}
+#animateMe {
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  font-weight: 800;
+  font-size: 8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "roboting", sans-serif;
+  height: 400px;
+  box-sizing: border-box;
+  margin: 0;
+  z-index: -1;
+}
+#animateMe span {
+  display: inline-block;
+}
+
+.missionBox {
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/background5.webp);
+  background-size: 100%;
+  background-position-y: 40%;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.missionBox .missionContenttrue {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.missionBox .missionContenttrue h3 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 40px;
+  font-family: "montserrat";
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  -webkit-animation: lastProd 500ms forwards;
+          animation: lastProd 500ms forwards;
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  opacity: 0;
+}
+.missionBox .missionContenttrue ul {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+.missionBox .missionContenttrue ul .li1 {
+  -webkit-animation: lastProd 400ms forwards;
+          animation: lastProd 400ms forwards;
+  -webkit-animation-delay: 750ms;
+          animation-delay: 750ms;
+  width: 100%;
+  margin-bottom: 20px;
+  line-height: 25px;
+  font-size: 16px;
+  font-family: "montserrat";
+  color: white;
+  opacity: 0;
+}
+.missionBox .missionContenttrue ul .li2 {
+  -webkit-animation: lastProd 400ms forwards;
+          animation: lastProd 400ms forwards;
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+  width: 90%;
+  margin-bottom: 20px;
+  line-height: 25px;
+  font-size: 16px;
+  font-family: "montserrat";
+  color: white;
+  opacity: 0;
+}
+.missionBox .missionContenttrue ul .li3 {
+  -webkit-animation: lastProd 400ms forwards;
+          animation: lastProd 400ms forwards;
+  -webkit-animation-delay: 1050ms;
+          animation-delay: 1050ms;
+  width: 90%;
+  margin-bottom: 20px;
+  line-height: 25px;
+  font-size: 16px;
+  font-family: "montserrat";
+  color: white;
+  opacity: 0;
+}
+.missionBox .missionContenttrue ul .li4 {
+  -webkit-animation: lastProd 400ms forwards;
+          animation: lastProd 400ms forwards;
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+  width: 90%;
+  margin-bottom: 20px;
+  line-height: 25px;
+  font-size: 16px;
+  font-family: "montserrat";
+  color: white;
+  opacity: 0;
+}
+.missionBox .missionContentfalse {
+  width: 95%;
+  max-width: 1200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.missionBox .missionContentfalse h3 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 40px;
+  font-family: "montserrat";
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.missionBox .missionContentfalse ul .li4 {
+  width: 90%;
+  margin-bottom: 20px;
+  line-height: 25px;
+  font-size: 16px;
+  font-family: "montserrat";
+  color: white;
+  opacity: 1;
+}
+.missionBox .missionContentfalse ul .li3 {
+  width: 90%;
+  margin-bottom: 20px;
+  line-height: 25px;
+  font-size: 16px;
+  font-family: "montserrat";
+  color: white;
+  opacity: 1;
+}
+.missionBox .missionContentfalse ul .li2 {
+  width: 90%;
+  margin-bottom: 20px;
+  line-height: 25px;
+  font-size: 16px;
+  font-family: "montserrat";
+  color: white;
+  opacity: 1;
+}
+.missionBox .missionContentfalse ul .li1 {
+  width: 90%;
+  margin-bottom: 20px;
+  line-height: 25px;
+  font-size: 16px;
+  font-family: "montserrat";
+  color: white;
+  opacity: 1;
+}
+
+@keyframes lastProd {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes lastProdOff {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes lastProdOff {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .missionBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/background5.webp);
+    background-size: cover;
+    background-position-x: 50%;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+  .missionBox .missionContenttrue {
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .missionBox .missionContenttrue h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: "montserrat";
+  }
+  .missionBox .missionContenttrue ul .li1 {
+    width: 95%;
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-size: 16px;
+    font-family: "montserrat";
+    color: white;
+    opacity: 0;
+  }
+  .missionBox .missionContenttrue ul .li2 {
+    width: 95%;
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-size: 16px;
+    font-family: "montserrat";
+    color: white;
+    opacity: 0;
+  }
+  .missionBox .missionContenttrue ul .li3 {
+    width: 95%;
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-size: 16px;
+    font-family: "montserrat";
+    color: white;
+    opacity: 0;
+  }
+  .missionBox .missionContenttrue ul .li4 {
+    width: 95%;
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-size: 16px;
+    font-family: "montserrat";
+    color: white;
+    opacity: 0;
+  }
+  .missionBox .missionContentfalse {
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .missionBox .missionContentfalse h3 {
+    font-family: "montserrat";
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .missionBox .missionContentfalse ul .li4 {
+    -webkit-animation: lastProdOff 150ms 150ms forwards;
+            animation: lastProdOff 150ms 150ms forwards;
+    width: 95%;
+  }
+  .missionBox .missionContentfalse ul .li3 {
+    -webkit-animation: lastProdOff 150ms 300ms forwards;
+            animation: lastProdOff 150ms 300ms forwards;
+    width: 95%;
+  }
+  .missionBox .missionContentfalse ul .li2 {
+    -webkit-animation: lastProdOff 150ms 450ms forwards;
+            animation: lastProdOff 150ms 450ms forwards;
+    width: 95%;
+  }
+  .missionBox .missionContentfalse ul .li1 {
+    -webkit-animation: lastProdOff 150ms 600ms forwards;
+            animation: lastProdOff 150ms 600ms forwards;
+    width: 95%;
   }
 }
 @font-face {

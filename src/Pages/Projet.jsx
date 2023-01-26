@@ -9,7 +9,7 @@ function CoolTagsCreate(){
     return(
         tags.map((tag) => {
             return(
-                <img key={tag} src={`https://judes77850.github.io/hebergement/real/${tag}.webp`} alt={tag}></img>
+                <img key={tag} src={`https://judes77850.github.io/hebergement/real/${tag}.webp`} alt={tag} title="technologie employée"></img>
                 )
                 
             }))
@@ -43,24 +43,26 @@ function ProjetInfo(){
     if (projet){
         return(
             <div className="projetContent" key={projet.title}>
-            <div className="backToProjet">
-            <Link to={`../Projets/`}>
-            <i className="fa-solid fa-arrow-left"></i>
-            </Link>
-            </div>
-            <img src={projet.logo} alt="logo de l'entreprise"></img>
-            <h3>{projet.underTitle}</h3>
-            <div className="DeviceBox">
-                {CoolDeviceCreate()}
-            </div>
-            <p>{projet.description}</p>
-            <div className="tagsBox">
-                {CoolTagsCreate()}
-            </div>
-            <div className="linkBox">
-                <a href={projet.gitHubLink} className="gitLink">Voir sur Github</a>
-                <a href={projet.functionalLink} className={projet.functionalLink ? "gitLink" : "notGitLink"}>Voir le site</a>
-            </div>
+                <div className="projetBox">
+                    <div className="backToProjet">
+                        <Link to={`../Projets/`}>
+                            <i className="fa-solid fa-arrow-left"></i>
+                        </Link>
+                    </div>
+                    <img src={projet.logo} alt="logo de l'entreprise"></img>
+                    <h3>{projet.underTitle}</h3>
+                    <div className="DeviceBox">
+                        {CoolDeviceCreate()}
+                    </div>
+                    <p>{projet.description}</p>
+                    <div className="tagsBox">
+                        {CoolTagsCreate()}
+                    </div>
+                    <div className="linkBox">
+                        <a href={projet.gitHubLink} className="gitLink"><i className="fa-brands fa-github"></i></a>
+                        <a href={projet.functionalLink} className={projet.functionalLink ? "link" : "notLink"}>Voir le site</a>
+                    </div>
+                </div>
             </div>
         )
     }else{

@@ -63,203 +63,210 @@
     }
 }
 
-.menuBox{
-    width: 80%;
-    max-width: 450px;
-    height: 49px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba($color: #000000, $alpha: 0.8);
-    border-radius: 25px;
-    display: flex;
-    z-index: 1;
-    transition-duration: 300ms;
-    position: relative;
-    .box{
-        width: 100%;
-        .btn{
-            border: none;
-            width: 100%;
-            background-color: transparent;
-            .menuneonlogoBox{
-                width: 90%;
-                margin: auto;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background-color: transparent;
-                .menuneonlogo{
-                    width: 100%;
-                    max-width: 400px;
-                    height: 100%;
-                    display: flex;
-                    justify-content: space-around;
-                    background-color: transparent;
-                    align-items: center;
-                    transition-duration: 300ms;
-                    animation: bisMenuOpen 2000ms forwards;
-                    .linkActive{
-                            color: $color-4;
-                            transition-duration: 300ms;
-                        }
-                    }
-                    .link{
-                        color: $color-2;
-                        transition-duration: 300ms;
-                        :hover{
-                            color: $color-4;
-                            transition-duration: 300ms;
-                        }
-                    }
-                    .btnMenu{
-                        background-color: transparent;
-                        color: $color-2;
-                        font-size: 25px;
-                        border: none;
-                        animation: btnMenuOpen 500ms;
-                        animation-fill-mode: forwards;
-                        :hover{
-                            animation: menu 500ms;
-                            color: $color-4;
-                        }
-                    }
-                }
-            }
-        }
-    
-}
 
-.menuBoxFixed{
-    width: 80%;
-    max-width: 420px;
-    height: 49px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba($color: #000000, $alpha: 0.9);
-    border-radius: 25px;
-    display: flex;
-    z-index: 1;
-    transition-duration: 300ms;
-    position: fixed;
-    .box{
-        width: 100%;
-        .btn{
-            border: none;
-            width: 100%;
-            background-color: transparent;
-            .menuneonlogoBox{
-                width: 90%;
-                margin: auto;
-                display: flex;
-                justify-content: center;
-                background-color: transparent;
-                .menuneonlogoclose{
-                    display: none;
-                }
-                .menuneonlogo{
-                    width: 100%;
-                    max-width: 400px;
-                    height: 49px;
-                    display: flex;
-                    justify-content: space-around;
-                    background-color: transparent;
-                    align-items: center;
-                    transition-duration: 300ms;
-                    animation: bisMenuOpen 2000ms forwards;
-                    font-size: 25px;
-                    .linkActive{
-                            color: $color-4;
-                            font-size: 25px;
-                    }
-                    .link{
-                        color: $color-2;
-                        font-size: 25px;
-                        :hover{
-                            color: $color-4;
-                            transition-duration: 300ms;
-                        }                          
-                        
-                    }
-                    .btnMenu{
-                        background-color: transparent;
-                        color: $color-2;
-                        border: none;
-                        animation: btnMenuOpen 500ms;
-                        animation-fill-mode: forwards;
-                        :hover{
-                            animation: menu 500ms;
-                            color: $color-4;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
 
-.bisMenuOpen {
+.MenuBoxToFix{
+    height: 50px;
     width: 100%;
-    max-width: 500px;
-    height: 49px;
-    margin: auto;
-    margin-top: 1px;
-    margin-bottom: 1px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    background-color: transparent;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    z-index: 1;
-    transition-duration: 300ms;
-    span{
-        width: 33%;
-        list-style-type: none;
-        margin: 10px;
-        padding: 0px;
-        animation: bisMenuOpen 2000ms forwards;
-        .link{
-            font-family: 'montserrat';
-            text-decoration: none;
-            margin: auto;
-            color: white;
+    .toFixMenu{
+        width: 100%;
+        height: 0px;
+        position: relative;
+        opacity: 0;
+    }
+    .menuBox{
+        width: 80%;
+        max-width: 270px;
+        height: 39px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba($color: #000000, $alpha: 0.8);
+        border-radius: 25px;
+        display: flex;
+        z-index: 1;
+        position: relative;
+        .box{
             width: 100%;
-            height: 100%;
-            font-size: 20px;
-            transition-duration: 300ms;
-            &:hover {
-                color: $color-4;
-                transition-duration: 300ms;
+            .btn{
+                border: none;
+                width: 100%;
+                background-color: transparent;
+                .menuneonlogoBox{
+                    width: 90%;
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: transparent;
+                    .menuneonlogo{
+                        width: 100%;
+                        max-width: 300px;
+                        height: 100%;
+                        display: flex;
+                        justify-content: space-around;
+                        background-color: transparent;
+                        align-items: center;
+                        .linkActive{
+                                color: $color-4;
+                                transition-duration: 300ms;
+                            }
+                        
+                        .link{
+                            color: $color-2;
+                            transition-duration: 300ms;
+                            :hover{
+                                color: $color-4;
+                                transition-duration: 300ms;
+                            }
+                        }
+                        .btnMenu{
+                            background-color: transparent;
+                            color: $color-2;
+                            font-size: 25px;
+                            border: none;
+                            :hover{
+                                color: $color-4;
+                                transition-duration: 300ms;
+                            }
+                        }
+                    }
+                }
             }
         }
-        .linkActive{
-            font-family: 'montserrat';
-            text-decoration: none;
-            margin: auto;
-            color: $color-4;
+        
+    }
+    .menuBoxFixed{
+        width: 80%;
+        max-width: 270px;
+        height: 39px;
+        margin: auto;
+        margin-top: -270px;
+        margin-bottom: 0px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba($color: #000000, $alpha: 0.8);
+        border-radius: 25px;
+        display: flex;
+        z-index: 1;
+        position: fixed;
+        .box{
             width: 100%;
-            height: 100%;
-            font-size: 20px;
-            transition-duration: 300ms;
-            &:hover {
-                color: $color-4;
-                transition-duration: 300ms;
+            .btn{
+                border: none;
+                width: 100%;
+                background-color: transparent;
+                .menuneonlogoBox{
+                    width: 90%;
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
+                    background-color: transparent;
+                    .menuneonlogoclose{
+                        display: none;
+                    }
+                    .menuneonlogo{
+                        width: 100%;
+                        max-width: 400px;
+                        height: 49px;
+                        display: flex;
+                        justify-content: space-around;
+                        background-color: transparent;
+                        align-items: center;
+                        font-size: 25px;
+                        .linkActive{
+                                color: $color-4;
+                                font-size: 25px;
+                        }
+                        .link{
+                            color: $color-2;
+                            font-size: 25px;
+                            :hover{
+                                color: $color-4;
+                                transition-duration: 300ms;
+                            }                          
+                            
+                        }
+                        .btnMenu{
+                            background-color: transparent;
+                            color: $color-2;
+                            border: none;
+                            font-size: 25px;
+                            :hover{
+                                color: $color-4;
+                                transition-duration: 300ms;
+                            }
+                        }
+                    }
+                }
             }
-            
         }
-        i{
-            font-size: 30px;
-            transition-duration: 300ms;
-            color: white;
-            &:hover {
-                color: $color-4;
+}
+
+    .bisMenuOpen {
+        width: 100%;
+        max-width: 250px;
+        height: 39px;
+        margin: auto;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+        span{
+            width: 33%;
+            list-style-type: none;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+            .link{
+                font-family: 'montserrat';
+                text-decoration: none;
+                text-align: center;
+                margin: auto;
+                color: white;
+                width: 100%;
+                height: 100%;
+                font-size: 20px;
                 transition-duration: 300ms;
+                &:hover {
+                    color: $color-4;
+                    transition-duration: 300ms;
+                }
+            }
+            .linkActive{
+                font-family: 'montserrat';
+                text-decoration: none;
+                margin: auto;
+                color: $color-4;
+                width: 100%;
+                height: 100%;
+                font-size: 20px;
+                transition-duration: 300ms;
+                &:hover {
+                    color: $color-4;
+                    transition-duration: 300ms;
+                }
+                
+            }
+            i{
+                font-size: 30px;
+                transition-duration: 300ms;
+                color: white;
+                &:hover {
+                    color: $color-4;
+                    transition-duration: 300ms;
+                }
             }
         }
     }
@@ -275,144 +282,212 @@
 }
 
 @media only screen and (max-width: 800px) {
-    .menuBox{
-        width: 70%;
-        height: 40px;
-        .box{
-            width: 100%;
-            .btn{
-                border: none;
-                .menuneonlogoBox{
-                    width: 80%;
-                    .menuneonlogoclose{
-                        display: none;
-                    }
-                    .menuneonlogo{
-                        height: 40px;
-                        .linkActive{
-                            font-size: 20px;
-                            }
-                        }
-                        .link{
-                            font-size: 20px;
-                        }
-                        .btnMenu{
-                            font-size: 20px;
-                        }
-                    }
-                }
-            }
-    }
-    .bisMenuOpen {
-        width: 90%;
-        max-width: 650px;
-        height: 40px;
-        margin: auto;
-        margin-top: 1px;
-        margin-bottom: 1px;
+    .MenuBoxToFix{
+        height: 100px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: -40px;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column-reverse;
+        justify-content: center;
         align-items: center;
         background-color: transparent;
-        border-radius: 25px;
-        z-index: 1;
-        transition-duration: 300ms;
-        span{
-            width: 33%;
-            list-style-type: none;
-            margin: 0px;
-            padding: 0px;
-            animation: bisMenuOpen 2000ms forwards;
-            .link{
-                font-size: 16px;
-                &:hover {
-                    color: $color-4;
-                    transition-duration: 300ms;
+        .toFixMenu{
+            width: 100%;
+            height: 0px;
+            position: relative;
+            opacity: 0;
+            background-color: transparent;
+        }
+        .menuBox{
+            width: 70%;
+            max-width: 300px;
+            height: 49px;
+            margin-top: -60px;
+            margin-bottom: 0px;
+            justify-content: space-between;
+            align-items: center;
+            background-color: transparent;
+            border-radius: 25px;
+            display: flex;
+            z-index: 1;
+            position: relative;
+            .box{
+                width: 100%;
+                .btn{
+                    border: none;
+                    width: 100%;
+                    background-color: transparent;
+                    .menuneonlogoBox{
+                        width: 90%;
+                        margin: auto;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: transparent;
+                        .menuneonlogo{
+                            width: 100%;
+                            max-width: 400px;
+                            height: 100%;
+                            display: flex;
+                            justify-content: space-around;
+                            background-color: transparent;
+                            align-items: center;
+                            .linkActive{
+                                    color: $color-4;
+                                    transition-duration: 300ms;
+                                }
+                            
+                            .link{
+                                color: $color-2;
+                                transition-duration: 300ms;
+                                :hover{
+                                    color: $color-4;
+                                    transition-duration: 300ms;
+                                }
+                            }
+                            .btnMenu{
+                                background-color: transparent;
+                                color: $color-2;
+                                font-size: 25px;
+                                border: none;
+                                :hover{
+                                    color: $color-4;
+                                    transition-duration: 300ms;
+                                }
+                            }
+                        }
+                    }
                 }
             }
-            .linkActive{
-                font-size: 16px;
-                &:hover {
-                    color: $color-4;
-                }
-            }
-            i{
-                font-size: 25px;
-                &:hover {
-                    color: $color-4;
-                    transition-duration: 300ms;
+            
+        }
+        .menuBoxFixed{
+            width: 70%;
+            max-width: 300px;
+            height: 49px;
+            margin: auto;
+            margin-top: -258px;
+            margin-bottom: 0px;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba($color: #000000, $alpha: 0.8);
+            border-radius: 25px;
+            display: flex;
+            z-index: 1;
+            position: fixed;
+            .box{
+                width: 100%;
+                .btn{
+                    border: none;
+                    width: 100%;
+                    background-color: transparent;
+                        .menuneonlogo{
+                            width: 100%;
+                            max-width: 400px;
+                            height: 49px;
+                            display: flex;
+                            justify-content: space-around;
+                            background-color: transparent;
+                            align-items: center;
+                            transition-duration: 300ms;
+                            font-size: 25px;
+                            .menuneonlogoBox{
+                                width: 90%;
+                                margin: auto;
+                                display: flex;
+                                justify-content: center;
+                                background-color: transparent;
+                                .menuneonlogoclose{
+                                    display: none;
+                                }
+                            .linkActive{
+                                    color: $color-4;
+                                    font-size: 25px;
+                                    width: 33%;
+                            }
+                            .link{
+                                color: $color-2;
+                                font-size: 25px;
+                                width: 33%;
+                                :hover{
+                                    color: $color-4;
+                                    transition-duration: 300ms;
+                                }                          
+                                
+                            }
+                            .btnMenu{
+                                background-color: transparent;
+                                color: $color-2;
+                                border: none;
+                                font-size: 25px;
+                                width: 33%;
+                                :hover{
+                                    color: $color-4;
+                                    transition-duration: 300ms;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
-    }
-    .menuBoxFixed{
-        width: 60%;
-        max-width: 350px;
-        height: 35px;
-        margin: auto;
-        margin-top: 10px;
-        margin-bottom: 0px;
-        justify-content: space-between;
-        align-items: center;
-        background-color: rgba($color: #000000, $alpha: 0.9);
-        border-radius: 25px;
-        display: flex;
-        z-index: 1;
-        transition-duration: 300ms;
-        position: fixed;
-        .box{
-            width: 100%;
-            .btn{
-                border: none;
-                width: 100%;
-                background-color: transparent;
-                .menuneonlogoBox{
-                    width: 80%;
-                    max-width: 500px;
+        .bisMenuOpen {
+            width: 90%;
+            max-width: 350px;
+            height: 49px;
+            margin: auto;
+            margin-top: 1px;
+            margin-bottom: 1px;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            z-index: 1;
+            span{
+                width: 33%;
+                list-style-type: none;
+                text-align: center;
+                margin: 0px;
+                padding: 0px;
+                animation: bisMenuOpen 200ms forwards;
+                .link{
+                    font-family: 'montserrat';
+                    text-decoration: none;
                     margin: auto;
-                    display: flex;
-                    justify-content: center;
-                    background-color: transparent;
-                    border-radius: 25px;
-                    .menuneonlogoclose{
-                        display: none;
-                    }
-                    .menuneonlogo{
-                        width: 100%;
-                        max-width: 400px;
-                        height: 35px;
-                        display: flex;
-                        justify-content: space-around;
-                        background-color: transparent;
-                        align-items: center;
+                    color: white;
+                    width: 100%;
+                    height: 100%;
+                    font-size: 18px;
+                    transition-duration: 300ms;
+                    &:hover {
+                        color: $color-4;
                         transition-duration: 300ms;
-                        animation: bisMenuOpen 2000ms forwards;
-                        .linkActive{
-                            font-size: 20px;
-                            color: $color-4;
-                        }
-                        .link{
-                            color: $color-2;
-                            font-size: 20px;
-                            :hover{
-                                color: $color-4;
-                                transition-duration: 300ms;
-                            }                          
-                            
-                        }
-                        .btnMenu{
-                            background-color: transparent;
-                            color: $color-2;
-                            font-size: 20px;
-                            z-index: 2;
-                            border: none;
-                            animation: btnMenuOpen 500ms;
-                            animation-fill-mode: forwards;
-                            :hover{
-                                animation: menu 500ms;
-                                color: $color-4;
-                            }
-                        }
+                    }
+                }
+                .linkActive{
+                    font-family: 'montserrat';
+                    text-decoration: none;
+                    margin: auto;
+                    color: $color-4;
+                    width: 100%;
+                    height: 100%;
+                    font-size: 18px;
+                    transition-duration: 300ms;
+                    &:hover {
+                        color: $color-4;
+                        transition-duration: 300ms;
+                    }
+                    
+                }
+                i{
+                    font-size: 30px;
+                    transition-duration: 300ms;
+                    color: white;
+                    &:hover {
+                        color: $color-4;
+                        transition-duration: 300ms;
                     }
                 }
             }

@@ -18,15 +18,15 @@ function LastRealCreate(){
 function LastReal(){
   return(
     <div className="presentation">
-      <div className="lastReal">
-        <div className="contentPart">
-          <div className="titlePart">
-            <h2>Les dernières réalisations</h2>
-          </div>
+        <div className="titlePart">
+          <h2>Les dernières réalisations</h2>
+        </div>
+        <div className="lastReal">
+          <div className="contentPart">
             {LastRealCreate()}
+          </div>
         </div>
     </div>
-  </div>
   )
 }
 

@@ -1,48 +1,65 @@
 .presentation{
-    margin: auto;
     margin-bottom: 0px;
     width: 100%;
+    max-width: 1500px;
+    margin: auto;
     margin-top: 30px;
+    padding: 0px;
+    padding-bottom: 0px;
+    background-position-y: 10%;
+    background-position-x: 200%;
+    background-color: black;
+    border-radius: 0px;
+    opacity: 0;
+    animation: lastProd 800ms forwards;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .titlePart{
+        width: 30%;
+        z-index: 2;
+        h2{
+            text-align: left;
+            font-family: "montserrat";
+            font-weight: 600;
+            font-size: 50px;
+            line-height: 80px;
+            border-radius: 10px;
+            padding: 10px;
+            color: white;
+            opacity: 0;
+            animation: lastProd 800ms forwards;
+            animation-delay: 400ms;
+        }
+    }
     .lastReal{
-        width: 90%;
-        margin: auto;
-        max-width: 1200px;
+        width: 60%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        background: url(../img/cahier.webp);
+        background-size: 190%;
+        background-position-x: 25%;
+        border-radius: 10px;
+        z-index: 1;
         .contentPart{
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
             align-items: center;
-            width: 100%;
-            background-color: $color-5;
-            border: solid 5px black;
-            border-radius: 10px;
-            animation: lastProd 1000ms ease-in forwards;
-            .titlePart{
-                width: 100%;
-                h2{
-                    text-align: center;
-                    font-family: "montserrat";
-                    font-weight: 400;
-                    font-size: 35px;
-                    border-radius: 10px;
-                    padding: 0px;
-                    color: black;
-                    margin-bottom: 0px;
-                    animation: lastProd 800ms ease-in;
-                }
-            }
+            width: 65%;
             .lastprodMini{
                 padding: 0px;
-                width: 26%;
+                width: 50%;
                 display: flex;
+                margin-top: 50px;
                 a{
                     width: 100%;
                     display: flex;
                     img{
                         margin: auto;
                         width: 70%;
-                        transition-duration: 300ms;
                     }
                     :hover{
                         cursor: pointer;
@@ -57,63 +74,83 @@
 
 @keyframes lastProd {
     0%{
-        translate: -600%;
-    }
-    92%{
-        translate: 10%
+        opacity: 0;
     }
     100%{
-        translate: 0%;
+        opacity: 1;
     }
 }
 
 @media only screen and (max-width: 800px){
     .presentation{
-        margin-top: 30px;
+        margin-bottom: 0px;
+        width: 100%;
+        max-width: 1500px;
+        margin: auto;
+        margin-top: 0px;
+        padding: 0px;
+        padding-bottom: 0px;
+        background-color: black;
+        border-radius: 0px;
+        opacity: 0;
+        animation: lastProd 800ms forwards;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .titlePart{
+            width: 100%;
+            z-index: 2;
+            margin-bottom: -30px;
+            h2{
+                text-align: left;
+                font-family: "montserrat";
+                font-weight: 600;
+                font-size: 40px;
+                margin-left: 5px;
+                line-height: 40px;
+                border-radius: 10px;
+                padding: 0px;
+                color: white;
+            }
+        }
         .lastReal{
-            margin: auto;
             width: 100%;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            font-family: "montserrat";
+            justify-content: flex-end;
+            align-items: flex-end;
+            background: url(../img/cahier.webp);
+            background-size: 190%;
+            background-position-x: 25%;
+            border-radius: 10px;
+            z-index: 1;
+            margin-top: -20px;
             .contentPart{
-                padding-bottom: 20px;
-                width: 97%;
-                border: none;
-                box-shadow: 1px 1px 3px rgb(141, 141, 141);
-                .titlePart{
-                    margin-top: 0px;
-                    width: 100%;
-                    h2{
-                        text-align: center;
-                        font-family: "montserrat";
-                        font-weight: 400;
-                        font-size: 25px;
-                        border-radius: 10px;
-                        padding-top: 25px;
-                        color: black;
-                        margin-top: 0;
-                        margin-bottom: 20px;
-                        animation: lastProd 800ms ease-in;
-                    }
-                }
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+                width: 65%;
+                margin-bottom: 20px;
                 .lastprodMini{
-                    width: 45%;
-                    margin: 0px;
-                    img{
+                    padding: 0px;
+                    width: 50%;
+                    display: flex;
+                    margin-top: 50px;
+                    a{
                         width: 100%;
-                        padding: 0px;
-                        margin: auto;
-                    }
-                    :hover{
-                        transform: scale(1);
-                        cursor: pointer;
+                        display: flex;
+                        img{
+                            margin: auto;
+                            width: 70%;
+                        }
+                        :hover{
+                            cursor: pointer;
+                        }
+    
                     }
                 }
             }
         }
-
     }
 }

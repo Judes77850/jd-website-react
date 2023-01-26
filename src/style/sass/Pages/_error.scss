@@ -1,33 +1,36 @@
 .erreur404Box{
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
     min-height: 55vh;
     margin: auto;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    background: url(../img/background4.jpg);
+    background-size: cover;
     h2{
-        color: $color-4;
+        color: black;
+        text-shadow: $color-9 5px 5px 6px;
         font-size: 130px;
         font-family: roboting;
-        margin-top: 160px;
+        margin-top: 120px;
     }
     .backBox{
         height: 100px;
         display: flex;
-        margin-top: 0px;
+        margin-bottom: 80px;
         a{
             margin: auto;
             color: white;
             text-decoration: none;
             font-family: montserrat;
-            font-size: 35px;
+            font-size: 25px;
             margin: auto;
-            background: $color-3;
-            border-radius: 20px;
+            background: $color-7;
+            border-radius: 5px;
             transition-duration: 200ms;
-            padding: 20px;
+            padding: 10px;
             box-shadow: 1px 1px 3px rgb(85, 85, 85);
             &:hover{
                 transform: scale(1.03);
@@ -39,21 +42,22 @@
 
 @media only screen and (max-width: 800px){
     .erreur404Box{
-        width: 98%;
-        background: url(../img/background2.jpg);
+        width: 100%;
+        background: url(../img/background4.jpg);
         background-size: cover;
-        border-radius: 10px;
+        border-radius: 0px;
         max-width: 1200px;
         min-height: 300px;
         margin: auto;
-        margin-top: 50px;
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         h2{
-            color: $color-4;
-            font-size: 60px;
+            color: black;
+            font-size: 80px;
+            text-shadow: $color-9 5px 5px 5px;
             font-family: roboting;
             margin-top: 50px;
         }

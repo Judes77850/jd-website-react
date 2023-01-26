@@ -3,42 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Web site created using create-react-app" />
-
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/jd.png" />
+    <meta name="description" content="Julien Desaindes, developpeur WEB REACT, HTML, CSS, SASS, Node, Node JS, Javascript" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <script src="https://kit.fontawesome.com/b7690d0649.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-    (function () {
-      emailjs.init("MK-TS7pXp5JJyRB91");
-    })();
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9WBH4ZVRFB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-9WBH4ZVRFB');
     </script>
-    <script type="text/javascript">
-      window.onload = function () {
-        document
-          .getElementById("contact-form")
-          .addEventListener("submit", function (event) {
-            event.preventDefault();
-            this.contact_number.value = (Math.random() * 100000) | 0;
-            emailjs.sendForm("service_duwdtg9", "template_cfu7i59", this).then(
-              function () {
-                console.log("SUCCESS!");
-                alert("Votre demande a bien été transmise");
-                location.reload();
-              },
-              function (error) {
-                console.log("FAILED...", error);
-                alert(
-                  "Quelque chose ne s'est pas passé comme prévu, vous pouvez contacter Julien par email ; julien.desaindes@gmail.com"
-                );
-              }
-            );
-          });
-      };
-  </script>
+    <script src="../node_modules/animejs/lib/anime.min.js"></script>
+    <script src="https://kit.fontawesome.com/b7690d0649.js" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer></script>
     <title>JD-Website</title>
   </head>
   <body>

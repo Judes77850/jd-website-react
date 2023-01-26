@@ -7,7 +7,6 @@ function Footer(){
                 <a href="https://twitter.com/judesdev"><i className="fa-brands fa-square-twitter"></i></a>
                 <a href="https://github.com/Judes77850"><i className="fa-brands fa-github"></i></a>
             </div>
-            <p>a propos de ce site ...</p>
         </footer>
     )
 }

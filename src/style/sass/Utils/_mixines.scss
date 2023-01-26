@@ -4,11 +4,9 @@
     color: white;
     text-decoration: none;
     border: none;
-    background: $color-6;
-    box-shadow: 1px 1px 8px rgb(141, 141, 141);
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
-    background: $color-3;
+    background: $color-4;
     cursor: pointer;
     transition: 300ms;
     &:hover{
@@ -22,11 +20,9 @@
     color: white;
     text-decoration: none;
     border: none;
-    background: $color-6;
-    box-shadow: 1px 1px 8px rgb(141, 141, 141);
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
-    background: $color-3;
+    background: $color-4;
     cursor: pointer;
     transition: 300ms;
     &:hover{
@@ -40,8 +36,7 @@
     color: white;
     text-decoration: none;
     border: none;
-    background: $color-7;
-    box-shadow: 1px 1px 8px rgb(141, 141, 141);
+    background: $color-9;
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -57,8 +52,7 @@
     color: white;
     text-decoration: none;
     border: none;
-    background: $color-7;
-    box-shadow: 1px 1px 8px rgb(141, 141, 141);
+    background: $color-9;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
     cursor: pointer;

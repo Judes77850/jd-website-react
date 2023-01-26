@@ -6,6 +6,8 @@ import LastReal from './Components/LastReal';
 import Contact from "./Pages/Contact";
 import Projets from "./Pages/Projets";
 import Parcours from "./Pages/Parcours";
+import Mission from './Components/Mission';
+import ContactMini from './Components/ContactMini';
 import ParcoursMini from "./Components/ParcoursMini";
 import Projet from "./Pages/Projet";
 
@@ -16,12 +18,12 @@ function App() {
         <Header />
       <div className='main'>
         <Routes> 
-            <Route path="/" element={<><LastReal/><ParcoursMini/></>}/>
+            <Route path="" element={<><ParcoursMini/><Mission/><LastReal/><ContactMini/></>}/>
             <Route path="/Contact" element={<Contact/>}/>
             <Route path="/Parcours" element={<Parcours/>}/>
             <Route path="/Projets" element={<Projets/>}/>
             <Route path="/Projet/:id" element={<Projet/>}/>
-            <Route path="/*" element={<Error />} />
+            <Route path="*" element={<Error />} />
           </Routes>
       </div>
         <Footer />

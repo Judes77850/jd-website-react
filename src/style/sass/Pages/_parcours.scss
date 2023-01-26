@@ -1,12 +1,17 @@
 @import "../Utils/mixines";
 
 .Parcours{
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
     margin: auto;
     margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
+    background: url(../img/road.webp) fixed;
+    background-size: cover;
+    opacity: 0;
+    animation: lastProd 800ms forwards;
     .ParcoursBox{
         display: flex;
         flex-direction: row;
@@ -14,12 +19,11 @@
         justify-content: space-around;
         align-items: flex-start;
         margin: auto;
-        margin-top: 30px;
-        width: 100%;
+        margin-top: 0px;
+        width: 90%;
         max-width: 1200px;
         background-color: $color-5;
-        border: solid black 5px;
-        border-radius: 10px;
+        border-radius: 5px;
         font-family: "montserrat";
         h2{
             width: 100%;
@@ -27,7 +31,7 @@
             margin: auto;
             font-family: 'montserrat';
             font-weight: 400;
-            font-size: 35px;
+            font-size: 30px;
             padding: 25px 0px 0px 0px;
             margin-bottom: 30px;
         }
@@ -42,6 +46,7 @@
             h3{
                 font-size: 25px;
                 font-weight: 400;
+                text-align: center
             }
             p{
                 font-size: 16px;
@@ -65,11 +70,10 @@
         align-items: center;
         margin: auto;
         margin-top: 30px;
-        width: 100%;
+        width: 90%;
         max-width: 1200px;
         background-color: $color-5;
-        border: solid black 5px;
-        border-radius: 10px;
+        border-radius: 5px;
         font-family: "montserrat";
         h2{
             width: 100%;
@@ -77,30 +81,34 @@
             margin: auto;
             font-family: 'montserrat';
             font-weight: 400;
-            font-size: 35px;
+            font-size: 30px;
             padding: 25px 0px 0px 0px;
             margin-bottom: 30px;
         }
         .card{
             width: 90%;
             height: auto;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
+            padding-bottom: 20px;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: flex-start;
+            align-items: center;
+            border-bottom: 1px solid darkgray;
             h3{
                 font-size: 22px;
                 font-weight: 400;
+                text-align: center
 
             }
             p{
                 font-size: 16px;
                 line-height: 20px;
-                margin: 5px
+                margin: 5px;
+                text-align: center
             }
             a{
-                @include mixinButtonGoldMini;
+                @include mixinButtonGold;
                 margin: auto;
                 margin-bottom: 0;
                 margin-top: 15px;
@@ -109,105 +117,325 @@
     }
 }
 
+@keyframes lastProd {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .ParcoursMini{
-    background-color: $color-5;
-    border: solid black 5px;
-    width: 90%;
-    max-width: 1200px;
+    background-color: #0f0f0f;
+    width: 100%;
+    max-width: 1500px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    border-radius: 10px;
+    opacity: 1;
     font-family: "montserrat";
-    animation: form 1000ms ease-in forwards;
-    h2{
-        width: auto;
-        max-width: 1200px;
-        text-align: center;
-        font-family: 'montserrat';
-        font-size: 35px;
-        font-weight: 400;
-    }
-    p{
-        width: 90%;
-        margin: auto;
-        font-size: 20px;
-        line-height: 30px;
-        margin-bottom: 20px;
-        color: $color-7;
-    }
-    .toParcours{
-        margin-top: 20px;
-        height: 50px;
-        a{
-            @include mixinButtonGreen;
+    border-radius: 10px;
+    overflow: hidden;
+    .PixParttrue{
+        width: 40%;
+        display: flex;
+        img{
+            margin: auto;
+            width: 60%;
+            border-radius: 10px;
+            opacity: 0;
+            animation: light 1200ms forwards;
+            animation-delay: 500ms;
         }
-        a:hover{
-            transform: scale(1.04);
+    }
+    .PixPartfalse{
+        width: 40%;
+        display: flex;
+        opacity: 0;
+        img{
+            margin: auto;
+            width: 70%;
+            border-radius: 10px;
+            opacity: 1;
+        }
+    }
+    .parcoursMiniBoxtrue{
+        width: 60%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-radius: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        h2{
+            width: 100%;
+            max-width: 1200px;
+            text-align: center;
+            font-family: 'montserrat';
+            font-size: 50px;
+            line-height: 70px;
+            font-weight: 600;
+        }
+        .aproposTextPart{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            p{
+                width: 90%;
+                max-width: 1200px;
+                margin: auto;
+                text-align: center;
+                font-size: 16px;
+                line-height: 25px;
+                margin-bottom: 20px;
+                color: $color-7;
+            }
+            .toParcours{
+                margin: auto;
+                margin-top: 80px;
+                a{
+                    @include mixinButtonGold;
+                }
+                a:hover{
+                    transform: scale(1.04);
+                }
+            }
+        }
+    }
+    .parcoursMiniBoxfalse{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-radius: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        h2{
+            width: 90%;
+            max-width: 1200px;
+            text-align: center;
+            font-family: 'montserrat';
+            font-size: 30px;
+            font-weight: 400;
+        }
+        .aproposTextPart{
+            width: 100%;
+            p{
+                width: 85%;
+                max-width: 1200px;
+                margin: auto;
+                text-align: center;
+                font-size: 16px;
+                line-height: 25px;
+                margin-bottom: 20px;
+                color: $color-7;
+            }
+            .toParcours{
+                display: flex;
+                margin-top: 0px;
+                height: 100px;
+                a{
+                    @include mixinButtonGold;
+                }
+                a:hover{
+                    transform: scale(1.04);
+                }
+            }
         }
     }
 }
 
 @keyframes form {
     0%{
-        translate: 600%;
-    }
-    92%{
-        translate: -10%
+        opacity: 0;
     }
     100%{
-        translate: 0.4%;
+        opacity: 1;
+    }
+}
+
+@keyframes light {
+    0%{
+        margin-top: -200%;
+        opacity: 1;
+    }
+    100%{
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes lightOff {
+    0%{
+        background-color: rgba($color: #000000, $alpha: 0.5);
+    }
+    100%{
+        background-color: rgba($color: #000000, $alpha: 0.9);
     }
 }
 
 @media only screen and (max-width: 800px){
-    .ParcoursMini{
-        background: url(../img/background2.jpg);
-        background-size: cover;
-        width: 98%;
-        margin-top: 30px;
-        border: none;
+    
+.ParcoursMini{
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 850px;
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 1;
+    font-family: "montserrat";
+    border-radius: 10px;
+    overflow: hidden;
+    .PixParttrue{
+        margin-top: 20px;
+        width: 80%;
+        display: flex;
+        img{
+            margin: auto;
+            width: 60%;
+            border-radius: 10px;
+            opacity: 0;
+            margin-top: -100%;
+            animation: light 1200ms forwards;
+            animation-delay: 500ms;
+        }
+    }
+    .PixPartfalse{
+        margin-top: 20px;
+        width: 80%;
+        display: flex;
+        img{
+            margin: auto;
+            width: 60%;
+            border-radius: 10px;
+            opacity: 0;
+            margin-top: -100%;
+        }
+    }
+    .parcoursMiniBoxtrue{
+        width: 95%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-radius: 0px;
+        padding-top: 0px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
         h2{
             width: 100%;
             max-width: 1200px;
             text-align: center;
             font-family: 'montserrat';
-            font-size: 25px;
-            line-height: 35px;
-            color: white;
+            font-size: 40px;
+            line-height: 40px;
+            font-weight: 600;
         }
-        p{
-            width: 90%;
-            margin: auto;
-            font-size: 16px;
-            line-height: 25px;
-            margin-bottom: 30px;
-            color: white;
-        }
-        .toParcours{
-            margin-top: 20px;
-            height: 50px;
-            a{
-                @include mixinButtonGoldMini;
+        .aproposTextPart{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            p{
+                width: 90%;
+                max-width: 1200px;
+                margin: auto;
+                text-align: center;
+                font-size: 16px;
+                line-height: 25px;
+                margin-bottom: 20px;
+                color: $color-7;
             }
-            a:hover{
-                transform: scale(1.04);
+            .toParcours{
+                margin: auto;
+                margin-top: 40px;
+                a{
+                    @include mixinButtonGoldMini;
+                }
+                a:hover{
+                    transform: scale(1.04);
+                }
             }
         }
     }
+    .parcoursMiniBoxfalse{
+        width: 95%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-radius: 0px;
+        padding-top: 0px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        h2{
+            width: 90%;
+            max-width: 1200px;
+            text-align: center;
+            font-family: 'montserrat';
+            font-size: 30px;
+            font-weight: 400;
+        }
+        .aproposTextPart{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            p{
+                width: 90%;
+                max-width: 1200px;
+                margin: auto;
+                text-align: center;
+                font-size: 16px;
+                line-height: 25px;
+                margin-bottom: 20px;
+                color: $color-7;
+            }
+            .toParcours{
+                margin: auto;
+                margin-top: 40px;
+                a{
+                    @include mixinButtonGoldMini;
+                }
+                a:hover{
+                    transform: scale(1.04);
+                }
+            }
+        }
+    }
+}
+
     .Parcours{
-        width: 98%;
+        width: 100%;
         max-width: 1200px;
         margin: auto;
-        margin-top: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background: url(../img/background2.jpg);
-        border-radius: 10px;
+        background: url(../img/road.webp);
+        background-position-x: 50%;
+        background-size: cover;
+        border-radius: 5px;
         .ParcoursBox{
             display: flex;
             flex-direction: column;
@@ -215,28 +443,29 @@
             justify-content: space-around;
             align-items: center;
             margin: auto;
-            margin-top: 30px;
-            margin-bottom: 40px;
-            width: 90%;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            width: 95%;
             max-width: 1200px;
             background-color: $color-5;
             border: none;
-            border-radius: 10px;
+            border-radius: 5px;
             font-family: "montserrat";
+            padding-bottom: 30px;
             h2{
                 width: 100%;
                 text-align: center;
                 margin: auto;
                 font-family: 'montserrat';
-                font-size: 25px;
+                font-size: 22px;
                 padding: 25px 0px 0px 0px;
-                margin-bottom: 50px;
+                margin-bottom: 20px;
             }
             .card{
                 width: 90%;
                 height: auto;
-                margin-bottom: 50px;
-                margin-top: -20px;
+                margin-bottom: 0px;
+                margin-top: 30px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -244,6 +473,8 @@
                 border-bottom: 2px solid darkgray;
                 h3{
                     font-size: 20px;
+                    margin-bottom: -10px;
+                    text-align: center;
                 }
                 p{
                     font-size: 16px;
@@ -254,13 +485,10 @@
                     margin: auto;
                     height: 30px;
                 }
-                a{
-                    @include mixinButtonGold;
-                }
             }
         }
         .FormBox{
-            width: 90%;
+            width: 95%;
             border: none;
             display: flex;
             flex-direction: column;
@@ -268,23 +496,22 @@
             align-items: center;
             margin: auto;
             margin-top: 0px;
-            margin-bottom: 30px;
-            border-radius: 10px;
-            
+            margin-bottom: 10px;
+            border-radius: 5px;
+            padding-bottom: 30px;
             h2{
                 width: 100%;
                 text-align: center;
                 margin: auto;
                 font-family: 'montserrat';
-                font-size: 25px;
+                font-size: 22px;
                 padding: 25px 0px 0px 0px;
                 margin-bottom: 30px;
             }
             .card{
                 width: 90%;
                 margin: auto;
-                margin-bottom: 20px;
-                padding-bottom: 20px;
+                margin-bottom: 0px;
                 border-bottom: 2px solid darkgray;
                 h3{
                     font-size: 20px;
@@ -292,6 +519,11 @@
                 p{
                     font-size: 16px;
                     line-height: 22px;
+                    text-align: center
+                }
+                a{
+                    @include mixinButtonGoldMini;
+                    margin-bottom: 0;
                 }
             }
         }

@@ -1,70 +1,97 @@
 .presentation{
     margin-bottom: 0px;
     width: 100%;
-    max-width: 1500px;
     margin: auto;
     margin-top: 30px;
     padding: 0px;
     padding-bottom: 0px;
     background-position-y: 10%;
     background-position-x: 200%;
-    background-color: black;
-    border-radius: 0px;
+    background: $color-13;
     opacity: 0;
     animation: lastProd 800ms forwards;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    .titlePart{
-        width: 30%;
-        z-index: 2;
-        h2{
-            text-align: left;
-            font-family: "montserrat";
-            font-weight: 600;
-            font-size: 50px;
-            line-height: 80px;
-            border-radius: 10px;
-            padding: 10px;
-            color: white;
-            opacity: 0;
-            animation: lastProd 800ms forwards;
-            animation-delay: 400ms;
-        }
-    }
-    .lastReal{
-        width: 60%;
+    .ContentLastReal{
         display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        background: url(../img/cahier.webp);
-        background-size: 190%;
-        background-position-x: 25%;
-        border-radius: 10px;
-        z-index: 1;
-        .contentPart{
+        width: 100%;
+        max-width: 1500px;
+        margin: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        .titlePart{
+            width: auto;
+            z-index: 2;
             display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
+            flex-direction: column;
             align-items: center;
-            width: 65%;
-            .lastprodMini{
-                padding: 0px;
-                width: 50%;
-                display: flex;
-                margin-top: 50px;
+            justify-content: center;
+            h2{
+                text-align: left;
+                font-family: "montserrat";
+                text-align: center;
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 80px;
+                padding: 10px;
+                color: $color-2;
+                opacity: 0;
+                animation: lastProd 800ms forwards;
+                animation-delay: 400ms;
+            }
+            button{
+                background: $color-9;
+                height: 35px;
+                margin: 10px;
+                border: none;
+                border-radius: 5px;
+                transition-duration: 150ms;
                 a{
-                    width: 100%;
+                    color: $color-2;
+                    text-decoration: none;
+                    font-size: 20px;
+                }
+            }
+            button:hover{
+                transform: scale(1.04);
+                transition-duration: 150ms;
+            }
+        }
+        .lastReal{
+            width: 70%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            background: url(../img/cahier.webp);
+            background-size: 190%;
+            background-position-x: 25%;
+            border-radius: 10px;
+            z-index: 1;
+            .contentPart{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+                width: 65%;
+                .lastprodMini{
+                    padding: 0px;
+                    width: 50%;
                     display: flex;
-                    img{
-                        margin: auto;
-                        width: 70%;
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    a{
+                        width: 100%;
+                        display: flex;
+                        img{
+                            margin: auto;
+                            width: 70%;
+                        }
+                        :hover{
+                            cursor: pointer;
+                        }
                     }
-                    :hover{
-                        cursor: pointer;
-                    }
-
                 }
             }
         }
@@ -85,69 +112,80 @@
     .presentation{
         margin-bottom: 0px;
         width: 100%;
-        max-width: 1500px;
         margin: auto;
-        margin-top: 0px;
+        margin-top: 30px;
         padding: 0px;
-        padding-bottom: 0px;
-        background-color: black;
-        border-radius: 0px;
+        padding-bottom: 20px;
         opacity: 0;
         animation: lastProd 800ms forwards;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .titlePart{
-            width: 100%;
-            z-index: 2;
-            margin-bottom: -30px;
-            h2{
-                text-align: left;
-                font-family: "montserrat";
-                font-weight: 600;
-                font-size: 40px;
-                margin-left: 5px;
-                line-height: 40px;
-                border-radius: 10px;
-                padding: 0px;
-                color: white;
-            }
-        }
-        .lastReal{
-            width: 100%;
-            display: flex;
-            justify-content: flex-end;
-            align-items: flex-end;
-            background: url(../img/cahier.webp);
-            background-size: 190%;
-            background-position-x: 25%;
-            border-radius: 10px;
-            z-index: 1;
-            margin-top: -20px;
-            .contentPart{
+        overflow: hidden;
+        .ContentLastReal{
+            flex-direction: column;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            .titlePart{
+                width: 100%;
+                z-index: 2;
+                margin-bottom: -30px;
                 display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
+                flex-direction: column;
                 align-items: center;
-                width: 65%;
-                margin-bottom: 20px;
-                .lastprodMini{
+                justify-content: center;
+                h2{
+                    text-align: center;
+                    font-family: "montserrat";
+                    width: 100%;
+                    font-weight: 600;
+                    font-size: 40px;
+                    margin-left: 5px;
+                    line-height: 40px;
+                    border-radius: 10px;
                     padding: 0px;
-                    width: 50%;
+                    color: white;
+                }
+            }
+            .lastReal{
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-end;
+                background: url(../img/cahier.webp);
+                background-size: 210%;
+                background-position-x: 35%;
+                border-radius: 0px;
+                z-index: 1;
+                margin-top: 0px;
+                .contentPart{
                     display: flex;
-                    margin-top: 50px;
-                    a{
-                        width: 100%;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 75%;
+                    margin-top: 0;
+                    margin-bottom: 0px;
+                    margin-right: 10px;
+                    .lastprodMini{
+                        padding: 0px;
+                        width: 50%;
                         display: flex;
-                        img{
-                            margin: auto;
-                            width: 70%;
+                        margin-top: 35px;
+                        margin-bottom: 20px;
+                        a{
+                            width: 100%;
+                            display: flex;
+                            img{
+                                margin: auto;
+                                width: 70%;
+                            }
+                            :hover{
+                                cursor: pointer;
+                            }
+        
                         }
-                        :hover{
-                            cursor: pointer;
-                        }
-    
                     }
                 }
             }

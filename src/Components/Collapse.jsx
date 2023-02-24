@@ -31,7 +31,7 @@ function Collapse(){
                             <NavLink to="/Parcours" className={({isActive}) => (isActive ? 'linkActive' : 'link')}><p>Parcours</p></NavLink>
                         </span>
                         <span className="btnMenu" aria-label="toggle curtain navigation" onClick={content}>
-                            <i className={(open) ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
+                            <i className={(open) ? "fa-solid fa-circle-xmark" : "fa-solid fa-bars"}></i>
                         </span>
                         <span>
                             <NavLink to="/Projets" className={({isActive}) => (isActive ? 'linkActive' : 'link')}>Projets</NavLink>

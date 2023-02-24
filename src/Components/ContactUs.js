@@ -16,7 +16,7 @@ function ContactUs(){
 
   return (
     <form className='contact-form' ref={form} onSubmit={sendEmail}>
-      <h2>Formulaire de contact</h2>
+      <h2>Entrons en contact</h2>
       <label>Nom</label>
       <input type="text" name="user_name" />
       <label>Email</label>

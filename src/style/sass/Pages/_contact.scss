@@ -2,18 +2,17 @@
 
 .formBox{
     width: 100%;
-    max-width: 1500px;
     margin: auto;
     margin-top: 30px;
     padding-top: 0px;
     padding-bottom: 0px;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
     opacity: 0;
     animation: onPage 800ms forwards;
     background: url(../img/contact.webp);
     background-size: cover;
+    background-attachment: fixed;
     background-position-y: 70%;
     .contact-form{
         border-radius: 5px;
@@ -25,7 +24,7 @@
         height: auto;
         margin: auto;
         margin-top: 0px;
-        padding-top: 50px;
+        padding-top: 20px;
         padding-bottom: 50px;
         opacity: 0;
         animation: onPageContent 500ms 200ms forwards;
@@ -97,8 +96,8 @@
     align-items: flex-start;
     margin-top: 30px;
     opacity: 0;
-    animation: onPage 800ms forwards;
     border-radius: 10px;
+    animation: onPage 800ms forwards;
     .contactMini{
         padding-top: 50px;
         width: 100%;
@@ -286,6 +285,7 @@
     .contactMiniBox{
         margin-top: 30px;
         border-radius: 5px;
+        overflow: hidden;
         .contactMini{
             display: flex;
             flex-direction: row;
@@ -301,12 +301,12 @@
             a{
                 margin-top: 0px;
                 .toContacttrue{
-                    margin-top: -30px;
+                    margin-top: -20px;
                     margin-right: 0px;
                     padding: 5px;
-                    width: 310px;
+                    width: 250px;
                     text-align: center;
-                    font-size: 60px;
+                    font-size: 50px;
                 }
             }
         }

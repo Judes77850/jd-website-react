@@ -102,6 +102,7 @@
         "underTitle": "Créez une application web de location immobilière avec React",
         "description": "Développement d'une nouvelle plateforme web pour un site de location d’appartements entre particuliers. Construction du Front-end avec React.",
 		"logo": "https://judes77850.github.io/hebergement/real/kasa.png",
+		"functionalLink": "https://judes77850.github.io/kasa/",
 		"gitHubLink": "https://github.com/Judes77850/kasa",
 		"support": [
 			"mobile",

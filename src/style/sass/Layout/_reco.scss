@@ -1,0 +1,249 @@
+.recoBoxtrue{
+    width: 100%;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-family: montserrat;
+    overflow: hidden;
+    h3{
+        text-align: center;
+        font-family: 'montserrat';
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .reco{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        blockquote{
+            width: 70%;
+            line-height: 25px;
+            font-size: 16px;
+            opacity: 0;
+            animation: anim 1000ms ease;
+            animation-fill-mode: forwards;
+            animation-delay: 1200ms;
+            background-color: rgb(117, 80, 235);
+            padding: 20px;
+            border-radius: 10px;
+            .signature{
+                margin-top: 30px;
+                text-align: right;
+                font-size: 16px;
+                p{
+                    margin: 0;
+                }
+            }
+        }
+        .imgBoxtrue{
+            margin-right: -200%;
+            animation: imgAnim 1000ms ease;
+            animation-delay: 200ms;
+            animation-fill-mode: forwards;
+
+            img{
+                width: 180px;
+                
+            }
+        }
+    }
+}
+
+.recoBoxfalse{
+    width: 100%;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-family: montserrat;
+    overflow: hidden;
+    h3{
+        text-align: center;
+        font-size: 40px;
+    }
+    .reco{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        blockquote{
+            width: 70%;
+            line-height: 25px;
+            font-size: 16px;
+            opacity: 0;
+            animation: none;
+            background: url(../img/recoBack.webp);
+            padding: 20px;
+            border-radius: 10px;
+            .signature{
+                margin-top: 30px;
+                text-align: right;
+                font-size: 16px;
+                p{
+                    margin: 0;
+                }
+            }
+        }
+        .imgBoxfalse{
+            margin-right: -200%;
+            animation: none;
+            animation-fill-mode: forwards;
+
+            img{
+                width: 180px;
+                
+            }
+        }
+    }
+}
+
+
+
+@keyframes anim{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes imgAnim{
+    0%{
+        margin-right: -100%;
+        rotate: 2turn;
+    }
+    100%{
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .recoBoxtrue{
+        width: 100%;
+        background-color: black;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        color: white;
+        font-family: montserrat;
+        overflow: hidden;
+        h3{
+            margin: auto;
+            margin-bottom: 50px;
+            text-align: center;
+            font-size: 20px;
+            width: 90%;
+        }
+        .reco{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            blockquote{
+                width: 85%;
+                line-height: 25px;
+                font-size: 16px;
+                opacity: 0;
+                animation: anim 1500ms ease;
+                animation-fill-mode: forwards;
+                background-color: rgb(117, 80, 235);
+                padding: 20px;
+                border-radius: 10px;
+                .signature{
+                    margin-top: 20px;
+                    text-align: right;
+                    font-size: 16px;
+                    p{
+                        margin: 0;
+                    }
+                }
+            }
+            .imgBoxtrue{
+                margin-right: -200%;
+                animation: imgAnim 1000ms ease;
+                animation-fill-mode: forwards;
+    
+                img{
+                    width: 100px;
+                    
+                }
+            }
+        }
+    }
+
+    .recoBoxfalse{
+        width: 100%;
+        background-color: black;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        color: white;
+        font-family: montserrat;
+        overflow: hidden;
+        h3{
+            margin: auto;
+            margin-bottom: 50px;
+            text-align: center;
+            font-size: 20px;
+            width: 90%;
+        }
+        .reco{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            blockquote{
+                width: 85%;
+                line-height: 25px;
+                font-size: 16px;
+                opacity: 0;
+                animation: none;
+                animation-fill-mode: forwards;
+                background-color: rgb(117, 80, 235);
+                padding: 20px;
+                border-radius: 10px;
+                .signature{
+                    margin-top: 20px;
+                    text-align: right;
+                    font-size: 16px;
+                    p{
+                        margin: 0;
+                    }
+                }
+            }
+            .imgBoxfalse{
+                margin-right: -200%;
+                animation: none;
+                animation-fill-mode: forwards;
+    
+                img{
+                    width: 100px;
+                    
+                }
+            }
+        }
+    }
+
+    @keyframes imgAnim{
+        0%{
+            margin-right: -200%;
+            rotate: 1turn;
+        }
+        100%{
+            margin-right: 0px;
+        }
+    }
+}

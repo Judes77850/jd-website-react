@@ -10,7 +10,7 @@ header {
   z-index: 1;
 }
 header .neonlogo {
-  background-color: black;
+  background-color: #000000;
   padding: 10px 0px 10px 0px;
   width: 100%;
   margin: 0px;
@@ -42,28 +42,28 @@ header .neonlogo a .acch1 {
     text-shadow: none;
   }
   5% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   6% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   7% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   14% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   15% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   19% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   20% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   21% {
     color: rgb(86, 120, 96);
@@ -74,17 +74,17 @@ header .neonlogo a .acch1 {
     text-shadow: none;
   }
   60% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   61% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   97% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   100% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
 }
 
@@ -94,28 +94,28 @@ header .neonlogo a .acch1 {
     text-shadow: none;
   }
   5% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   6% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   7% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   14% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   15% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   19% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   20% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   21% {
     color: rgb(86, 120, 96);
@@ -126,17 +126,17 @@ header .neonlogo a .acch1 {
     text-shadow: none;
   }
   60% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   61% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   97% {
     color: rgb(86, 120, 96);
     text-shadow: none;
   }
   100% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
 }
 #neonlogobox {
@@ -208,7 +208,7 @@ footer #socialBox a :visited {
 footer #socialBox a :hover {
   transform: scale(1.15) rotate(0.05turn);
   transition: 300ms;
-  color: rgb(60, 155, 228);
+  color: #3c9be4;
 }
 footer #socialBox i {
   transition: 300ms;
@@ -250,7 +250,7 @@ footer #socialBox i {
   footer #socialBox a :hover {
     transform: scale(1.15) rotate(0.05turn);
     transition: 300ms;
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   footer #socialBox i {
     transition: 300ms;
@@ -262,28 +262,28 @@ footer #socialBox i {
     text-shadow: none;
   }
   5% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   6% {
     color: rgb(93, 93, 93);
     text-shadow: none;
   }
   7% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   14% {
     color: rgb(93, 93, 93);
     text-shadow: none;
   }
   15% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   19% {
     color: rgb(93, 93, 93);
     text-shadow: none;
   }
   20% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   21% {
     color: rgb(93, 93, 93);
@@ -294,17 +294,17 @@ footer #socialBox i {
     text-shadow: none;
   }
   60% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   61% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
   97% {
     color: rgb(93, 93, 93);
     text-shadow: none;
   }
   100% {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
   }
 }
 .MenuBoxToFix {
@@ -362,7 +362,7 @@ footer #socialBox i {
   align-items: center;
 }
 .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .linkActive {
-  color: rgb(60, 155, 228);
+  color: #3c9be4;
   transition-duration: 300ms;
 }
 .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .link {
@@ -370,7 +370,7 @@ footer #socialBox i {
   transition-duration: 300ms;
 }
 .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .link :hover {
-  color: rgb(60, 155, 228);
+  color: #3c9be4;
   transition-duration: 300ms;
 }
 .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .btnMenu {
@@ -380,7 +380,7 @@ footer #socialBox i {
   border: none;
 }
 .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .btnMenu :hover {
-  color: rgb(60, 155, 228);
+  color: #3c9be4;
   transition-duration: 300ms;
 }
 .MenuBoxToFix .menuBoxFixed {
@@ -427,7 +427,7 @@ footer #socialBox i {
   font-size: 25px;
 }
 .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .linkActive {
-  color: rgb(60, 155, 228);
+  color: #3c9be4;
   font-size: 25px;
 }
 .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .link {
@@ -435,7 +435,7 @@ footer #socialBox i {
   font-size: 25px;
 }
 .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .link :hover {
-  color: rgb(60, 155, 228);
+  color: #3c9be4;
   transition-duration: 300ms;
 }
 .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .btnMenu {
@@ -445,7 +445,7 @@ footer #socialBox i {
   font-size: 25px;
 }
 .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogoBox .menuneonlogo .btnMenu :hover {
-  color: rgb(60, 155, 228);
+  color: #3c9be4;
   transition-duration: 300ms;
 }
 .MenuBoxToFix .bisMenuOpen {
@@ -482,21 +482,21 @@ footer #socialBox i {
   transition-duration: 300ms;
 }
 .MenuBoxToFix .bisMenuOpen span .link:hover {
-  color: rgb(60, 155, 228);
+  color: #3c9be4;
   transition-duration: 300ms;
 }
 .MenuBoxToFix .bisMenuOpen span .linkActive {
   font-family: "montserrat";
   text-decoration: none;
   margin: auto;
-  color: rgb(60, 155, 228);
+  color: #3c9be4;
   width: 100%;
   height: 100%;
   font-size: 20px;
   transition-duration: 300ms;
 }
 .MenuBoxToFix .bisMenuOpen span .linkActive:hover {
-  color: rgb(60, 155, 228);
+  color: #3c9be4;
   transition-duration: 300ms;
 }
 .MenuBoxToFix .bisMenuOpen span i {
@@ -505,7 +505,7 @@ footer #socialBox i {
   color: white;
 }
 .MenuBoxToFix .bisMenuOpen span i:hover {
-  color: rgb(60, 155, 228);
+  color: #3c9be4;
   transition-duration: 300ms;
 }
 
@@ -585,7 +585,7 @@ footer #socialBox i {
     align-items: center;
   }
   .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .linkActive {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
     transition-duration: 300ms;
   }
   .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .link {
@@ -593,7 +593,7 @@ footer #socialBox i {
     transition-duration: 300ms;
   }
   .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .link :hover {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
     transition-duration: 300ms;
   }
   .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .btnMenu {
@@ -603,7 +603,7 @@ footer #socialBox i {
     border: none;
   }
   .MenuBoxToFix .menuBox .box .btn .menuneonlogoBox .menuneonlogo .btnMenu :hover {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
     transition-duration: 300ms;
   }
   .MenuBoxToFix .menuBoxFixed {
@@ -651,7 +651,7 @@ footer #socialBox i {
     display: none;
   }
   .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogo .menuneonlogoBox .linkActive {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
     font-size: 25px;
     width: 33%;
   }
@@ -661,7 +661,7 @@ footer #socialBox i {
     width: 33%;
   }
   .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogo .menuneonlogoBox .link :hover {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
     transition-duration: 300ms;
   }
   .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogo .menuneonlogoBox .btnMenu {
@@ -672,7 +672,7 @@ footer #socialBox i {
     width: 33%;
   }
   .MenuBoxToFix .menuBoxFixed .box .btn .menuneonlogo .menuneonlogoBox .btnMenu :hover {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
     transition-duration: 300ms;
   }
   .MenuBoxToFix .bisMenuOpen {
@@ -709,21 +709,21 @@ footer #socialBox i {
     transition-duration: 300ms;
   }
   .MenuBoxToFix .bisMenuOpen span .link:hover {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
     transition-duration: 300ms;
   }
   .MenuBoxToFix .bisMenuOpen span .linkActive {
     font-family: "montserrat";
     text-decoration: none;
     margin: auto;
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
     width: 100%;
     height: 100%;
     font-size: 18px;
     transition-duration: 300ms;
   }
   .MenuBoxToFix .bisMenuOpen span .linkActive:hover {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
     transition-duration: 300ms;
   }
   .MenuBoxToFix .bisMenuOpen span i {
@@ -732,22 +732,20 @@ footer #socialBox i {
     color: white;
   }
   .MenuBoxToFix .bisMenuOpen span i:hover {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
     transition-duration: 300ms;
   }
 }
 .presentation {
   margin-bottom: 0px;
   width: 100%;
-  max-width: 1500px;
   margin: auto;
   margin-top: 30px;
   padding: 0px;
   padding-bottom: 0px;
   background-position-y: 10%;
   background-position-x: 200%;
-  background-color: black;
-  border-radius: 0px;
+  background: #080808;
   opacity: 0;
   -webkit-animation: lastProd 800ms forwards;
           animation: lastProd 800ms forwards;
@@ -755,27 +753,56 @@ footer #socialBox i {
   flex-direction: row;
   justify-content: space-between;
 }
-.presentation .titlePart {
-  width: 30%;
-  z-index: 2;
+.presentation .ContentLastReal {
+  display: flex;
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-.presentation .titlePart h2 {
+.presentation .ContentLastReal .titlePart {
+  width: auto;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.presentation .ContentLastReal .titlePart h2 {
   text-align: left;
   font-family: "montserrat";
+  text-align: center;
   font-weight: 600;
   font-size: 50px;
   line-height: 80px;
-  border-radius: 10px;
   padding: 10px;
-  color: white;
+  color: rgb(247, 247, 247);
   opacity: 0;
   -webkit-animation: lastProd 800ms forwards;
           animation: lastProd 800ms forwards;
   -webkit-animation-delay: 400ms;
           animation-delay: 400ms;
 }
-.presentation .lastReal {
-  width: 60%;
+.presentation .ContentLastReal .titlePart button {
+  background: rgb(211, 163, 126);
+  height: 35px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  transition-duration: 150ms;
+}
+.presentation .ContentLastReal .titlePart button a {
+  color: rgb(247, 247, 247);
+  text-decoration: none;
+  font-size: 20px;
+}
+.presentation .ContentLastReal .titlePart button:hover {
+  transform: scale(1.04);
+  transition-duration: 150ms;
+}
+.presentation .ContentLastReal .lastReal {
+  width: 70%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -785,7 +812,7 @@ footer #socialBox i {
   border-radius: 10px;
   z-index: 1;
 }
-.presentation .lastReal .contentPart {
+.presentation .ContentLastReal .lastReal .contentPart {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -793,21 +820,22 @@ footer #socialBox i {
   align-items: center;
   width: 65%;
 }
-.presentation .lastReal .contentPart .lastprodMini {
+.presentation .ContentLastReal .lastReal .contentPart .lastprodMini {
   padding: 0px;
   width: 50%;
   display: flex;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
-.presentation .lastReal .contentPart .lastprodMini a {
+.presentation .ContentLastReal .lastReal .contentPart .lastprodMini a {
   width: 100%;
   display: flex;
 }
-.presentation .lastReal .contentPart .lastprodMini a img {
+.presentation .ContentLastReal .lastReal .contentPart .lastprodMini a img {
   margin: auto;
   width: 70%;
 }
-.presentation .lastReal .contentPart .lastprodMini a :hover {
+.presentation .ContentLastReal .lastReal .contentPart .lastprodMini a :hover {
   cursor: pointer;
 }
 
@@ -832,28 +860,36 @@ footer #socialBox i {
   .presentation {
     margin-bottom: 0px;
     width: 100%;
-    max-width: 1500px;
     margin: auto;
-    margin-top: 0px;
+    margin-top: 30px;
     padding: 0px;
-    padding-bottom: 0px;
-    background-color: black;
-    border-radius: 0px;
+    padding-bottom: 20px;
     opacity: 0;
     -webkit-animation: lastProd 800ms forwards;
             animation: lastProd 800ms forwards;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
   }
-  .presentation .titlePart {
+  .presentation .ContentLastReal {
+    flex-direction: column;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .presentation .ContentLastReal .titlePart {
     width: 100%;
     z-index: 2;
     margin-bottom: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  .presentation .titlePart h2 {
-    text-align: left;
+  .presentation .ContentLastReal .titlePart h2 {
+    text-align: center;
     font-family: "montserrat";
+    width: 100%;
     font-weight: 600;
     font-size: 40px;
     margin-left: 5px;
@@ -862,42 +898,45 @@ footer #socialBox i {
     padding: 0px;
     color: white;
   }
-  .presentation .lastReal {
+  .presentation .ContentLastReal .lastReal {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     background: url(../img/cahier.webp);
-    background-size: 190%;
-    background-position-x: 25%;
-    border-radius: 10px;
+    background-size: 210%;
+    background-position-x: 35%;
+    border-radius: 0px;
     z-index: 1;
-    margin-top: -20px;
+    margin-top: 0px;
   }
-  .presentation .lastReal .contentPart {
+  .presentation .ContentLastReal .lastReal .contentPart {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 65%;
-    margin-bottom: 20px;
+    width: 75%;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-right: 10px;
   }
-  .presentation .lastReal .contentPart .lastprodMini {
+  .presentation .ContentLastReal .lastReal .contentPart .lastprodMini {
     padding: 0px;
     width: 50%;
     display: flex;
-    margin-top: 50px;
+    margin-top: 35px;
+    margin-bottom: 20px;
   }
-  .presentation .lastReal .contentPart .lastprodMini a {
+  .presentation .ContentLastReal .lastReal .contentPart .lastprodMini a {
     width: 100%;
     display: flex;
   }
-  .presentation .lastReal .contentPart .lastprodMini a img {
+  .presentation .ContentLastReal .lastReal .contentPart .lastprodMini a img {
     margin: auto;
     width: 70%;
   }
-  .presentation .lastReal .contentPart .lastprodMini a :hover {
+  .presentation .ContentLastReal .lastReal .contentPart .lastprodMini a :hover {
     cursor: pointer;
   }
 }
@@ -906,26 +945,24 @@ footer #socialBox i {
   flex-direction: column;
   justify-content: space-between;
   padding: 0;
+  margin: auto;
   margin: -8px;
   min-height: 100vh;
-  background: black;
-  background-size: cover;
-  background-attachment: fixed;
+  background: #000000;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 800px) {
   .application {
-    background: rgb(0, 0, 0);
+    background: #000000;
   }
 }
 .formBox {
   width: 100%;
-  max-width: 1500px;
   margin: auto;
   margin-top: 30px;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-radius: 10px;
   display: flex;
   flex-direction: column;
   opacity: 0;
@@ -933,6 +970,7 @@ footer #socialBox i {
           animation: onPage 800ms forwards;
   background: url(../img/contact.webp);
   background-size: cover;
+  background-attachment: fixed;
   background-position-y: 70%;
 }
 .formBox .contact-form {
@@ -945,7 +983,7 @@ footer #socialBox i {
   height: auto;
   margin: auto;
   margin-top: 0px;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 50px;
   opacity: 0;
   -webkit-animation: onPageContent 500ms 200ms forwards;
@@ -980,7 +1018,7 @@ footer #socialBox i {
   background-color: white;
 }
 .formBox .contact-form label {
-  color: rgb(60, 155, 228);
+  color: #3c9be4;
   font-family: "montserrat";
   font-size: 22px;
   margin: 10px 0px 10px 0px;
@@ -1011,7 +1049,7 @@ footer #socialBox i {
   border: none;
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
-  background: rgb(60, 155, 228);
+  background: #3c9be4;
   cursor: pointer;
   transition: 300ms;
   width: auto;
@@ -1033,9 +1071,9 @@ footer #socialBox i {
   align-items: flex-start;
   margin-top: 30px;
   opacity: 0;
+  border-radius: 10px;
   -webkit-animation: onPage 800ms forwards;
           animation: onPage 800ms forwards;
-  border-radius: 10px;
 }
 .contactMiniBox .contactMini {
   padding-top: 50px;
@@ -1061,7 +1099,7 @@ footer #socialBox i {
   align-items: center;
 }
 .contactMiniBox .contactMini a .toContacttrue {
-  background-color: rgb(60, 155, 228);
+  background-color: #3c9be4;
   padding: 10px;
   line-height: 70px;
   border-radius: 5px;
@@ -1092,7 +1130,7 @@ footer #socialBox i {
 @-webkit-keyframes contact {
   0% {
     opacity: 0;
-    background-color: rgb(60, 155, 228);
+    background-color: #3c9be4;
   }
   20% {
     opacity: 1;
@@ -1112,13 +1150,13 @@ footer #socialBox i {
   }
   100% {
     opacity: 1;
-    background-color: rgb(60, 155, 228);
+    background-color: #3c9be4;
   }
 }
 @keyframes contact {
   0% {
     opacity: 0;
-    background-color: rgb(60, 155, 228);
+    background-color: #3c9be4;
   }
   20% {
     opacity: 1;
@@ -1138,7 +1176,7 @@ footer #socialBox i {
   }
   100% {
     opacity: 1;
-    background-color: rgb(60, 155, 228);
+    background-color: #3c9be4;
   }
 }
 
@@ -1241,7 +1279,7 @@ footer #socialBox i {
             animation: onPageContent 500ms 200ms forwards;
   }
   .formBox .contact-form label {
-    color: rgb(60, 155, 228);
+    color: #3c9be4;
     font-family: "montserrat";
     font-size: 18px;
     margin: 10px 0px 10px 0px;
@@ -1269,7 +1307,7 @@ footer #socialBox i {
     border: none;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
-    background: rgb(60, 155, 228);
+    background: #3c9be4;
     cursor: pointer;
     transition: 300ms;
     font-weight: 400;
@@ -1280,6 +1318,7 @@ footer #socialBox i {
   .contactMiniBox {
     margin-top: 30px;
     border-radius: 5px;
+    overflow: hidden;
   }
   .contactMiniBox .contactMini {
     display: flex;
@@ -1298,12 +1337,12 @@ footer #socialBox i {
     margin-top: 0px;
   }
   .contactMiniBox .contactMini a .toContacttrue {
-    margin-top: -30px;
+    margin-top: -20px;
     margin-right: 0px;
     padding: 5px;
-    width: 310px;
+    width: 250px;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 .Parcours {
@@ -1314,8 +1353,9 @@ footer #socialBox i {
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
-  background: url(../img/road.webp) fixed;
+  background: url(../img/road.webp);
   background-size: cover;
+  background-attachment: fixed;
   opacity: 0;
   -webkit-animation: lastProd 800ms forwards;
           animation: lastProd 800ms forwards;
@@ -1456,9 +1496,8 @@ footer #socialBox i {
   }
 }
 .ParcoursMini {
-  background-color: #0f0f0f;
+  background: #080808;
   width: 100%;
-  max-width: 1500px;
   margin: auto;
   margin-top: 30px;
   display: flex;
@@ -1467,35 +1506,43 @@ footer #socialBox i {
   align-items: center;
   opacity: 1;
   font-family: "montserrat";
-  border-radius: 10px;
   overflow: hidden;
 }
-.ParcoursMini .PixParttrue {
+.ParcoursMini .ContentParcoursMini {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+}
+.ParcoursMini .ContentParcoursMini .PixParttrue {
   width: 40%;
   display: flex;
 }
-.ParcoursMini .PixParttrue img {
+.ParcoursMini .ContentParcoursMini .PixParttrue img {
   margin: auto;
+  margin-top: -200%;
   width: 60%;
   border-radius: 10px;
   opacity: 0;
-  -webkit-animation: light 1200ms forwards;
-          animation: light 1200ms forwards;
-  -webkit-animation-delay: 500ms;
-          animation-delay: 500ms;
+  -webkit-animation: light 700ms ease forwards;
+          animation: light 700ms ease forwards;
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
 }
-.ParcoursMini .PixPartfalse {
+.ParcoursMini .ContentParcoursMini .PixPartfalse {
   width: 40%;
   display: flex;
-  opacity: 0;
 }
-.ParcoursMini .PixPartfalse img {
+.ParcoursMini .ContentParcoursMini .PixPartfalse img {
   margin: auto;
-  width: 70%;
+  margin-top: -200%;
+  width: 60%;
+  opacity: 0;
   border-radius: 10px;
-  opacity: 1;
 }
-.ParcoursMini .parcoursMiniBoxtrue {
+.ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue {
   width: 60%;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -1505,9 +1552,9 @@ footer #socialBox i {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
+  color: rgb(247, 247, 247);
 }
-.ParcoursMini .parcoursMiniBoxtrue h2 {
+.ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue h2 {
   width: 100%;
   max-width: 1200px;
   text-align: center;
@@ -1516,12 +1563,12 @@ footer #socialBox i {
   line-height: 70px;
   font-weight: 600;
 }
-.ParcoursMini .parcoursMiniBoxtrue .aproposTextPart {
+.ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue .aproposTextPart {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-.ParcoursMini .parcoursMiniBoxtrue .aproposTextPart p {
+.ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue .aproposTextPart p {
   width: 90%;
   max-width: 1200px;
   margin: auto;
@@ -1531,30 +1578,33 @@ footer #socialBox i {
   margin-bottom: 20px;
   color: linear-gradient(130deg, rgb(211, 163, 126), rgb(197, 141, 62) 70.71%);
 }
-.ParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours {
+.ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 50px;
 }
-.ParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours a {
-  margin: 40px 10px 40px 10px;
-  font-size: 20px;
-  color: white;
-  text-decoration: none;
-  border: none;
+.ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours button {
   background: rgb(211, 163, 126);
-  padding: 10px 10px 10px 10px;
+  height: 35px;
+  margin: 10px;
+  border: none;
   border-radius: 5px;
-  cursor: pointer;
-  transition: 300ms;
+  transition-duration: 150ms;
 }
-.ParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours a:hover {
-  transform: scale(1.04);
+.ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours button a {
+  color: rgb(247, 247, 247);
+  text-decoration: none;
+  font-size: 20px;
 }
-.ParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours a:hover {
+.ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours button:hover {
   transform: scale(1.04);
+  transition-duration: 150ms;
 }
 .ParcoursMini .parcoursMiniBoxfalse {
-  width: 100%;
+  width: 60%;
   margin-top: 0px;
   margin-bottom: 0px;
   border-radius: 0px;
@@ -1588,26 +1638,24 @@ footer #socialBox i {
 }
 .ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours {
   display: flex;
-  margin-top: 0px;
-  height: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
 }
-.ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours a {
-  margin: 40px 10px 40px 10px;
-  font-size: 20px;
-  color: white;
-  text-decoration: none;
-  border: none;
+.ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours button {
   background: rgb(211, 163, 126);
-  padding: 10px 10px 10px 10px;
+  height: 35px;
+  margin: 10px;
+  border: none;
   border-radius: 5px;
-  cursor: pointer;
-  transition: 300ms;
+  transition-duration: 150ms;
 }
-.ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours a:hover {
-  transform: scale(1.04);
-}
-.ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours a:hover {
-  transform: scale(1.04);
+.ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours button a {
+  color: rgb(247, 247, 247);
+  text-decoration: none;
+  font-size: 20px;
 }
 
 @-webkit-keyframes form {
@@ -1667,8 +1715,7 @@ footer #socialBox i {
   .ParcoursMini {
     background-color: #0f0f0f;
     width: 100%;
-    height: 850px;
-    max-width: 1500px;
+    height: 1000px;
     margin: auto;
     margin-top: 10px;
     display: flex;
@@ -1680,35 +1727,38 @@ footer #socialBox i {
     border-radius: 10px;
     overflow: hidden;
   }
-  .ParcoursMini .PixParttrue {
+  .ParcoursMini .ContentParcoursMini {
+    flex-direction: column;
+  }
+  .ParcoursMini .ContentParcoursMini .PixParttrue {
     margin-top: 20px;
     width: 80%;
     display: flex;
   }
-  .ParcoursMini .PixParttrue img {
+  .ParcoursMini .ContentParcoursMini .PixParttrue img {
     margin: auto;
     width: 60%;
     border-radius: 10px;
     opacity: 0;
-    margin-top: -100%;
-    -webkit-animation: light 1200ms forwards;
-            animation: light 1200ms forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    margin-top: -200%;
+    -webkit-animation: light 700ms ease forwards;
+            animation: light 700ms ease forwards;
+    -webkit-animation-delay: 300ms;
+            animation-delay: 300ms;
   }
-  .ParcoursMini .PixPartfalse {
+  .ParcoursMini .ContentParcoursMini .PixPartfalse {
     margin-top: 20px;
     width: 80%;
     display: flex;
   }
-  .ParcoursMini .PixPartfalse img {
+  .ParcoursMini .ContentParcoursMini .PixPartfalse img {
     margin: auto;
     width: 60%;
     border-radius: 10px;
     opacity: 0;
-    margin-top: -100%;
+    margin-top: -200%;
   }
-  .ParcoursMini .parcoursMiniBoxtrue {
+  .ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue {
     width: 95%;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -1720,7 +1770,7 @@ footer #socialBox i {
     align-items: center;
     color: white;
   }
-  .ParcoursMini .parcoursMiniBoxtrue h2 {
+  .ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue h2 {
     width: 100%;
     max-width: 1200px;
     text-align: center;
@@ -1729,12 +1779,12 @@ footer #socialBox i {
     line-height: 40px;
     font-weight: 600;
   }
-  .ParcoursMini .parcoursMiniBoxtrue .aproposTextPart {
+  .ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue .aproposTextPart {
     width: 100%;
     display: flex;
     flex-direction: column;
   }
-  .ParcoursMini .parcoursMiniBoxtrue .aproposTextPart p {
+  .ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue .aproposTextPart p {
     width: 90%;
     max-width: 1200px;
     margin: auto;
@@ -1744,29 +1794,26 @@ footer #socialBox i {
     margin-bottom: 20px;
     color: linear-gradient(130deg, rgb(211, 163, 126), rgb(197, 141, 62) 70.71%);
   }
-  .ParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours {
+  .ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours {
     margin: auto;
-    margin-top: 40px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
   }
-  .ParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours a {
-    margin: 30px 10px 30px 10px;
-    font-size: 15px;
+  .ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours button {
+    background: rgb(211, 163, 126);
+    height: 35px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 150ms;
+  }
+  .ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours button a {
     color: white;
     text-decoration: none;
-    border: none;
-    background: rgb(211, 163, 126);
-    padding: 5px 10px 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 300ms;
+    font-size: 20px;
   }
-  .ParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours a:hover {
-    transform: scale(1.04);
-  }
-  .ParcoursMini .parcoursMiniBoxtrue .aproposTextPart .toParcours a:hover {
-    transform: scale(1.04);
-  }
-  .ParcoursMini .parcoursMiniBoxfalse {
+  .ParcoursMini .ContentParcoursMini .parcoursMiniBoxfalse {
     width: 95%;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -1778,20 +1825,20 @@ footer #socialBox i {
     align-items: center;
     color: white;
   }
-  .ParcoursMini .parcoursMiniBoxfalse h2 {
-    width: 90%;
+  .ParcoursMini .ContentParcoursMini .parcoursMiniBoxfalse h2 {
+    width: 100%;
     max-width: 1200px;
     text-align: center;
     font-family: "montserrat";
     font-size: 30px;
     font-weight: 400;
   }
-  .ParcoursMini .parcoursMiniBoxfalse .aproposTextPart {
+  .ParcoursMini .ContentParcoursMini .parcoursMiniBoxfalse .aproposTextPart {
     width: 100%;
     display: flex;
     flex-direction: column;
   }
-  .ParcoursMini .parcoursMiniBoxfalse .aproposTextPart p {
+  .ParcoursMini .ContentParcoursMini .parcoursMiniBoxfalse .aproposTextPart p {
     width: 90%;
     max-width: 1200px;
     margin: auto;
@@ -1801,11 +1848,11 @@ footer #socialBox i {
     margin-bottom: 20px;
     color: linear-gradient(130deg, rgb(211, 163, 126), rgb(197, 141, 62) 70.71%);
   }
-  .ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours {
+  .ParcoursMini .ContentParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours {
     margin: auto;
-    margin-top: 40px;
+    margin-top: 0px;
   }
-  .ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours a {
+  .ParcoursMini .ContentParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours a {
     margin: 30px 10px 30px 10px;
     font-size: 15px;
     color: white;
@@ -1817,10 +1864,10 @@ footer #socialBox i {
     cursor: pointer;
     transition: 300ms;
   }
-  .ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours a:hover {
+  .ParcoursMini .ContentParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours a:hover {
     transform: scale(1.04);
   }
-  .ParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours a:hover {
+  .ParcoursMini .ContentParcoursMini .parcoursMiniBoxfalse .aproposTextPart .toParcours a:hover {
     transform: scale(1.04);
   }
   .Parcours {
@@ -1946,16 +1993,15 @@ footer #socialBox i {
 }
 .content {
   width: 100%;
-  max-width: 1500px;
-  border-radius: 10px;
   margin: auto;
   margin-top: 30px;
-  background: url(../img/background6.webp);
+  background: url(../img/background7.webp);
   background-size: cover;
+  background-attachment: fixed;
 }
 .content .ForGradient {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2) 10%);
-  padding-top: 30px;
+  padding-top: 0px;
   padding-bottom: 50px;
 }
 .content .ForGradient .lastProdBox {
@@ -1991,7 +2037,7 @@ footer #socialBox i {
   text-decoration: none;
 }
 .content .ForGradient .lastProdBox .contenu .lastprod {
-  border-radius: 5px;
+  border-radius: 3px;
   max-width: 450px;
   height: 90%;
   transition-duration: 200ms;
@@ -2005,7 +2051,8 @@ footer #socialBox i {
   justify-content: space-between;
   margin: 20px;
   margin-bottom: 50px;
-  background-color: rgb(242, 242, 242);
+  background: url(../img/paperMin.webp);
+  background-size: cover;
 }
 .content .ForGradient .lastProdBox .contenu .lastprod .logobox {
   width: 97%;
@@ -2032,14 +2079,12 @@ footer #socialBox i {
   padding-bottom: 30px;
   display: flex;
   margin: 0;
-  border-radius: 30px 30px 5px 5px;
-  box-shadow: 2px 2px 5px rgb(206, 206, 206);
+  border-radius: 20px 20px 5px 5px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   font-family: "montserrat";
   font-weight: 400;
-  background-color: white;
 }
 .content .ForGradient .lastProdBox .contenu .lastprod .textpart p {
   text-align: center;
@@ -2061,14 +2106,14 @@ footer #socialBox i {
   margin: 0px 0px 0px 0px;
   height: 50px;
   color: rgba(255, 255, 255, 0.8);
-  background: rgb(60, 155, 228);
+  background: #3c9be4;
 }
 .content .ForGradient .lastProdBox .contenu .lastprod .moreOpt .gitLink :hover {
   color: rgb(93, 93, 93);
 }
 .content .ForGradient .lastProdBox .contenu .lastprod .moreOpt .fa-plus {
   color: rgb(247, 247, 247);
-  background: rgb(60, 155, 228);
+  background: #3c9be4;
   font-size: 30px;
   padding: 10px;
   border-radius: 0px;
@@ -2126,25 +2171,19 @@ footer #socialBox i {
     padding: 0;
     margin: auto;
     margin-top: 10px;
-    background: url(../img/background.webp);
     background-size: cover;
-  }
-  .content .ForGradient {
-    background: transparent;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    background-position-x: 54%;
   }
   .content .ForGradient .lastProdBox {
     margin: auto;
     width: 100%;
     max-width: 1200px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     border: none;
     border-radius: 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2) 10%);
   }
   .content .ForGradient .lastProdBox .titlePart {
     width: 100%;
@@ -2159,12 +2198,17 @@ footer #socialBox i {
     color: white;
   }
   .content .ForGradient .lastProdBox .contenu {
-    width: 95%;
+    width: 48%;
+    height: 320px;
     margin: auto;
-    min-width: 350px;
+    margin-bottom: 40px;
+    min-width: 20px;
+    display: flex;
+    flex-direction: row;
   }
   .content .ForGradient .lastProdBox .contenu .lastprod {
-    width: 90%;
+    width: 100%;
+    height: 100%;
     border-radius: 5px;
     transition-duration: 200ms;
     -webkit-animation: lastprod 500ms;
@@ -2176,7 +2220,46 @@ footer #socialBox i {
     flex-direction: column;
     justify-content: flex-start;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+  .content .ForGradient .lastProdBox .contenu .lastprod .logobox {
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+  .content .ForGradient .lastProdBox .contenu .lastprod .logobox img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 0;
+  }
+  .content .ForGradient .lastProdBox .contenu .lastprod .textpart {
+    width: 100%;
+    color: rgb(93, 93, 93);
+    font-weight: 600;
+    height: 40%;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "montserrat";
+    font-weight: 400;
+  }
+  .content .ForGradient .lastProdBox .contenu .lastprod .textpart p {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    width: 95%;
+    height: 100%;
   }
 }
 .projetContent {
@@ -2188,12 +2271,10 @@ footer #socialBox i {
   margin: auto;
   margin-top: 30px;
   padding-bottom: 0px;
-  width: 90%;
-  height: auto;
-  max-width: 1200px;
+  width: 100%;
   background: url(../img/paper.webp);
   background-size: cover;
-  border-radius: 5px;
+  height: auto;
   font-family: "montserrat";
   -webkit-animation: onPage 600ms forwards;
           animation: onPage 600ms forwards;
@@ -2201,6 +2282,7 @@ footer #socialBox i {
 }
 .projetContent .projetBox {
   width: 100%;
+  max-width: 1200px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -2208,7 +2290,6 @@ footer #socialBox i {
   align-items: center;
   opacity: 0;
   margin-top: 0px;
-  background: transparent;
   -webkit-animation: onPageContent 500ms forwards;
           animation: onPageContent 500ms forwards;
 }
@@ -2218,21 +2299,68 @@ footer #socialBox i {
           animation: onPageContent 500ms 200ms forwards;
   opacity: 0;
 }
-.projetContent .projetBox .tagsBox {
+.projetContent .projetBox .moreInfos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 30px;
+  width: 95%;
+  max-width: 1200px;
+}
+.projetContent .projetBox .moreInfos .tagsBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 0;
+  -webkit-animation: onPageContent 500ms 200ms forwards;
+          animation: onPageContent 500ms 200ms forwards;
+  border-radius: 10px;
+  min-height: 200px;
+}
+.projetContent .projetBox .moreInfos .tagsBox h4 {
+  font-size: 20px;
+  font-family: montserrat;
+  font-weight: 400;
+  color: rgb(247, 247, 247);
+}
+.projetContent .projetBox .moreInfos .tagsBox .technos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+}
+.projetContent .projetBox .moreInfos .tagsBox .technos img {
+  width: 80px;
   height: auto;
-  margin: auto;
+  margin: 30px;
+}
+.projetContent .projetBox .moreInfos .DeviceBox {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
   opacity: 0;
   -webkit-animation: onPageContent 500ms 200ms forwards;
           animation: onPageContent 500ms 200ms forwards;
 }
-.projetContent .projetBox .tagsBox img {
-  width: 60px;
-  height: auto;
-  margin: 30px;
+.projetContent .projetBox .moreInfos .DeviceBox h4 {
+  font-size: 20px;
+  font-family: montserrat;
+  font-weight: 400;
+  color: rgb(247, 247, 247);
+}
+.projetContent .projetBox .moreInfos .DeviceBox i {
+  font-size: 35px;
+  color: rgb(247, 247, 247);
+  margin: 20px;
 }
 .projetContent .projetBox h3 {
   font-size: 27px;
@@ -2246,11 +2374,11 @@ footer #socialBox i {
           animation: onPageContent 500ms 200ms forwards;
 }
 .projetContent .projetBox p {
-  font-size: 22px;
+  font-size: 20px;
   font-family: "montserrat";
   text-align: center;
   line-height: 32px;
-  width: 90%;
+  width: 80%;
   opacity: 0;
   -webkit-animation: onPageContent 500ms 200ms forwards;
           animation: onPageContent 500ms 200ms forwards;
@@ -2258,38 +2386,46 @@ footer #socialBox i {
 .projetContent .projetBox .linkBox {
   margin-top: 50px;
   margin-bottom: 20px;
+  opacity: 0;
+  -webkit-animation: onPageContent 500ms 200ms forwards;
+          animation: onPageContent 500ms 200ms forwards;
 }
 .projetContent .projetBox .linkBox .gitLink {
-  font-size: 50px;
+  font-size: 40px;
   background-color: rgb(211, 163, 126);
-  color: white;
-  text-decoration: none;
+  border: none;
   margin: 20px;
   padding: 5px;
   border-radius: 5px;
+  transition-duration: 150ms;
+}
+.projetContent .projetBox .linkBox .gitLink a {
+  text-decoration: none;
+  color: white;
+}
+.projetContent .projetBox .linkBox .gitLink:hover {
+  transform: scale(1.05);
+  transition-duration: 150ms;
 }
 .projetContent .projetBox .linkBox .link {
-  font-size: 20px;
-  background-color: rgb(60, 155, 228);
-  color: white;
-  text-decoration: none;
+  font-size: 22px;
+  background-color: #3c9be4;
+  border: none;
   margin: 20px;
   padding: 5px;
   border-radius: 5px;
+  transition-duration: 150ms;
+}
+.projetContent .projetBox .linkBox .link a {
+  text-decoration: none;
+  color: white;
+}
+.projetContent .projetBox .linkBox .link:hover {
+  transform: scale(1.05);
+  transition-duration: 150ms;
 }
 .projetContent .projetBox .notLink {
   display: none;
-}
-.projetContent .projetBox .DeviceBox {
-  width: 120px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  margin: 10px 0px 20px 0px;
-}
-.projetContent .projetBox .DeviceBox i {
-  font-size: 40px;
-  color: rgb(211, 163, 126);
 }
 .projetContent .projetBox .backToProjet {
   width: 100%;
@@ -2414,22 +2550,6 @@ footer #socialBox i {
             animation: onPageContent 500ms 200ms forwards;
     opacity: 0;
   }
-  .projetContent .projetBox .tagsBox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    margin: auto;
-    opacity: 0;
-    -webkit-animation: onPageContent 500ms 200ms forwards;
-            animation: onPageContent 500ms 200ms forwards;
-  }
-  .projetContent .projetBox .tagsBox img {
-    width: 50px;
-    margin: 10px;
-    margin-top: 0;
-  }
   .projetContent .projetBox h3 {
     font-size: 22px;
     font-family: "montserrat";
@@ -2455,21 +2575,41 @@ footer #socialBox i {
     -webkit-animation: onPageContent 500ms 200ms forwards;
             animation: onPageContent 500ms 200ms forwards;
   }
-  .projetContent .projetBox .linkBox {
-    margin-top: 40px;
-    height: 40px;
+  .projetContent .projetBox .moreInfos {
+    display: flex;
   }
-  .projetContent .projetBox .linkBox .gitLink {
-    font-size: 50px;
+  .projetContent .projetBox .moreInfos .tagsBox {
+    display: flex;
+    min-height: 0px;
   }
-  .projetContent .projetBox .DeviceBox {
-    width: 90px;
+  .projetContent .projetBox .moreInfos .tagsBox h4 {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .projetContent .projetBox .moreInfos .tagsBox .technos img {
+    width: 45px;
+    margin: 20px;
+  }
+  .projetContent .projetBox .moreInfos .DeviceBox {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
     opacity: 0;
     -webkit-animation: onPageContent 500ms 200ms forwards;
             animation: onPageContent 500ms 200ms forwards;
   }
-  .projetContent .projetBox .DeviceBox i {
-    font-size: 30px;
+  .projetContent .projetBox .moreInfos .DeviceBox h4 {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .projetContent .projetBox .moreInfos .DeviceBox i {
+    font-size: 35px;
+    color: rgb(247, 247, 247);
+    margin: 20px;
   }
   .projetContent .projetBox .backToProjet {
     width: 100%;
@@ -2601,10 +2741,10 @@ footer #socialBox i {
   align-items: center;
   justify-content: center;
   background: url(../img/background5.webp);
-  background-size: 100%;
+  background-size: cover;
   background-position-y: 40%;
+  background-attachment: fixed;
   margin-top: 30px;
-  border-radius: 10px;
 }
 .missionBox .missionContenttrue {
   background-color: rgba(0, 0, 0, 0.8);
@@ -2620,12 +2760,12 @@ footer #socialBox i {
   font-family: "montserrat";
   font-size: 50px;
   font-weight: 600;
-  color: white;
+  color: rgb(247, 247, 247);
   text-align: center;
   -webkit-animation: lastProd 500ms forwards;
           animation: lastProd 500ms forwards;
-  -webkit-animation-delay: 600ms;
-          animation-delay: 600ms;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
   opacity: 0;
 }
 .missionBox .missionContenttrue ul {
@@ -2643,7 +2783,7 @@ footer #socialBox i {
   line-height: 25px;
   font-size: 16px;
   font-family: "montserrat";
-  color: white;
+  color: rgb(247, 247, 247);
   opacity: 0;
 }
 .missionBox .missionContenttrue ul .li2 {
@@ -2656,7 +2796,7 @@ footer #socialBox i {
   line-height: 25px;
   font-size: 16px;
   font-family: "montserrat";
-  color: white;
+  color: rgb(247, 247, 247);
   opacity: 0;
 }
 .missionBox .missionContenttrue ul .li3 {
@@ -2669,7 +2809,7 @@ footer #socialBox i {
   line-height: 25px;
   font-size: 16px;
   font-family: "montserrat";
-  color: white;
+  color: rgb(247, 247, 247);
   opacity: 0;
 }
 .missionBox .missionContenttrue ul .li4 {
@@ -2682,12 +2822,12 @@ footer #socialBox i {
   line-height: 25px;
   font-size: 16px;
   font-family: "montserrat";
-  color: white;
+  color: rgb(247, 247, 247);
   opacity: 0;
 }
 .missionBox .missionContentfalse {
-  width: 95%;
-  max-width: 1200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -2699,8 +2839,13 @@ footer #socialBox i {
   font-family: "montserrat";
   font-size: 50px;
   font-weight: 600;
-  color: white;
+  color: rgb(247, 247, 247);
   text-align: center;
+}
+.missionBox .missionContentfalse ul {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
 }
 .missionBox .missionContentfalse ul .li4 {
   width: 90%;
@@ -2708,7 +2853,7 @@ footer #socialBox i {
   line-height: 25px;
   font-size: 16px;
   font-family: "montserrat";
-  color: white;
+  color: rgb(247, 247, 247);
   opacity: 1;
 }
 .missionBox .missionContentfalse ul .li3 {
@@ -2717,7 +2862,7 @@ footer #socialBox i {
   line-height: 25px;
   font-size: 16px;
   font-family: "montserrat";
-  color: white;
+  color: rgb(247, 247, 247);
   opacity: 1;
 }
 .missionBox .missionContentfalse ul .li2 {
@@ -2726,7 +2871,7 @@ footer #socialBox i {
   line-height: 25px;
   font-size: 16px;
   font-family: "montserrat";
-  color: white;
+  color: rgb(247, 247, 247);
   opacity: 1;
 }
 .missionBox .missionContentfalse ul .li1 {
@@ -2735,7 +2880,7 @@ footer #socialBox i {
   line-height: 25px;
   font-size: 16px;
   font-family: "montserrat";
-  color: white;
+  color: rgb(247, 247, 247);
   opacity: 1;
 }
 
@@ -2792,7 +2937,7 @@ footer #socialBox i {
     line-height: 25px;
     font-size: 16px;
     font-family: "montserrat";
-    color: white;
+    color: rgb(247, 247, 247);
     opacity: 0;
   }
   .missionBox .missionContenttrue ul .li2 {
@@ -2801,7 +2946,7 @@ footer #socialBox i {
     line-height: 25px;
     font-size: 16px;
     font-family: "montserrat";
-    color: white;
+    color: rgb(247, 247, 247);
     opacity: 0;
   }
   .missionBox .missionContenttrue ul .li3 {
@@ -2810,7 +2955,7 @@ footer #socialBox i {
     line-height: 25px;
     font-size: 16px;
     font-family: "montserrat";
-    color: white;
+    color: rgb(247, 247, 247);
     opacity: 0;
   }
   .missionBox .missionContenttrue ul .li4 {
@@ -2819,7 +2964,7 @@ footer #socialBox i {
     line-height: 25px;
     font-size: 16px;
     font-family: "montserrat";
-    color: white;
+    color: rgb(247, 247, 247);
     opacity: 0;
   }
   .missionBox .missionContentfalse {
@@ -2854,6 +2999,285 @@ footer #socialBox i {
     width: 95%;
   }
 }
+.recoBoxtrue {
+  width: 100%;
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  font-family: montserrat;
+  overflow: hidden;
+}
+.recoBoxtrue h3 {
+  text-align: center;
+  font-family: "montserrat";
+  font-size: 30px;
+  font-weight: 600;
+}
+.recoBoxtrue .reco {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.recoBoxtrue .reco blockquote {
+  width: 70%;
+  line-height: 25px;
+  font-size: 16px;
+  opacity: 0;
+  -webkit-animation: anim 1000ms ease;
+          animation: anim 1000ms ease;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+  background-color: rgb(117, 80, 235);
+  padding: 20px;
+  border-radius: 10px;
+}
+.recoBoxtrue .reco blockquote .signature {
+  margin-top: 30px;
+  text-align: right;
+  font-size: 16px;
+}
+.recoBoxtrue .reco blockquote .signature p {
+  margin: 0;
+}
+.recoBoxtrue .reco .imgBoxtrue {
+  margin-right: -200%;
+  -webkit-animation: imgAnim 1000ms ease;
+          animation: imgAnim 1000ms ease;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.recoBoxtrue .reco .imgBoxtrue img {
+  width: 180px;
+}
+
+.recoBoxfalse {
+  width: 100%;
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  font-family: montserrat;
+  overflow: hidden;
+}
+.recoBoxfalse h3 {
+  text-align: center;
+  font-size: 40px;
+}
+.recoBoxfalse .reco {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.recoBoxfalse .reco blockquote {
+  width: 70%;
+  line-height: 25px;
+  font-size: 16px;
+  opacity: 0;
+  -webkit-animation: none;
+          animation: none;
+  background: url(../img/recoBack.webp);
+  padding: 20px;
+  border-radius: 10px;
+}
+.recoBoxfalse .reco blockquote .signature {
+  margin-top: 30px;
+  text-align: right;
+  font-size: 16px;
+}
+.recoBoxfalse .reco blockquote .signature p {
+  margin: 0;
+}
+.recoBoxfalse .reco .imgBoxfalse {
+  margin-right: -200%;
+  -webkit-animation: none;
+          animation: none;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.recoBoxfalse .reco .imgBoxfalse img {
+  width: 180px;
+}
+
+@-webkit-keyframes anim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes anim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes imgAnim {
+  0% {
+    margin-right: -100%;
+    rotate: 2turn;
+  }
+  100% {
+    margin-right: 20px;
+  }
+}
+@keyframes imgAnim {
+  0% {
+    margin-right: -100%;
+    rotate: 2turn;
+  }
+  100% {
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .recoBoxtrue {
+    width: 100%;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    color: white;
+    font-family: montserrat;
+    overflow: hidden;
+  }
+  .recoBoxtrue h3 {
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+    width: 90%;
+  }
+  .recoBoxtrue .reco {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .recoBoxtrue .reco blockquote {
+    width: 85%;
+    line-height: 25px;
+    font-size: 16px;
+    opacity: 0;
+    -webkit-animation: anim 1500ms ease;
+            animation: anim 1500ms ease;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    background-color: rgb(117, 80, 235);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .recoBoxtrue .reco blockquote .signature {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 16px;
+  }
+  .recoBoxtrue .reco blockquote .signature p {
+    margin: 0;
+  }
+  .recoBoxtrue .reco .imgBoxtrue {
+    margin-right: -200%;
+    -webkit-animation: imgAnim 1000ms ease;
+            animation: imgAnim 1000ms ease;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .recoBoxtrue .reco .imgBoxtrue img {
+    width: 100px;
+  }
+  .recoBoxfalse {
+    width: 100%;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    color: white;
+    font-family: montserrat;
+    overflow: hidden;
+  }
+  .recoBoxfalse h3 {
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+    width: 90%;
+  }
+  .recoBoxfalse .reco {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .recoBoxfalse .reco blockquote {
+    width: 85%;
+    line-height: 25px;
+    font-size: 16px;
+    opacity: 0;
+    -webkit-animation: none;
+            animation: none;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    background-color: rgb(117, 80, 235);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .recoBoxfalse .reco blockquote .signature {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 16px;
+  }
+  .recoBoxfalse .reco blockquote .signature p {
+    margin: 0;
+  }
+  .recoBoxfalse .reco .imgBoxfalse {
+    margin-right: -200%;
+    -webkit-animation: none;
+            animation: none;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .recoBoxfalse .reco .imgBoxfalse img {
+    width: 100px;
+  }
+  @-webkit-keyframes imgAnim {
+    0% {
+      margin-right: -200%;
+      rotate: 1turn;
+    }
+    100% {
+      margin-right: 0px;
+    }
+  }
+  @keyframes imgAnim {
+    0% {
+      margin-right: -200%;
+      rotate: 1turn;
+    }
+    100% {
+      margin-right: 0px;
+    }
+  }
+}
 @font-face {
   font-family: roboting;
   src: url(../fonts/Fasthand/Fasthand-Regular.ttf);
@@ -2862,13 +3286,12 @@ footer #socialBox i {
   font-family: montserrat;
   src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
-@font-face {
-  font-family: raleway;
-  src: url(../fonts/Raleway/static/Raleway-Regular.ttf);
-}
 main {
-  height: 100%;
-  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   position: relative;
-  padding-bottom: 120px;
+  padding: 0;
+  margin: auto;
+  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */

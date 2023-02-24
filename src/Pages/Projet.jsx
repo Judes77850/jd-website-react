@@ -27,7 +27,7 @@ function CoolDeviceCreate(){
                     )
             }else if (device === "desktop"){
                 return(
-                    <i className="fa-solid fa-computer" key={device}></i>
+                    <i className="fa-solid fa-laptop" key={device}></i>
                 )
             }else{
                 return(
@@ -51,16 +51,24 @@ function ProjetInfo(){
                     </div>
                     <img src={projet.logo} alt="logo de l'entreprise"></img>
                     <h3>{projet.underTitle}</h3>
-                    <div className="DeviceBox">
-                        {CoolDeviceCreate()}
-                    </div>
                     <p>{projet.description}</p>
-                    <div className="tagsBox">
-                        {CoolTagsCreate()}
+                    <div className="moreInfos">
+                        <div className="tagsBox">
+                            <h4>Technologies employées</h4>
+                            <div className="technos">
+                                {CoolTagsCreate()}
+                            </div>
+                        </div>
+                        <div className="DeviceBox">
+                            <h4>Compatibilité</h4>
+                            <div className="devices">
+                                {CoolDeviceCreate()}
+                            </div>
+                        </div>
                     </div>
                     <div className="linkBox">
-                        <a href={projet.gitHubLink} className="gitLink"><i className="fa-brands fa-github"></i></a>
-                        <a href={projet.functionalLink} className={projet.functionalLink ? "link" : "notLink"}>Voir le site</a>
+                        <button className="gitLink"><a href={projet.gitHubLink} ><i className="fa-brands fa-github"></i></a></button>
+                        <button className={projet.functionalLink ? "link" : "notLink"}><a href={projet.functionalLink} >Voir le site</a></button>
                     </div>
                 </div>
             </div>

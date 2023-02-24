@@ -11,6 +11,7 @@
 @import "sass/Components/keyframes";
 @import "sass/Layout/letter";
 @import "sass/Layout/mission";
+@import "sass/Layout/reco";
 @import "sass/Utils/mixines";
 
 @font-face {
@@ -21,14 +22,13 @@
     font-family: montserrat;
     src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
-@font-face {
-    font-family: raleway;
-    src: url(../fonts/Raleway/static/Raleway-Regular.ttf);
-}
 
 main{
-    height: 100%;
-    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     position: relative;
-    padding-bottom: 120px;
+    padding: 0;
+    margin: auto;
+    overflow: hidden;
 }

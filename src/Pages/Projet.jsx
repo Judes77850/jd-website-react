@@ -15,6 +15,19 @@ function CoolTagsCreate(){
             }))
 }
 
+// function MobileVuesCreate(){
+//     const {id} = useParams()
+//     const projet = Data.find(projet => projet.title === id)
+//     const mobileVues = projet.mobileVues
+//     return(
+//         mobileVues.map((vue) => {
+//             return(
+//                 <img key={vue} src={`https://judes77850.github.io/hebergement/real/${vue}.webp`} alt={vue} title="visuel du site version mobile"></img>
+//                 )
+//             })
+//     )
+// }
+
 function CoolDeviceCreate(){
     const {id} = useParams()
     const projet = Data.find(projet => projet.title === id)
@@ -52,17 +65,21 @@ function ProjetInfo(){
                     <img src={projet.logo} alt="logo de l'entreprise"></img>
                     <h3>{projet.underTitle}</h3>
                     <p>{projet.description}</p>
-                    <div className="moreInfos">
-                        <div className="tagsBox">
-                            <h4>Technologies employées</h4>
-                            <div className="technos">
-                                {CoolTagsCreate()}
+                    <img className={projet.laptopVue ? "laptopVue" : "notLink"} src={projet.laptopVue} title="visuel du site" alt="visuel du site"></img>
+                    <div className="infoBox">
+                        <img className={projet.demoLink ? "demoLink" : "notLink"} src={projet.demoLink} title="visuel du site" alt="visuel du site"></img>
+                        <div className={projet.demoLink ? "moreInfosFull" : "moreInfos"}>
+                            <div className="tagsBox">
+                                <h4>Technos</h4>
+                                <div className="technos">
+                                    {CoolTagsCreate()}
+                                </div>
                             </div>
-                        </div>
-                        <div className="DeviceBox">
-                            <h4>Compatibilité</h4>
-                            <div className="devices">
-                                {CoolDeviceCreate()}
+                            <div className="DeviceBox">
+                                <h4>Formats</h4>
+                                <div className="devices">
+                                    {CoolDeviceCreate()}
+                                </div>
                             </div>
                         </div>
                     </div>

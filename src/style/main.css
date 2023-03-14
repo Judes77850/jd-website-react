@@ -2272,8 +2272,7 @@ footer #socialBox i {
   margin-top: 30px;
   padding-bottom: 0px;
   width: 100%;
-  background: url(../img/paper.webp);
-  background-size: cover;
+  background-color: rgb(247, 247, 247);
   height: auto;
   font-family: "montserrat";
   -webkit-animation: onPage 600ms forwards;
@@ -2294,24 +2293,107 @@ footer #socialBox i {
           animation: onPageContent 500ms forwards;
 }
 .projetContent .projetBox img {
-  width: 30%;
+  width: 25%;
   -webkit-animation: onPageContent 500ms 200ms forwards;
           animation: onPageContent 500ms 200ms forwards;
   opacity: 0;
 }
-.projetContent .projetBox .moreInfos {
+.projetContent .projetBox .laptopVue {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 80%;
+  height: auto;
+}
+.projetContent .projetBox .infoBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  max-width: 1200px;
+  margin-top: 50px;
+}
+.projetContent .projetBox .infoBox .demoLink {
+  width: 300px;
+  height: auto;
+}
+.projetContent .projetBox .infoBox .moreInfosFull {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
-  background-color: black;
+  align-items: flex-end;
   border-radius: 10px;
   margin-top: 30px;
-  width: 95%;
+  width: 30%;
   max-width: 1200px;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 0px 0px 15px rgb(206, 205, 205);
 }
-.projetContent .projetBox .moreInfos .tagsBox {
+.projetContent .projetBox .infoBox .moreInfosFull .tagsBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 0;
+  -webkit-animation: onPageContent 500ms 200ms forwards;
+          animation: onPageContent 500ms 200ms forwards;
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  height: 70%;
+}
+.projetContent .projetBox .infoBox .moreInfosFull .tagsBox h4 {
+  font-size: 20px;
+  margin: 10px;
+  font-family: montserrat;
+  font-weight: 400;
+}
+.projetContent .projetBox .infoBox .moreInfosFull .tagsBox .technos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.projetContent .projetBox .infoBox .moreInfosFull .tagsBox .technos img {
+  width: 70px;
+  height: auto;
+  margin: 20px;
+}
+.projetContent .projetBox .infoBox .moreInfosFull .DeviceBox {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  border-radius: 0px 0px 10px 10px;
+  opacity: 0;
+  -webkit-animation: onPageContent 500ms 200ms forwards;
+          animation: onPageContent 500ms 200ms forwards;
+}
+.projetContent .projetBox .infoBox .moreInfosFull .DeviceBox h4 {
+  font-size: 20px;
+  margin: 10px;
+  font-family: montserrat;
+  font-weight: 400;
+}
+.projetContent .projetBox .infoBox .moreInfosFull .DeviceBox i {
+  font-size: 60px;
+  margin: 20px;
+  color: rgb(40, 40, 40);
+}
+.projetContent .projetBox .infoBox .moreInfos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 0px;
+  width: 70%;
+  max-width: 1200px;
+  box-shadow: 0px 0px 15px rgb(206, 205, 205);
+}
+.projetContent .projetBox .infoBox .moreInfos .tagsBox {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -2322,45 +2404,41 @@ footer #socialBox i {
   border-radius: 10px;
   min-height: 200px;
 }
-.projetContent .projetBox .moreInfos .tagsBox h4 {
+.projetContent .projetBox .infoBox .moreInfos .tagsBox h4 {
   font-size: 20px;
   font-family: montserrat;
   font-weight: 400;
-  color: rgb(247, 247, 247);
 }
-.projetContent .projetBox .moreInfos .tagsBox .technos {
+.projetContent .projetBox .infoBox .moreInfos .tagsBox .technos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
 }
-.projetContent .projetBox .moreInfos .tagsBox .technos img {
+.projetContent .projetBox .infoBox .moreInfos .tagsBox .technos img {
   width: 80px;
   height: auto;
-  margin: 30px;
+  margin: 20px;
 }
-.projetContent .projetBox .moreInfos .DeviceBox {
+.projetContent .projetBox .infoBox .moreInfos .DeviceBox {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
-  height: 200px;
-  width: 200px;
   border-radius: 10px;
   opacity: 0;
   -webkit-animation: onPageContent 500ms 200ms forwards;
           animation: onPageContent 500ms 200ms forwards;
 }
-.projetContent .projetBox .moreInfos .DeviceBox h4 {
+.projetContent .projetBox .infoBox .moreInfos .DeviceBox h4 {
   font-size: 20px;
   font-family: montserrat;
   font-weight: 400;
-  color: rgb(247, 247, 247);
 }
-.projetContent .projetBox .moreInfos .DeviceBox i {
-  font-size: 35px;
-  color: rgb(247, 247, 247);
+.projetContent .projetBox .infoBox .moreInfos .DeviceBox i {
+  font-size: 60px;
   margin: 20px;
+  color: rgb(40, 40, 40);
 }
 .projetContent .projetBox h3 {
   font-size: 27px;
@@ -2423,6 +2501,15 @@ footer #socialBox i {
 .projetContent .projetBox .linkBox .link:hover {
   transform: scale(1.05);
   transition-duration: 150ms;
+}
+.projetContent .projetBox .mobileVue {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.projetContent .projetBox .mobileVue img {
+  height: 600px;
+  width: auto;
 }
 .projetContent .projetBox .notLink {
   display: none;
@@ -2528,7 +2615,7 @@ footer #socialBox i {
     width: 100%;
     margin-top: 3;
     border: none;
-    background-size: cover;
+    border-radius: 20px;
   }
   .projetContent .projetBox {
     width: 100%;
@@ -2575,40 +2662,135 @@ footer #socialBox i {
     -webkit-animation: onPageContent 500ms 200ms forwards;
             animation: onPageContent 500ms 200ms forwards;
   }
-  .projetContent .projetBox .moreInfos {
-    display: flex;
+  .projetContent .projetBox .laptopVue {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+    height: auto;
   }
-  .projetContent .projetBox .moreInfos .tagsBox {
+  .projetContent .projetBox .infoBox {
     display: flex;
-    min-height: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 50px;
   }
-  .projetContent .projetBox .moreInfos .tagsBox h4 {
+  .projetContent .projetBox .infoBox .demoLink {
+    width: 250px;
+    height: auto;
+  }
+  .projetContent .projetBox .infoBox .moreInfosFull {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  .projetContent .projetBox .infoBox .moreInfosFull .tagsBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0;
+    -webkit-animation: onPageContent 500ms 200ms forwards;
+            animation: onPageContent 500ms 200ms forwards;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  .projetContent .projetBox .infoBox .moreInfosFull .tagsBox h4 {
     font-size: 20px;
-    margin-bottom: 0;
+    font-family: montserrat;
+    font-weight: 400;
+    color: black;
   }
-  .projetContent .projetBox .moreInfos .tagsBox .technos img {
-    width: 45px;
+  .projetContent .projetBox .infoBox .moreInfosFull .tagsBox .technos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  .projetContent .projetBox .infoBox .moreInfosFull .tagsBox .technos img {
+    width: 50px;
+    height: auto;
     margin: 20px;
   }
-  .projetContent .projetBox .moreInfos .DeviceBox {
+  .projetContent .projetBox .infoBox .moreInfosFull .DeviceBox {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    height: auto;
-    width: 200px;
+    width: 100%;
+  }
+  .projetContent .projetBox .infoBox .moreInfosFull .DeviceBox h4 {
+    font-size: 20px;
+    font-family: montserrat;
+    font-weight: 400;
+  }
+  .projetContent .projetBox .infoBox .moreInfosFull .DeviceBox i {
+    font-size: 40px;
+    margin: 20px;
+    color: rgb(40, 40, 40);
+  }
+  .projetContent .projetBox .infoBox .moreInfos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     border-radius: 10px;
+    margin-top: 0px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  .projetContent .projetBox .infoBox .moreInfos .tagsBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     opacity: 0;
     -webkit-animation: onPageContent 500ms 200ms forwards;
             animation: onPageContent 500ms 200ms forwards;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
   }
-  .projetContent .projetBox .moreInfos .DeviceBox h4 {
+  .projetContent .projetBox .infoBox .moreInfos .tagsBox h4 {
     font-size: 20px;
-    margin-bottom: 0;
+    font-family: montserrat;
+    font-weight: 400;
   }
-  .projetContent .projetBox .moreInfos .DeviceBox i {
-    font-size: 35px;
-    color: rgb(247, 247, 247);
+  .projetContent .projetBox .infoBox .moreInfos .tagsBox .technos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  .projetContent .projetBox .infoBox .moreInfos .tagsBox .technos img {
+    width: 60px;
+    height: auto;
+    margin: 20px;
+  }
+  .projetContent .projetBox .infoBox .moreInfos .DeviceBox {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .projetContent .projetBox .infoBox .moreInfos .DeviceBox h4 {
+    font-size: 20px;
+    font-family: montserrat;
+    font-weight: 400;
+  }
+  .projetContent .projetBox .infoBox .moreInfos .DeviceBox i {
+    font-size: 50px;
     margin: 20px;
   }
   .projetContent .projetBox .backToProjet {

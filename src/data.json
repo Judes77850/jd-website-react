@@ -15,7 +15,9 @@
 		"tags": [
 			"html",
 			"css"
-		]
+		],
+		"demoLink": "https://webmobilefirst-screencasts.s3.eu-west-3.amazonaws.com/hDsBiIM4Dj.gif",
+		"laptopVue" : "https://judes77850.github.io/hebergement/real/bookiLaptop.webp"
     },
 	{
         "id": "2",
@@ -34,7 +36,9 @@
 			"html",
 			"css",
 			"sass"
-		]
+		],
+		"demoLink": "https://judes77850.github.io/hebergement/real/ohmyfood.webp",
+		"laptopVue" : "https://judes77850.github.io/hebergement/real/ohmyfoodLaptop.webp"
     },
 	{
         "id": "3",
@@ -53,7 +57,9 @@
 			"html",
 			"css",
 			"sass"
-		]
+		],
+		"demoLink": "https://judes77850.github.io/hebergement/real/lapanthere.webp",
+		"laptopVue" : "https://judes77850.github.io/hebergement/real/lapanthereLaptop.webp"
     },
 	{
         "id": "4",
@@ -113,7 +119,14 @@
 			"html",
 			"react",
 			"css"
-		]
+		],
+		"mobileVues":[
+			"kasaPics1",
+			"kasaPics2",
+			"kasaPics3"
+		],
+		"demoLink": "https://webmobilefirst-screencasts.s3.eu-west-3.amazonaws.com/cLos5d7gSv.gif",
+		"laptopVue" : "https://judes77850.github.io/hebergement/real/kasaLaptop.webp" 
     }
 
 ]

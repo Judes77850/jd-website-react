@@ -3,11 +3,10 @@
     width: 100%;
     margin: auto;
     margin-top: 30px;
-    background: url(../img/background7.webp);
+    background-image: url(../img/sableBG.webp);
     background-size: cover;
-    background-attachment: fixed;
+    background-position-y: 80%;
     .ForGradient{
-        background: $color-11;
         padding-top: 0px;
         padding-bottom: 50px;
         .lastProdBox {
@@ -21,6 +20,7 @@
                 width: 100%;
                 display: flex;
                 margin-bottom: 30px;
+                color: white;
                 h2{
                     text-align: center;
                     margin: auto;
@@ -28,7 +28,6 @@
                     font-weight: 600;
                     font-size: 50px;
                     padding: 25px 0px 0px 0px;
-                    color: white;
                 }
             }
             .contenu{
@@ -36,12 +35,12 @@
                 margin: auto;
                 margin-bottom: 50px;
                 min-width: 350px;
-                height: 500px;
+                height: 450px;
+                transition-duration: 200ms;
                 a{
                     text-decoration: none;
                 }
                 .lastprod{
-                    border-radius: 3px;
                     max-width: 450px;
                     height: 90%;
                     transition-duration: 200ms;
@@ -53,18 +52,17 @@
                     justify-content: space-between;
                     margin: 20px;
                     margin-bottom: 50px;
-                    background: url(../img/paperMin.webp);
-                    background-size: cover;
+                    background-color: rgba($color: #ffffff, $alpha: 1);
+                    
                     .logobox {
-                        width: 97%;
-                        height: 60%;
+                        width: 100%;
+                        height: 80%;
                         margin: auto;
-                        margin-top: 20px;
+                        margin-top: 0px;
                         padding: 0px;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        background-color: transparent;
                         img {
                             width: 60%;
                             height: auto;
@@ -77,17 +75,19 @@
                         font-weight: 600;
                         height: 20%;
                         padding: 0px;
-                        padding-bottom: 30px;
                         display: flex;
                         margin: 0;
-                        border-radius: 20px 20px 5px 5px;
+                        margin-bottom: 50px;
+                        border-radius: 0px 0px 0px 0px;
                         flex-direction: column;
                         justify-content: center;
                         align-items: flex-start;
                         font-family: 'montserrat';
-                        font-weight: 400;
+                        font-weight: 500;
+                        font-size: 18px;
                         p{
                             text-align: center;
+                            word-wrap: normal;
                             margin: auto;
                             margin-top: 50px;
                             width: 90%;
@@ -128,22 +128,26 @@
                 }
                 
             }
-                .lastprod1{
+            .contenu:hover{
+                transform: scale(1.01);
+            }
+            
+                #lastprod1{
                     animation-delay: 200ms;
                 }
-                .lastprod2{
+                #lastprod2{
                     animation-delay: 300ms;
                 }
-                .lastprod3{
+                #lastprod3{
                     animation-delay: 400ms;
                 }
-                .lastprod4{
+                #lastprod4{
                     animation-delay: 500ms;
                 }
-                .lastprod5{
+                #lastprod5{
                     animation-delay: 600ms;
                 }
-                .lastprod6{
+                #lastprod6{
                     animation-delay: 700ms;
                 }
                 @keyframes lastprod{
@@ -166,7 +170,7 @@
         margin: auto;
         margin-top: 10px;
         background-size: cover;
-        background-position-x: 54%;
+        border-radius: 5px;
         .ForGradient{
             .lastProdBox {
                 margin: auto;
@@ -187,7 +191,6 @@
                         margin: auto;
                         margin-bottom: 40px;
                         font-size: 40px;
-                        color: white;
                     }
                 }
                 .contenu{

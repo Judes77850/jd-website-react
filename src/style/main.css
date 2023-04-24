@@ -36,58 +36,6 @@ header .neonlogo a .acch1 {
   margin-bottom: 10px;
 }
 
-@-webkit-keyframes menu {
-  0% {
-    color: rgb(86, 120, 96);
-    text-shadow: none;
-  }
-  5% {
-    color: #3c9be4;
-  }
-  6% {
-    color: rgb(86, 120, 96);
-    text-shadow: none;
-  }
-  7% {
-    color: #3c9be4;
-  }
-  14% {
-    color: rgb(86, 120, 96);
-    text-shadow: none;
-  }
-  15% {
-    color: #3c9be4;
-  }
-  19% {
-    color: rgb(86, 120, 96);
-    text-shadow: none;
-  }
-  20% {
-    color: #3c9be4;
-  }
-  21% {
-    color: rgb(86, 120, 96);
-    text-shadow: none;
-  }
-  59% {
-    color: rgb(86, 120, 96);
-    text-shadow: none;
-  }
-  60% {
-    color: #3c9be4;
-  }
-  61% {
-    color: #3c9be4;
-  }
-  97% {
-    color: rgb(86, 120, 96);
-    text-shadow: none;
-  }
-  100% {
-    color: #3c9be4;
-  }
-}
-
 @keyframes menu {
   0% {
     color: rgb(86, 120, 96);
@@ -509,15 +457,6 @@ footer #socialBox i {
   transition-duration: 300ms;
 }
 
-@-webkit-keyframes bisMenuOpen {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 @keyframes bisMenuOpen {
   0% {
     opacity: 0;
@@ -695,8 +634,7 @@ footer #socialBox i {
     text-align: center;
     margin: 0px;
     padding: 0px;
-    -webkit-animation: bisMenuOpen 200ms forwards;
-            animation: bisMenuOpen 200ms forwards;
+    animation: bisMenuOpen 200ms forwards;
   }
   .MenuBoxToFix .bisMenuOpen span .link {
     font-family: "montserrat";
@@ -747,8 +685,7 @@ footer #socialBox i {
   background-position-x: 200%;
   background: #080808;
   opacity: 0;
-  -webkit-animation: lastProd 800ms forwards;
-          animation: lastProd 800ms forwards;
+  animation: lastProd 800ms forwards;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -779,10 +716,8 @@ footer #socialBox i {
   padding: 10px;
   color: rgb(247, 247, 247);
   opacity: 0;
-  -webkit-animation: lastProd 800ms forwards;
-          animation: lastProd 800ms forwards;
-  -webkit-animation-delay: 400ms;
-          animation-delay: 400ms;
+  animation: lastProd 800ms forwards;
+  animation-delay: 400ms;
 }
 .presentation .ContentLastReal .titlePart button {
   background: rgb(211, 163, 126);
@@ -839,15 +774,6 @@ footer #socialBox i {
   cursor: pointer;
 }
 
-@-webkit-keyframes lastProd {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 @keyframes lastProd {
   0% {
     opacity: 0;
@@ -865,8 +791,7 @@ footer #socialBox i {
     padding: 0px;
     padding-bottom: 20px;
     opacity: 0;
-    -webkit-animation: lastProd 800ms forwards;
-            animation: lastProd 800ms forwards;
+    animation: lastProd 800ms forwards;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -966,8 +891,7 @@ footer #socialBox i {
   display: flex;
   flex-direction: column;
   opacity: 0;
-  -webkit-animation: onPage 800ms forwards;
-          animation: onPage 800ms forwards;
+  animation: onPage 800ms forwards;
   background: url(../img/contact.webp);
   background-size: cover;
   background-attachment: fixed;
@@ -986,8 +910,7 @@ footer #socialBox i {
   padding-top: 20px;
   padding-bottom: 50px;
   opacity: 0;
-  -webkit-animation: onPageContent 500ms 200ms forwards;
-          animation: onPageContent 500ms 200ms forwards;
+  animation: onPageContent 500ms 200ms forwards;
 }
 .formBox .contact-form h2 {
   font-family: "montserrat";
@@ -998,8 +921,7 @@ footer #socialBox i {
   color: white;
   margin-bottom: 20px;
   opacity: 0;
-  -webkit-animation: onPageContent 500ms 200ms forwards;
-          animation: onPageContent 500ms 200ms forwards;
+  animation: onPageContent 500ms 200ms forwards;
   text-align: center;
 }
 .formBox .contact-form input {
@@ -1013,8 +935,7 @@ footer #socialBox i {
   border: none;
   color: black;
   opacity: 0;
-  -webkit-animation: onPageContent 500ms 200ms forwards;
-          animation: onPageContent 500ms 200ms forwards;
+  animation: onPageContent 500ms 200ms forwards;
   background-color: white;
 }
 .formBox .contact-form label {
@@ -1025,8 +946,7 @@ footer #socialBox i {
   text-align: left;
   width: 50%;
   opacity: 0;
-  -webkit-animation: onPageContent 500ms 200ms forwards;
-          animation: onPageContent 500ms 200ms forwards;
+  animation: onPageContent 500ms 200ms forwards;
 }
 .formBox .contact-form textarea {
   height: 120px;
@@ -1038,8 +958,7 @@ footer #socialBox i {
   border: none;
   background-color: white;
   opacity: 0;
-  -webkit-animation: onPageContent 500ms 200ms forwards;
-          animation: onPageContent 500ms 200ms forwards;
+  animation: onPageContent 500ms 200ms forwards;
 }
 .formBox .contact-form .send {
   margin: 40px 10px 40px 10px;
@@ -1072,8 +991,7 @@ footer #socialBox i {
   margin-top: 30px;
   opacity: 0;
   border-radius: 10px;
-  -webkit-animation: onPage 800ms forwards;
-          animation: onPage 800ms forwards;
+  animation: onPage 800ms forwards;
 }
 .contactMiniBox .contactMini {
   padding-top: 50px;
@@ -1109,10 +1027,8 @@ footer #socialBox i {
   font-family: "montserrat";
   color: black;
   margin-left: 10px;
-  -webkit-animation: contact 600ms forwards;
-          animation: contact 600ms forwards;
-  -webkit-animation-delay: 300ms;
-          animation-delay: 300ms;
+  animation: contact 600ms forwards;
+  animation-delay: 300ms;
   opacity: 0;
 }
 .contactMiniBox .contactMini .contactTitlefalse {
@@ -1126,32 +1042,6 @@ footer #socialBox i {
 }
 .contactMiniBox .contactMini .toContactfalse {
   display: none;
-}
-@-webkit-keyframes contact {
-  0% {
-    opacity: 0;
-    background-color: #3c9be4;
-  }
-  20% {
-    opacity: 1;
-    background-color: rgb(247, 247, 247);
-  }
-  40% {
-    opacity: 1;
-    background-color: rgb(93, 93, 93);
-  }
-  60% {
-    opacity: 1;
-    background-color: rgb(247, 247, 247);
-  }
-  80% {
-    opacity: 1;
-    background-color: rgb(93, 93, 93);
-  }
-  100% {
-    opacity: 1;
-    background-color: #3c9be4;
-  }
 }
 @keyframes contact {
   0% {
@@ -1180,24 +1070,7 @@ footer #socialBox i {
   }
 }
 
-@-webkit-keyframes onPage {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 @keyframes onPage {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes onPageContent {
   0% {
     opacity: 0;
   }
@@ -1222,8 +1095,7 @@ footer #socialBox i {
     display: flex;
     flex-direction: column;
     opacity: 0;
-    -webkit-animation: onPage 600ms forwards;
-            animation: onPage 600ms forwards;
+    animation: onPage 600ms forwards;
     background-position-x: 0%;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -1249,8 +1121,7 @@ footer #socialBox i {
     padding-bottom: 20px;
     border: none;
     opacity: 0;
-    -webkit-animation: onPageContent 500ms 200ms forwards;
-            animation: onPageContent 500ms 200ms forwards;
+    animation: onPageContent 500ms 200ms forwards;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2) 10%);
   }
   .formBox .contact-form h2 {
@@ -1262,8 +1133,7 @@ footer #socialBox i {
     padding: 0px;
     margin-bottom: 20px;
     opacity: 0;
-    -webkit-animation: onPageContent 500ms 200ms forwards;
-            animation: onPageContent 500ms 200ms forwards;
+    animation: onPageContent 500ms 200ms forwards;
     text-align: center;
   }
   .formBox .contact-form input {
@@ -1275,8 +1145,7 @@ footer #socialBox i {
     width: 80%;
     text-align: left;
     opacity: 0;
-    -webkit-animation: onPageContent 500ms 200ms forwards;
-            animation: onPageContent 500ms 200ms forwards;
+    animation: onPageContent 500ms 200ms forwards;
   }
   .formBox .contact-form label {
     color: #3c9be4;
@@ -1286,8 +1155,7 @@ footer #socialBox i {
     text-align: left;
     width: 80%;
     opacity: 0;
-    -webkit-animation: onPageContent 500ms 200ms forwards;
-            animation: onPageContent 500ms 200ms forwards;
+    animation: onPageContent 500ms 200ms forwards;
   }
   .formBox .contact-form textarea {
     height: 80px;
@@ -1296,8 +1164,7 @@ footer #socialBox i {
     border-radius: 10px;
     text-align: left;
     opacity: 0;
-    -webkit-animation: onPageContent 500ms 200ms forwards;
-            animation: onPageContent 500ms 200ms forwards;
+    animation: onPageContent 500ms 200ms forwards;
   }
   .formBox .contact-form .send {
     margin: 20px 5px 20px 5px;
@@ -1357,8 +1224,7 @@ footer #socialBox i {
   background-size: cover;
   background-attachment: fixed;
   opacity: 0;
-  -webkit-animation: lastProd 800ms forwards;
-          animation: lastProd 800ms forwards;
+  animation: lastProd 800ms forwards;
 }
 .Parcours .ParcoursBox {
   display: flex;
@@ -1368,9 +1234,11 @@ footer #socialBox i {
   align-items: flex-start;
   margin: auto;
   margin-top: 0px;
+  padding: 20px 0px 20px 0px;
   width: 90%;
   max-width: 1200px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
   border-radius: 5px;
   font-family: "montserrat";
 }
@@ -1405,7 +1273,10 @@ footer #socialBox i {
 }
 .Parcours .ParcoursBox .card img {
   margin: auto;
-  height: 50px;
+  height: 60px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
 }
 .Parcours .ParcoursBox .card a {
   margin: 40px 10px 40px 10px;
@@ -1428,11 +1299,13 @@ footer #socialBox i {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  color: white;
   margin: auto;
   margin-top: 30px;
+  padding: 20px 0px 20px 0px;
   width: 90%;
   max-width: 1200px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 5px;
   font-family: "montserrat";
 }
@@ -1526,10 +1399,8 @@ footer #socialBox i {
   width: 60%;
   border-radius: 10px;
   opacity: 0;
-  -webkit-animation: light 700ms ease forwards;
-          animation: light 700ms ease forwards;
-  -webkit-animation-delay: 300ms;
-          animation-delay: 300ms;
+  animation: light 700ms ease forwards;
+  animation-delay: 300ms;
 }
 .ParcoursMini .ContentParcoursMini .PixPartfalse {
   width: 40%;
@@ -1658,30 +1529,11 @@ footer #socialBox i {
   font-size: 20px;
 }
 
-@-webkit-keyframes form {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 @keyframes form {
   0% {
     opacity: 0;
   }
   100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes light {
-  0% {
-    margin-top: -200%;
-    opacity: 1;
-  }
-  100% {
-    margin-top: 0;
     opacity: 1;
   }
 }
@@ -1693,14 +1545,6 @@ footer #socialBox i {
   100% {
     margin-top: 0;
     opacity: 1;
-  }
-}
-@-webkit-keyframes lightOff {
-  0% {
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  100% {
-    background-color: rgba(0, 0, 0, 0.9);
   }
 }
 @keyframes lightOff {
@@ -1715,7 +1559,7 @@ footer #socialBox i {
   .ParcoursMini {
     background-color: #0f0f0f;
     width: 100%;
-    height: 1000px;
+    height: 930px;
     margin: auto;
     margin-top: 10px;
     display: flex;
@@ -1741,10 +1585,8 @@ footer #socialBox i {
     border-radius: 10px;
     opacity: 0;
     margin-top: -200%;
-    -webkit-animation: light 700ms ease forwards;
-            animation: light 700ms ease forwards;
-    -webkit-animation-delay: 300ms;
-            animation-delay: 300ms;
+    animation: light 700ms ease forwards;
+    animation-delay: 300ms;
   }
   .ParcoursMini .ContentParcoursMini .PixPartfalse {
     margin-top: 20px;
@@ -1759,7 +1601,7 @@ footer #socialBox i {
     margin-top: -200%;
   }
   .ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue {
-    width: 95%;
+    width: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
     border-radius: 0px;
@@ -1785,7 +1627,7 @@ footer #socialBox i {
     flex-direction: column;
   }
   .ParcoursMini .ContentParcoursMini .parcoursMiniBoxtrue .aproposTextPart p {
-    width: 90%;
+    width: 95%;
     max-width: 1200px;
     margin: auto;
     text-align: center;
@@ -1814,7 +1656,7 @@ footer #socialBox i {
     font-size: 20px;
   }
   .ParcoursMini .ContentParcoursMini .parcoursMiniBoxfalse {
-    width: 95%;
+    width: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
     border-radius: 0px;
@@ -1839,7 +1681,7 @@ footer #socialBox i {
     flex-direction: column;
   }
   .ParcoursMini .ContentParcoursMini .parcoursMiniBoxfalse .aproposTextPart p {
-    width: 90%;
+    width: 95%;
     max-width: 1200px;
     margin: auto;
     text-align: center;
@@ -1885,7 +1727,7 @@ footer #socialBox i {
     background: url(../img/road.webp);
     background-position-x: 50%;
     background-size: cover;
-    border-radius: 5px;
+    border-radius: 10px;
   }
   .Parcours .ParcoursBox {
     display: flex;
@@ -1896,9 +1738,8 @@ footer #socialBox i {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
-    width: 95%;
+    width: 90%;
     max-width: 1200px;
-    background-color: rgba(255, 255, 255, 0.8);
     border: none;
     border-radius: 5px;
     font-family: "montserrat";
@@ -1939,7 +1780,7 @@ footer #socialBox i {
     height: 30px;
   }
   .Parcours .FormBox {
-    width: 95%;
+    width: 90%;
     border: none;
     display: flex;
     flex-direction: column;
@@ -1948,7 +1789,7 @@ footer #socialBox i {
     margin: auto;
     margin-top: 0px;
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding-bottom: 30px;
   }
   .Parcours .FormBox h2 {
@@ -1995,12 +1836,11 @@ footer #socialBox i {
   width: 100%;
   margin: auto;
   margin-top: 30px;
-  background: url(../img/background7.webp);
+  background-image: url(../img/sableBG.webp);
   background-size: cover;
-  background-attachment: fixed;
+  background-position-y: 80%;
 }
 .content .ForGradient {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2) 10%);
   padding-top: 0px;
   padding-bottom: 50px;
 }
@@ -2016,6 +1856,7 @@ footer #socialBox i {
   width: 100%;
   display: flex;
   margin-bottom: 30px;
+  color: white;
 }
 .content .ForGradient .lastProdBox .titlePart h2 {
   text-align: center;
@@ -2024,46 +1865,41 @@ footer #socialBox i {
   font-weight: 600;
   font-size: 50px;
   padding: 25px 0px 0px 0px;
-  color: white;
 }
 .content .ForGradient .lastProdBox .contenu {
   width: 32%;
   margin: auto;
   margin-bottom: 50px;
   min-width: 350px;
-  height: 500px;
+  height: 450px;
+  transition-duration: 200ms;
 }
 .content .ForGradient .lastProdBox .contenu a {
   text-decoration: none;
 }
 .content .ForGradient .lastProdBox .contenu .lastprod {
-  border-radius: 3px;
   max-width: 450px;
   height: 90%;
   transition-duration: 200ms;
-  -webkit-animation: lastprod 500ms;
-          animation: lastprod 500ms;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation: lastprod 500ms;
+  animation-fill-mode: forwards;
   display: flex;
   opacity: 0;
   flex-direction: column;
   justify-content: space-between;
   margin: 20px;
   margin-bottom: 50px;
-  background: url(../img/paperMin.webp);
-  background-size: cover;
+  background-color: white;
 }
 .content .ForGradient .lastProdBox .contenu .lastprod .logobox {
-  width: 97%;
-  height: 60%;
+  width: 100%;
+  height: 80%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 0px;
   padding: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: transparent;
 }
 .content .ForGradient .lastProdBox .contenu .lastprod .logobox img {
   width: 60%;
@@ -2076,18 +1912,20 @@ footer #socialBox i {
   font-weight: 600;
   height: 20%;
   padding: 0px;
-  padding-bottom: 30px;
   display: flex;
   margin: 0;
-  border-radius: 20px 20px 5px 5px;
+  margin-bottom: 50px;
+  border-radius: 0px 0px 0px 0px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   font-family: "montserrat";
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 18px;
 }
 .content .ForGradient .lastProdBox .contenu .lastprod .textpart p {
   text-align: center;
+  word-wrap: normal;
   margin: auto;
   margin-top: 50px;
   width: 90%;
@@ -2124,37 +1962,26 @@ footer #socialBox i {
 .content .ForGradient .lastProdBox .contenu .lastprodScroll {
   opacity: 0;
 }
-.content .ForGradient .lastProdBox .lastprod1 {
-  -webkit-animation-delay: 200ms;
-          animation-delay: 200ms;
+.content .ForGradient .lastProdBox .contenu:hover {
+  transform: scale(1.01);
 }
-.content .ForGradient .lastProdBox .lastprod2 {
-  -webkit-animation-delay: 300ms;
-          animation-delay: 300ms;
+.content .ForGradient .lastProdBox #lastprod1 {
+  animation-delay: 200ms;
 }
-.content .ForGradient .lastProdBox .lastprod3 {
-  -webkit-animation-delay: 400ms;
-          animation-delay: 400ms;
+.content .ForGradient .lastProdBox #lastprod2 {
+  animation-delay: 300ms;
 }
-.content .ForGradient .lastProdBox .lastprod4 {
-  -webkit-animation-delay: 500ms;
-          animation-delay: 500ms;
+.content .ForGradient .lastProdBox #lastprod3 {
+  animation-delay: 400ms;
 }
-.content .ForGradient .lastProdBox .lastprod5 {
-  -webkit-animation-delay: 600ms;
-          animation-delay: 600ms;
+.content .ForGradient .lastProdBox #lastprod4 {
+  animation-delay: 500ms;
 }
-.content .ForGradient .lastProdBox .lastprod6 {
-  -webkit-animation-delay: 700ms;
-          animation-delay: 700ms;
+.content .ForGradient .lastProdBox #lastprod5 {
+  animation-delay: 600ms;
 }
-@-webkit-keyframes lastprod {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.content .ForGradient .lastProdBox #lastprod6 {
+  animation-delay: 700ms;
 }
 @keyframes lastprod {
   0% {
@@ -2172,7 +1999,7 @@ footer #socialBox i {
     margin: auto;
     margin-top: 10px;
     background-size: cover;
-    background-position-x: 54%;
+    border-radius: 5px;
   }
   .content .ForGradient .lastProdBox {
     margin: auto;
@@ -2195,7 +2022,6 @@ footer #socialBox i {
     margin: auto;
     margin-bottom: 40px;
     font-size: 40px;
-    color: white;
   }
   .content .ForGradient .lastProdBox .contenu {
     width: 48%;
@@ -2211,10 +2037,8 @@ footer #socialBox i {
     height: 100%;
     border-radius: 5px;
     transition-duration: 200ms;
-    -webkit-animation: lastprod 500ms;
-            animation: lastprod 500ms;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
+    animation: lastprod 500ms;
+    animation-fill-mode: forwards;
     display: flex;
     opacity: 0;
     flex-direction: column;
@@ -2275,8 +2099,7 @@ footer #socialBox i {
   background-color: rgb(247, 247, 247);
   height: auto;
   font-family: "montserrat";
-  -webkit-animation: onPage 600ms forwards;
-          animation: onPage 600ms forwards;
+  animation: onPage 600ms forwards;
   opacity: 0;
 }
 .projetContent .projetBox {
@@ -2289,13 +2112,11 @@ footer #socialBox i {
   align-items: center;
   opacity: 0;
   margin-top: 0px;
-  -webkit-animation: onPageContent 500ms forwards;
-          animation: onPageContent 500ms forwards;
+  animation: onPageContent 500ms forwards;
 }
 .projetContent .projetBox img {
   width: 25%;
-  -webkit-animation: onPageContent 500ms 200ms forwards;
-          animation: onPageContent 500ms 200ms forwards;
+  animation: onPageContent 500ms 200ms forwards;
   opacity: 0;
 }
 .projetContent .projetBox .laptopVue {
@@ -2335,8 +2156,7 @@ footer #socialBox i {
   justify-content: space-around;
   align-items: center;
   opacity: 0;
-  -webkit-animation: onPageContent 500ms 200ms forwards;
-          animation: onPageContent 500ms 200ms forwards;
+  animation: onPageContent 500ms 200ms forwards;
   border-radius: 10px 10px 0px 0px;
   width: 100%;
   height: 70%;
@@ -2367,8 +2187,7 @@ footer #socialBox i {
   height: 30%;
   border-radius: 0px 0px 10px 10px;
   opacity: 0;
-  -webkit-animation: onPageContent 500ms 200ms forwards;
-          animation: onPageContent 500ms 200ms forwards;
+  animation: onPageContent 500ms 200ms forwards;
 }
 .projetContent .projetBox .infoBox .moreInfosFull .DeviceBox h4 {
   font-size: 20px;
@@ -2399,8 +2218,7 @@ footer #socialBox i {
   justify-content: space-around;
   align-items: center;
   opacity: 0;
-  -webkit-animation: onPageContent 500ms 200ms forwards;
-          animation: onPageContent 500ms 200ms forwards;
+  animation: onPageContent 500ms 200ms forwards;
   border-radius: 10px;
   min-height: 200px;
 }
@@ -2427,8 +2245,7 @@ footer #socialBox i {
   align-items: center;
   border-radius: 10px;
   opacity: 0;
-  -webkit-animation: onPageContent 500ms 200ms forwards;
-          animation: onPageContent 500ms 200ms forwards;
+  animation: onPageContent 500ms 200ms forwards;
 }
 .projetContent .projetBox .infoBox .moreInfos .DeviceBox h4 {
   font-size: 20px;
@@ -2448,8 +2265,7 @@ footer #socialBox i {
   line-height: 38px;
   width: 90%;
   opacity: 0;
-  -webkit-animation: onPageContent 500ms 200ms forwards;
-          animation: onPageContent 500ms 200ms forwards;
+  animation: onPageContent 500ms 200ms forwards;
 }
 .projetContent .projetBox p {
   font-size: 20px;
@@ -2458,15 +2274,13 @@ footer #socialBox i {
   line-height: 32px;
   width: 80%;
   opacity: 0;
-  -webkit-animation: onPageContent 500ms 200ms forwards;
-          animation: onPageContent 500ms 200ms forwards;
+  animation: onPageContent 500ms 200ms forwards;
 }
 .projetContent .projetBox .linkBox {
   margin-top: 50px;
   margin-bottom: 20px;
   opacity: 0;
-  -webkit-animation: onPageContent 500ms 200ms forwards;
-          animation: onPageContent 500ms 200ms forwards;
+  animation: onPageContent 500ms 200ms forwards;
 }
 .projetContent .projetBox .linkBox .gitLink {
   font-size: 40px;
@@ -2519,48 +2333,17 @@ footer #socialBox i {
   text-align: left;
   height: 60px;
   opacity: 0;
-  -webkit-animation: onPageContent 500ms 200ms forwards;
-          animation: onPageContent 500ms 200ms forwards;
+  animation: onPageContent 500ms 200ms forwards;
 }
 .projetContent .projetBox .backToProjet i {
   font-size: 40px;
   color: rgb(93, 93, 93);
   transition-duration: 400ms;
   margin: 15px;
-  -webkit-animation-duration: 300ms;
-          animation-duration: 300ms;
+  animation-duration: 300ms;
 }
 .projetContent .projetBox .backToProjet :hover {
   color: black;
-}
-
-@-webkit-keyframes gitLink {
-  0% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  55% {
-    opacity: 1;
-    transform: scale(1.1);
-  }
-  70% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  85% {
-    opacity: 1;
-    transform: scale(1.1);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
 }
 
 @keyframes gitLink {
@@ -2628,13 +2411,11 @@ footer #socialBox i {
     border-radius: 15px;
     margin-top: 15px;
     background: transparent;
-    -webkit-animation: onPageContent 500ms forwards;
-            animation: onPageContent 500ms forwards;
+    animation: onPageContent 500ms forwards;
   }
   .projetContent .projetBox img {
     width: 50%;
-    -webkit-animation: onPageContent 500ms 200ms forwards;
-            animation: onPageContent 500ms 200ms forwards;
+    animation: onPageContent 500ms 200ms forwards;
     opacity: 0;
   }
   .projetContent .projetBox h3 {
@@ -2645,8 +2426,7 @@ footer #socialBox i {
     margin-top: 20;
     width: 90%;
     opacity: 0;
-    -webkit-animation: onPageContent 500ms 200ms forwards;
-            animation: onPageContent 500ms 200ms forwards;
+    animation: onPageContent 500ms 200ms forwards;
   }
   .projetContent .projetBox p {
     font-size: 16px;
@@ -2659,8 +2439,7 @@ footer #socialBox i {
     opacity: 0;
     background-size: cover;
     border-radius: 10px;
-    -webkit-animation: onPageContent 500ms 200ms forwards;
-            animation: onPageContent 500ms 200ms forwards;
+    animation: onPageContent 500ms 200ms forwards;
   }
   .projetContent .projetBox .laptopVue {
     margin-top: 50px;
@@ -2698,8 +2477,7 @@ footer #socialBox i {
     justify-content: space-around;
     align-items: center;
     opacity: 0;
-    -webkit-animation: onPageContent 500ms 200ms forwards;
-            animation: onPageContent 500ms 200ms forwards;
+    animation: onPageContent 500ms 200ms forwards;
     width: 100%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -2755,8 +2533,7 @@ footer #socialBox i {
     justify-content: space-around;
     align-items: center;
     opacity: 0;
-    -webkit-animation: onPageContent 500ms 200ms forwards;
-            animation: onPageContent 500ms 200ms forwards;
+    animation: onPageContent 500ms 200ms forwards;
     width: 100%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -2798,8 +2575,7 @@ footer #socialBox i {
     text-align: left;
     height: 30px;
     opacity: 0;
-    -webkit-animation: onPageContent 500ms 200ms forwards;
-            animation: onPageContent 500ms 200ms forwards;
+    animation: onPageContent 500ms 200ms forwards;
   }
   .projetContent .projetBox .backToProjet i {
     font-size: 30px;
@@ -2944,10 +2720,8 @@ footer #socialBox i {
   font-weight: 600;
   color: rgb(247, 247, 247);
   text-align: center;
-  -webkit-animation: lastProd 500ms forwards;
-          animation: lastProd 500ms forwards;
-  -webkit-animation-delay: 500ms;
-          animation-delay: 500ms;
+  animation: lastProd 500ms forwards;
+  animation-delay: 500ms;
   opacity: 0;
 }
 .missionBox .missionContenttrue ul {
@@ -2956,10 +2730,8 @@ footer #socialBox i {
   margin: auto;
 }
 .missionBox .missionContenttrue ul .li1 {
-  -webkit-animation: lastProd 400ms forwards;
-          animation: lastProd 400ms forwards;
-  -webkit-animation-delay: 750ms;
-          animation-delay: 750ms;
+  animation: lastProd 400ms forwards;
+  animation-delay: 750ms;
   width: 100%;
   margin-bottom: 20px;
   line-height: 25px;
@@ -2969,10 +2741,8 @@ footer #socialBox i {
   opacity: 0;
 }
 .missionBox .missionContenttrue ul .li2 {
-  -webkit-animation: lastProd 400ms forwards;
-          animation: lastProd 400ms forwards;
-  -webkit-animation-delay: 900ms;
-          animation-delay: 900ms;
+  animation: lastProd 400ms forwards;
+  animation-delay: 900ms;
   width: 90%;
   margin-bottom: 20px;
   line-height: 25px;
@@ -2982,10 +2752,8 @@ footer #socialBox i {
   opacity: 0;
 }
 .missionBox .missionContenttrue ul .li3 {
-  -webkit-animation: lastProd 400ms forwards;
-          animation: lastProd 400ms forwards;
-  -webkit-animation-delay: 1050ms;
-          animation-delay: 1050ms;
+  animation: lastProd 400ms forwards;
+  animation-delay: 1050ms;
   width: 90%;
   margin-bottom: 20px;
   line-height: 25px;
@@ -2995,10 +2763,8 @@ footer #socialBox i {
   opacity: 0;
 }
 .missionBox .missionContenttrue ul .li4 {
-  -webkit-animation: lastProd 400ms forwards;
-          animation: lastProd 400ms forwards;
-  -webkit-animation-delay: 1200ms;
-          animation-delay: 1200ms;
+  animation: lastProd 400ms forwards;
+  animation-delay: 1200ms;
   width: 90%;
   margin-bottom: 20px;
   line-height: 25px;
@@ -3023,6 +2789,7 @@ footer #socialBox i {
   font-weight: 600;
   color: rgb(247, 247, 247);
   text-align: center;
+  opacity: 1;
 }
 .missionBox .missionContentfalse ul {
   width: 90%;
@@ -3072,14 +2839,6 @@ footer #socialBox i {
   }
   100% {
     opacity: 1;
-  }
-}
-@-webkit-keyframes lastProdOff {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
   }
 }
 @keyframes lastProdOff {
@@ -3159,25 +2918,22 @@ footer #socialBox i {
     font-family: "montserrat";
     font-size: 40px;
     margin-bottom: 30px;
+    opacity: 1;
   }
   .missionBox .missionContentfalse ul .li4 {
-    -webkit-animation: lastProdOff 150ms 150ms forwards;
-            animation: lastProdOff 150ms 150ms forwards;
+    animation: lastProdOff 150ms 150ms forwards;
     width: 95%;
   }
   .missionBox .missionContentfalse ul .li3 {
-    -webkit-animation: lastProdOff 150ms 300ms forwards;
-            animation: lastProdOff 150ms 300ms forwards;
+    animation: lastProdOff 150ms 300ms forwards;
     width: 95%;
   }
   .missionBox .missionContentfalse ul .li2 {
-    -webkit-animation: lastProdOff 150ms 450ms forwards;
-            animation: lastProdOff 150ms 450ms forwards;
+    animation: lastProdOff 150ms 450ms forwards;
     width: 95%;
   }
   .missionBox .missionContentfalse ul .li1 {
-    -webkit-animation: lastProdOff 150ms 600ms forwards;
-            animation: lastProdOff 150ms 600ms forwards;
+    animation: lastProdOff 150ms 600ms forwards;
     width: 95%;
   }
 }
@@ -3210,12 +2966,9 @@ footer #socialBox i {
   line-height: 25px;
   font-size: 16px;
   opacity: 0;
-  -webkit-animation: anim 1000ms ease;
-          animation: anim 1000ms ease;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 1200ms;
-          animation-delay: 1200ms;
+  animation: anim 1000ms ease;
+  animation-fill-mode: forwards;
+  animation-delay: 1200ms;
   background-color: rgb(117, 80, 235);
   padding: 20px;
   border-radius: 10px;
@@ -3230,12 +2983,9 @@ footer #socialBox i {
 }
 .recoBoxtrue .reco .imgBoxtrue {
   margin-right: -200%;
-  -webkit-animation: imgAnim 1000ms ease;
-          animation: imgAnim 1000ms ease;
-  -webkit-animation-delay: 200ms;
-          animation-delay: 200ms;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation: imgAnim 1000ms ease;
+  animation-delay: 200ms;
+  animation-fill-mode: forwards;
 }
 .recoBoxtrue .reco .imgBoxtrue img {
   width: 180px;
@@ -3268,8 +3018,7 @@ footer #socialBox i {
   line-height: 25px;
   font-size: 16px;
   opacity: 0;
-  -webkit-animation: none;
-          animation: none;
+  animation: none;
   background: url(../img/recoBack.webp);
   padding: 20px;
   border-radius: 10px;
@@ -3284,22 +3033,11 @@ footer #socialBox i {
 }
 .recoBoxfalse .reco .imgBoxfalse {
   margin-right: -200%;
-  -webkit-animation: none;
-          animation: none;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation: none;
+  animation-fill-mode: forwards;
 }
 .recoBoxfalse .reco .imgBoxfalse img {
   width: 180px;
-}
-
-@-webkit-keyframes anim {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 @keyframes anim {
@@ -3308,15 +3046,6 @@ footer #socialBox i {
   }
   100% {
     opacity: 1;
-  }
-}
-@-webkit-keyframes imgAnim {
-  0% {
-    margin-right: -100%;
-    rotate: 2turn;
-  }
-  100% {
-    margin-right: 20px;
   }
 }
 @keyframes imgAnim {
@@ -3359,10 +3088,8 @@ footer #socialBox i {
     line-height: 25px;
     font-size: 16px;
     opacity: 0;
-    -webkit-animation: anim 1500ms ease;
-            animation: anim 1500ms ease;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
+    animation: anim 1500ms ease;
+    animation-fill-mode: forwards;
     background-color: rgb(117, 80, 235);
     padding: 20px;
     border-radius: 10px;
@@ -3377,10 +3104,8 @@ footer #socialBox i {
   }
   .recoBoxtrue .reco .imgBoxtrue {
     margin-right: -200%;
-    -webkit-animation: imgAnim 1000ms ease;
-            animation: imgAnim 1000ms ease;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
+    animation: imgAnim 1000ms ease;
+    animation-fill-mode: forwards;
   }
   .recoBoxtrue .reco .imgBoxtrue img {
     width: 100px;
@@ -3415,10 +3140,8 @@ footer #socialBox i {
     line-height: 25px;
     font-size: 16px;
     opacity: 0;
-    -webkit-animation: none;
-            animation: none;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
+    animation: none;
+    animation-fill-mode: forwards;
     background-color: rgb(117, 80, 235);
     padding: 20px;
     border-radius: 10px;
@@ -3433,22 +3156,11 @@ footer #socialBox i {
   }
   .recoBoxfalse .reco .imgBoxfalse {
     margin-right: -200%;
-    -webkit-animation: none;
-            animation: none;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
+    animation: none;
+    animation-fill-mode: forwards;
   }
   .recoBoxfalse .reco .imgBoxfalse img {
     width: 100px;
-  }
-  @-webkit-keyframes imgAnim {
-    0% {
-      margin-right: -200%;
-      rotate: 1turn;
-    }
-    100% {
-      margin-right: 0px;
-    }
   }
   @keyframes imgAnim {
     0% {

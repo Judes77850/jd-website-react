@@ -15,19 +15,6 @@ function CoolTagsCreate(){
             }))
 }
 
-// function MobileVuesCreate(){
-//     const {id} = useParams()
-//     const projet = Data.find(projet => projet.title === id)
-//     const mobileVues = projet.mobileVues
-//     return(
-//         mobileVues.map((vue) => {
-//             return(
-//                 <img key={vue} src={`https://judes77850.github.io/hebergement/real/${vue}.webp`} alt={vue} title="visuel du site version mobile"></img>
-//                 )
-//             })
-//     )
-// }
-
 function CoolDeviceCreate(){
     const {id} = useParams()
     const projet = Data.find(projet => projet.title === id)

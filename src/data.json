@@ -79,7 +79,9 @@
 			"sass",
 			"js",
 			"node"
-		]
+		],
+		"demoLink": "https://webmobilefirst-screencasts.s3.eu-west-3.amazonaws.com/Oo7v6OZrhH.gif",
+		"laptopVue" : "https://judes77850.github.io/hebergement/real/kanapLaptop.webp"
     },
 	{
         "id": "5",
@@ -89,8 +91,6 @@
 		"logo": "https://judes77850.github.io/hebergement/real/piiquante.png",
 		"gitHubLink": "https://github.com/Judes77850/piiquante_final",
 		"support": [
-			"mobile",
-			"tablette",
 			"desktop"
 		],
 		"tags": [
@@ -100,7 +100,8 @@
 			"js",
 			"node",
 			"mongodb"
-		]
+		],
+		"laptopVue" : "https://webmobilefirst-screencasts.s3.eu-west-3.amazonaws.com/hZGXh0FV0_.gif" 
     },
 	{
         "id": "6",

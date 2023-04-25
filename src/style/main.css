@@ -1250,7 +1250,7 @@ footer #socialBox i {
   font-weight: 400;
   font-size: 30px;
   padding: 25px 0px 0px 0px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 .Parcours .ParcoursBox .card {
   width: 45%;
@@ -1265,6 +1265,7 @@ footer #socialBox i {
   font-size: 25px;
   font-weight: 400;
   text-align: center;
+  color: #3c9be4;
 }
 .Parcours .ParcoursBox .card p {
   font-size: 16px;
@@ -1317,7 +1318,7 @@ footer #socialBox i {
   font-weight: 400;
   font-size: 30px;
   padding: 25px 0px 0px 0px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .Parcours .FormBox .card {
   width: 90%;
@@ -1334,12 +1335,12 @@ footer #socialBox i {
   font-size: 22px;
   font-weight: 400;
   text-align: center;
+  color: #3c9be4;
 }
-.Parcours .FormBox .card p {
+.Parcours .FormBox .card li {
   font-size: 16px;
   line-height: 20px;
-  margin: 5px;
-  text-align: center;
+  margin: 10px;
 }
 .Parcours .FormBox .card a {
   margin: 40px 10px 40px 10px;
@@ -1738,10 +1739,10 @@ footer #socialBox i {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
-    width: 90%;
+    width: 95%;
     max-width: 1200px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: "montserrat";
     padding-bottom: 30px;
   }
@@ -1780,7 +1781,7 @@ footer #socialBox i {
     height: 30px;
   }
   .Parcours .FormBox {
-    width: 90%;
+    width: 95%;
     border: none;
     display: flex;
     flex-direction: column;
@@ -1802,7 +1803,7 @@ footer #socialBox i {
     margin-bottom: 30px;
   }
   .Parcours .FormBox .card {
-    width: 90%;
+    width: 95%;
     margin: auto;
     margin-bottom: 0px;
     border-bottom: 2px solid darkgray;
@@ -1810,9 +1811,14 @@ footer #socialBox i {
   .Parcours .FormBox .card h3 {
     font-size: 20px;
   }
-  .Parcours .FormBox .card p {
+  .Parcours .FormBox .card ul {
+    width: 100%;
+  }
+  .Parcours .FormBox .card ul li {
     font-size: 16px;
     line-height: 22px;
+  }
+  .Parcours .FormBox .card p {
     text-align: center;
   }
   .Parcours .FormBox .card a {

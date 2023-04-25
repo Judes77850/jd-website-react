@@ -36,7 +36,7 @@
             font-weight: 400;
             font-size: 30px;
             padding: 25px 0px 0px 0px;
-            margin-bottom: 30px;
+            margin-bottom: 100px;
         }
         .card{
             width: 45%;
@@ -50,6 +50,7 @@
                 font-size: 25px;
                 font-weight: 400;
                 text-align: center;
+                color: $color-4;
             }
             p{
                 font-size: 16px;
@@ -91,7 +92,7 @@
             font-weight: 400;
             font-size: 30px;
             padding: 25px 0px 0px 0px;
-            margin-bottom: 30px;
+            margin-bottom: 50px;
         }
         .card{
             width: 90%;
@@ -106,14 +107,14 @@
             h3{
                 font-size: 22px;
                 font-weight: 400;
-                text-align: center
+                text-align: center;
+                color: $color-4;
 
             }
-            p{
+            li{
                 font-size: 16px;
                 line-height: 20px;
-                margin: 5px;
-                text-align: center
+                margin: 10px;
             }
             a{
                 @include mixinButtonGold;
@@ -499,10 +500,10 @@
             margin: auto;
             margin-top: 10px;
             margin-bottom: 20px;
-            width: 90%;
+            width: 95%;
             max-width: 1200px;
             border: none;
-            border-radius: 5px;
+            border-radius: 10px;
             font-family: "montserrat";
             padding-bottom: 30px;
             h2{
@@ -541,7 +542,7 @@
             }
         }
         .FormBox{
-            width: 90%;
+            width: 95%;
             border: none;
             display: flex;
             flex-direction: column;
@@ -562,16 +563,21 @@
                 margin-bottom: 30px;
             }
             .card{
-                width: 90%;
+                width: 95%;
                 margin: auto;
                 margin-bottom: 0px;
                 border-bottom: 2px solid darkgray;
                 h3{
                     font-size: 20px;
                 }
+                ul{
+                    width: 100%;
+                    li{
+                        font-size: 16px;
+                        line-height: 22px;
+                    }
+                }
                 p{
-                    font-size: 16px;
-                    line-height: 22px;
                     text-align: center
                 }
                 a{

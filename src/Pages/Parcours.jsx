@@ -36,10 +36,27 @@ function Parcours(){
             <div className="FormBox">
                 <h2>Formation</h2>
                 <div className="card">
-                    <h3>Développeur WEB 2022</h3>
-                    <p>Formation de développeur web chez Openclassrooms.</p>
-                    <p>Technologies etudiées: HTML, CSS, JavaScript, React, Git/GitHub, NodeJS, Express, MongoDB, API REST</p>
-                    <p>Cette formation se compose de plusieurs projets professionnalisants</p>
+                    <h3>Développeur d'application - PHP/Symfony en alternance</h3>
+                    <ul>
+                        <li>Analyser un cahier des charges et choisir une solution technique adaptée parmi les solutions existantes</li>
+                        <li>Concevoir l’architecture technique d’une application à l’aide de diagrammes UML</li>
+                        <li>Créer des projets web dynamiques grâce PHP</li>
+                        <li>Communiquer avec une base de données pour stocker et requêter des informations</li>
+                        <li>Développer de manière professionnelle grâce au framework Symfony</li>
+                        <li>Mettre en oeuvre des tests unitaires et fonctionnels ainsi qu’utiliser les outils les plus connus d’intégration continue</li>
+                        <li>Produire une documentation technique et fonctionnelle de l’application</li>
+                        <li>Prendre en compte les problématiques de performance d’une application PHP</li>
+                    </ul>
+                    <a href="https://openclassrooms.com/fr/paths/500-developpeur-dapplication-php-symfony"alt="site web openclassrooms">En savoir plus</a>
+                </div>
+                <div className="card">
+                    <h3>Développeur WEB</h3>
+                    <ul>
+                        <li>Construire un site web responsive et dynamique s’adaptant à tout type d’écran grâce à l’intégration des éléments des maquettes graphiques (développement front-end avec HTML, CSS, JavaScript et React)</li>
+                        <li>Créer des API et des bases de données pour développer des sites complets et dynamiques et assurer le bon fonctionnement côté serveur (développement back-end avec NodeJS, Express et MongoDB). </li>
+                        <li>Optimiser les performances et réaliser la maintenance de sites web déjà existants pour permettre leur fonctionnement optimal et une bonne visibilité sur les moteurs de recherche (SEO).</li>
+                        <li>Gérer un projet web de A à Z : de la planification du projet à la présentation de la solution au client, en passant par la rédaction des spécifications techniques.</li>
+                    </ul>
                     <a href="https://openclassrooms.com/fr/paths/717-developpeur-web"alt="site web openclassrooms">En savoir plus</a>
                 </div>
                 <div className="card">
